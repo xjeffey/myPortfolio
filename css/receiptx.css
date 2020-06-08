@@ -48,9 +48,14 @@ html {
   height: 400px;
 }
 
-img{
-  width: 400px;
-  height: 400px;
+.research img{
+  width: 500px;
+  height: 300px;
+}
+
+.concept img, .insight img, .iteration img, .process img{
+  width: 500px;
+  height: 500px;
 }
 
 /* HEADER */
