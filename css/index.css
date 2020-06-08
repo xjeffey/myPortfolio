@@ -1,4 +1,8 @@
 /* natural box model */
+
+/* COLORS 
+#283891 - BLUE - rgb(40, 56, 145)
+#fff200 - YELLOW - rgb(255, 242, 0) */
 html {
     box-sizing: border-box;
   }
@@ -33,7 +37,31 @@ html {
     border: 0;
 }
 
-/* IMAGES  */
+/* ETC  */
+  /* general  */
+  .container {
+    max-width: 1250px;
+    display: block;
+    margin: 4.0em auto;
+    text-align: center;
+    padding: 2.0em 5.0em;
+    background-color: whitesmoke;
+  }
+
+  body{
+      margin: 0;
+      padding: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Merriweather', serif;
+  }
+
+  p, a{
+    font-family: 'Poppins', sans-serif;
+  }
+
+/* images */
 
 /* logo  */
 .logo {
@@ -42,41 +70,30 @@ html {
     margin: 2.0em auto 0 auto;
 }
 
-/* the project image  */
-.description img{
-  width: 400px;
-  height: 400px;
+/* dividing images sections*/
+.uxImg{
+    height: 500px;
+    background-image: url('../images/general/ux.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-img{
-  width: 400px;
-  height: 400px;
+.contactImg{
+    height: 500px;
+    background-image: url('../images/general/contact.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
 }
 
-/* HEADER */
-#header{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    flex-flow: column nowrap;
-    text-align: center;
-    margin-bottom: 2.0em;
+.stock-img p{
+    font-size: 12px;
 }
 
-#header h1{
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
-    letter-spacing: 4px;
-    font-size: 72px;
-    margin: 20px 0;
-}
-
-#header h2{
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-}
-
-/* NAVIGATION  */
+/* navgation bar */
 .navbar{
     display: flex;
     justify-content: center;
@@ -155,74 +172,7 @@ img{
     font-size: 60px;
   }
 
-/* PROJECT DESCRIPTION  */
-.description{
-  display: flex;
-  text-align: left;
-}
-
-/* DEMO  */
-/* .demo{
-  display: flex;
-  text-align: left;
-} */
-
-/* THE PROCESS  */
-
-/* PROBLEM  */
-
-/* RESEARCH  */
-
-/* INSIGHT  */
-
-/* CONCEPT  */
-
-/* ITERATE  */
-
-/* PROTOTYPE  */
-
-/* ETC  */
-
-/* VIDEO  */
-iframe{
-  width: 800px;
-  height: 450px;
-}
-
-/* CONTAINER  */
-.container {
-    max-width: 1250px;
-    display: block;
-    margin: 4.0em auto;
-    text-align: center;
-    padding: 2.0em 5.0em;
-    background-color: whitesmoke;
-}
-
-/* THE WHOLE  */
-body{
-    margin: 0;
-    padding: 0;
-}
-
-/* FONT  */
-h1, h2, h3, h4, h5, h6{
-font-family: 'Merriweather', serif;
-}
-
-/* FONT  */
-p, a{
-font-family: 'Poppins', sans-serif;
-}
-
-/* COLOUMN  */
-.col{
-  flex: 1;
-  padding: 1em;
-  /* border: solid; */
-}
-
-/* back to top button */
+  /* back to top button */
   #backTopBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -247,7 +197,446 @@ font-family: 'Poppins', sans-serif;
     cursor: pointer;
   }
 
-/* footer  */
+  /* GENERAL */
+  .col{
+    flex: 1;
+    padding: 1em;
+    /* border: solid; */
+}
+
+/* header */
+#header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    text-align: center;
+    margin-bottom: 2.0em;
+}
+
+#header h1{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 96px;
+    margin: 20px 0;
+}
+
+#header h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+/* home */
+#home{
+    background-color: red;
+}
+
+/* projects */
+#projects{
+    background-color: white;
+}
+
+#projects h2{
+    /* margin-bottom: 0.75em; */
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.proj-header{
+    margin-bottom: 4.0em;
+}
+
+/* the sections for the items in each category  */
+.proj-desc, .process-desc, .contact-item, .skills, .about-info{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 2.0em;
+}
+
+/* the text inside the descriptions  */
+.proj-desc p, .process-desc p, .proj-desc h3, .process-desc h2{
+    text-align: left;
+}
+
+/* the ux links  */
+.view-process{
+    background-color: #283891;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1.0em 0;
+    border-radius: 50px;
+}
+
+/* the ux links  */
+.view-process p{
+    color: white
+}
+
+.view-process:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+/* the image for projects and process  */
+.proj-desc img, .process-desc img{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.proj-desc img:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+#projects p, #process p, #about p{
+    line-height: 1.5em;
+    margin-top: 0.25em;
+}
+
+.col h3{
+    padding-bottom: 0.5em;
+}
+
+.ux, .web, .multimedia{
+    margin-bottom: 2.0em;
+}
+
+/* process */
+#process{
+    /* background-color: #5288a4; */
+}
+
+.process-icon{
+    display: none;
+}
+
+/* resume */
+#resume{
+    background-color: white;
+}
+
+.resume-header{
+    text-align: center;
+}
+
+.res-dl{
+    display: inline-block;
+    margin-top: 15px;
+    color: blue;
+}
+
+.res-dl:hover{
+    color: #283891;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+
+/* timeline  itself*/
+.timeline{
+    position: relative;
+    margin: 50px auto;
+    padding: 0;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+/* the line */
+.timeline::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: #c5c5c5
+}
+
+/* timeline items */
+.timeline ul{
+    margin: 0;
+    padding: 40px 0;
+}
+
+/* invidual items */
+.timeline ul li{
+    list-style: none;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+/* items on the left side  */
+.timeline ul li:nth-child(odd){
+    float: left;
+    text-align: right;
+    clear: both;
+}
+
+/* items on the right side  */
+.timeline ul li:nth-child(even){
+    float: right;
+    text-align: left;
+    clear: both;
+}
+
+/* each timeline item  */
+.content-tl{
+    padding-bottom: 20px;
+}
+
+/* the circles */
+.timeline ul li:nth-child(odd)::before{
+    content: '';
+    position: absolute;
+    top: 24px;
+    right: -6px;
+    width: 10px;
+    height: 10px;
+    background: rgba(233, 33, 99, 1);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
+}
+
+/* the circles */
+.timeline ul li:nth-child(even)::before{
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    background: rgba(233, 33, 99, 1);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
+}
+
+/* the title of item in timeline  */
+.timeline ul li h3{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: rgba(233, 33, 99, 1);
+}
+
+/* the description of item in timeline  */
+.timeline ul li p{
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+/* the year in the timeline  */
+.timeline ul li .time-tl h4{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+/* the year in the timeline placed on right */
+.timeline ul li:nth-child(odd) .time-tl{
+    position: absolute;
+    top: 12px;
+    right: -165px;
+    margin: 0;
+    padding: 8px 16px;
+    background: rgba(233, 33, 99, 1);
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.3);;
+}
+
+/* the year in the timeline placed on left */
+.timeline ul li:nth-child(even) .time-tl{
+    position: absolute;
+    top: 12px;
+    left: -165px;
+    margin: 0;
+    padding: 8px 16px;
+    background: rgba(233, 33, 99, 1);
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.3);;
+}
+
+/* about */
+#about{
+    /* background-color: pink; */
+    /* margin: auto; */
+    padding: 15px;
+}
+
+.about-info{
+    text-align: left;
+}
+
+/* #about{
+    background-color: pink;
+    text-align: center; 
+    max-width: 950px;
+    margin: auto;
+   
+} */
+
+#about img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 1.0em auto;
+}
+
+/* SKILLS  */
+
+/* the skills section box  */
+.skillsBox{
+    position: relative;
+    /* width: 600px; */
+    /* padding: 50px; */
+    margin-top: 3.0em;
+    /* background: #0c1856; */
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* the skill title  */
+.skillsBox h1{
+    margin: 0 0 20px;
+    padding: 0;
+    color: black;
+}
+
+/* each indivial skill  */
+.skills{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* the title of skill  */
+.skills h2{
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+}
+
+/* the perecent bar  */
+.progress{
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 22px;
+    color:black;
+    overflow: hidden;
+}
+
+/* the bar text  */
+.progress .percent{
+    text-align: right;
+    color: black;
+    padding-right: 10px;
+    border-right: 2px solid black;
+    animation: skillsAnimate .5s linear infinite;
+    background: linear-gradient(45deg, rgba(0, 0, 0, .25) 25%,
+        transparent 25%, transparent 50%, rgba(0, 0, 0, .25) 50%,
+        rgba(0, 0, 0, .25) 75%, transparent 75%, transparent);
+
+    /* background-color: green; */
+    background-size: 50px 50px;
+}
+
+/* the skills animation  */
+@keyframes skillsAnimate{
+    0%{
+        background-position: 0 0;
+    }
+
+    100%{
+        background-position: 30px 0;
+    }
+}
+
+/* contact */
+#contact{
+    background-color: lightgrey;
+    margin-bottom: 2.0em;
+}
+
+.contact-item{
+    line-height: 1.5em;
+}
+
+/* the contact info  */
+.contact-info{
+    margin-top: 1.0em;
+}
+
+/* the contact info pieces  */
+.contact-info p{
+    padding: 0.5em 0;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+/* quote */
+.quote{
+    text-align: center;
+    background-color: pink;
+    height: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote h1{
+    font-size: 36px;
+}
+
+/* footer */
+footer{
+    background-color: yellow;
+}
+
 .footer-container {
     display: block;
     margin: 0 auto;
@@ -256,48 +645,179 @@ font-family: 'Poppins', sans-serif;
     background-color: white;
   }
 
-/* MEDIA QUERIES - responsive web design for specific widths */
+/* Media queries - responsive web design for specific widths */
 
 /* THE NORMAL  */
 @media  screen and (max-width: 1000px){
- 
+    /* timeline width on screen  */
+    .timeline{
+        width: 100%;
+    }
 }
 
 /* ADJUSTED SCREEN - MEDIUM*/
 
 @media  screen and (max-width: 800px){
-  /* IMAGES  */
-    
     /* HEADER  */
-    
+    /* the header on top of page  */
+    #header h1{
+        font-size: 72px;
+    }
+
+    #header h2{
+        font-size: 20px;
+    }
+
+    /* the logo  */
+    .logo{
+        height: 100px;
+        width: 100px;
+    }
+
     /* NAVIGATION  */
+    /* nav bar links  */
+    .navbar a{
+        font-size: 14px;
+    }
 
-    /* PROJECT DESCRIPTION  */
+    /* PROJECTS */
+    .proj-desc, .process-desc, .contact-item, .about-info{
+        flex-flow: column nowrap;
+    }
 
-    /* THE PROCESS  */
+    .proj-desc p, .process-desc p, .proj-desc h3, .process-desc h2{
+        text-align: center;
+    }
 
-    /* PROBLEM  */
+    #projects p, #process p, #about p{
+        font-size: 14px;
+    }
 
-    /* RESEARCH  */
+    /* PROCESS   */
+    .process-desc figure{
+        display: none;
+    }
 
-    /* INSIGHT  */
+    .process-icon{
+        display: inline-block;
+        margin-bottom: 0.25em;
+    }
 
-    /* CONCEPT  */
+    /* QUOTE  */
+    .quote{
+        height: 300px;
+    }
+    .quote h1{
+        font-size: 24px;
+    }
 
-    /* ITERATE  */
+    /* PROCESS  */
+    
+    /* TIMELINE STUFF / RESUME  */
+    /* the timeline line  */
 
-    /* PROTOTYPE  */
+    /* timeline width on screen  */
+    .timeline{
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .timeline::before{
+        left: 20px;
+    }
+
+    /* the timeline items  */
+    .timeline ul li:nth-child(odd),
+    .timeline ul li:nth-child(even){
+        width: 100%;
+        text-align: left;
+        padding-left: 50px;
+        padding-bottom: 50px;
+    }
+
+    /* the circles  */
+    .timeline ul li:nth-child(odd)::before,
+    .timeline ul li:nth-child(even)::before{
+        top: -18px;
+        left: 16px;
+    }
+
+    /* the month/year on item in timeline */
+    .timeline ul li:nth-child(odd) .time-tl,
+    .timeline ul li:nth-child(even) .time-tl{
+        top: -30px;
+        left: 50px;
+        right: inherit;
+    }
+
+    /* ABOUT  */
+    .about-info{
+        text-align: center;
+    }
+
+    #about img{
+        width: 200px;
+        height: 200px;
+    }
+
+    /* SKILLS  */
+    .skillsBox h1{
+        font-size: 28px;
+    }
+
+    .skillsBox h2{
+        font-size: 18px;
+    }
+
+    /* CONTACT  */
+    .form-control{
+        width: 400px;
+    }
 
     /* ETC  */
+    /* BACK TOP BTN  */
+    #backTopBtn{
+        width: 65px;
+        height: 65px;
+        font-size: 10px;
+    }
+
+    /* IMAGES */
+    .uxImg{
+        height: 300px;
+    }
+
+    .contactImg{
+        height: 300px;
+    }
+
+    .stock-img{
+        font-size: 10px;
+    }
+    
+    .proj-desc img{
+        width: 250px;
+        height: 250px;
+    }
 }
 
 /* ADJUSTED SCREEN - SMALL*/
 @media screen and (max-width: 600px){
-    /* IMAGES  */
-
     /* HEADER  */
-    
-    /* NAVIGATION  */
+    #header h1{
+        /* font-size: 54px; */
+    }
+
+    #header h2{
+        /* font-size: 18px; */
+    }
+
+    /* LOGO  */
+    .logo{
+        display: none;
+    }   
+
+    /* NAVBAR  */
     /* the nav bar iteself  */
     .navbar{
         text-align: right;
@@ -323,51 +843,122 @@ font-family: 'Poppins', sans-serif;
         color: blue;
     }
 
-    /* PROJECT DESCRIPTION  */
+    /* PROJECTS  */
+    #projects p, #process p, #about p{
+        font-size: 18px;
+    }
 
-    /* THE PROCESS  */
+    /* QUOTE  */
+    .quote{
+        height: 200px;
+    }
 
-    /* PROBLEM  */
+    .quote h1{
+        font-size: 18px;
+    }
 
-    /* RESEARCH  */
+    /* PROCESS  */
 
-    /* INSIGHT  */
+    /* RESUME  */
 
-    /* CONCEPT  */
+    /* ABOUT  */
 
-    /* ITERATE  */
+    /* SKILLS  */
+    .skillsBox h1{
+        font-size: 20px;
+    }
 
-    /* PROTOTYPE  */
+    .skillsBox h2{
+        font-size: 14px;
+    }
+
+    /* CONTACT  */
+
+    #contact p{
+        font-size: 16px;
+    }
+
+    .contact-info{
+        font-size: 14px;
+    }
+
+    .form-control{
+        width: 250px;
+    }
 
     /* ETC  */
-   
 }
 
 /* WIDTH SIZE SMALLEST  */
 @media screen and (max-width: 450px){
-    /* IMAGES  */
-    
     /* HEADER  */
+
+    /* NAVAGATION  */
+
+    /* PROJECTS  */
+    #projects p, #process p, #about p{
+        font-size: 12px;
+    }
+
+    /* QUOTE  */
+    .quote h1{
+        font-size: 14px;
+    }
+
+    .quote p{
+        font-size: 12px;
+    }
     
-    /* NAVIGATION  */
-   
-    /* PROJECT DESCRIPTION  */
+    /* PROCESS  */
 
-    /* THE PROCESS  */
+    /* RESUME  */
+    #resume h1{
+        font-size: 36px;
+    }
 
-    /* PROBLEM  */
+    #resume h2{
+        font-size: 18px;
+    }
 
-    /* RESEARCH  */
+    /* ABOUT  */
 
-    /* INSIGHT  */
+    /* CONTACT  */
+    #contact p{
+        font-size: 14px;
+    }
 
-    /* CONCEPT  */
-
-    /* ITERATE  */
-
-    /* PROTOTYPE  */
+    .contact-info{
+        font-size: 12px;
+    }
 
     /* ETC  */
+    
+    /* CONTAINER  */
+    .container{
+        padding: 2.0em 0.5em;
+    }
+
+    .footer-container {
+        padding: 2.0em 0.5em;
+    }
+
+    /* IMAGES */
+    .uxImg{
+        height: 200px;
+    }
+
+    .contactImg{
+        height: 200px;
+    }
+
+    .stock-img{
+        font-size: 10px;
+    }
+    
+    .proj-desc img{
+        width: 175px;
+        height: 175px;
+    }
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, 
@@ -384,27 +975,85 @@ so they don't overlap */
 
 /* MOBILE IPHONE 6/7/8  */
 @media  screen and (max-width: 375px){
-    /* IMAGES  */
-    
     /* HEADER  */
-    
+    /* the header on top of page  */
+    #header h1{
+        font-size: 36px;
+    }
+
+    #header h2{
+        font-size: 10px;
+    }
+
+    /* the logo  */
+    .logo{
+        height: 50px;
+        width: 50px;
+    }
+
     /* NAVIGATION  */
 
-    /* PROJECT DESCRIPTION  */
+    /* PROJECTS */
 
-    /* THE PROCESS  */
+    /* QUOTE  */
+    .quote h1{
+        font-size: 12px;
+    }
 
-    /* PROBLEM  */
+    .quote p{
+        font-size: 10px;
+    }
 
-    /* RESEARCH  */
+    /* PROCESS   */
+    
+    /* RESUME  */
+    #resume h1{
+        font-size: 28px;
+    }
 
-    /* INSIGHT  */
+    #resume h2{
+        font-size: 14px;
+    }
 
-    /* CONCEPT  */
+    .time-tl h4{
+        font-size: 14px;
+    }
 
-    /* ITERATE  */
+    .content-tl h3{
+        font-size: 14px;
+    }
 
-    /* PROTOTYPE  */
+    .content-tl p{
+        font-size: 12px;
+    }
+
+    /* ABOUT  */
+
+    /* CONTACT  */
 
     /* ETC  */
+
+    /* CONTAINER  */
+    .container{
+        padding: 2.0em 0;
+    }
+
+    .footer-container {
+        padding: 2.0em 0;
+    }
+    
+    /* DIVIDING SECTIONS  */
+    .uxImg{
+        height: 200px;
+        background-attachment: scroll;
+        background-position: right;
+    }
+
+    .contactImg{
+        height: 200px;
+    }
+
+    .stock-img{
+        font-size: 10px;
+    }
 }
