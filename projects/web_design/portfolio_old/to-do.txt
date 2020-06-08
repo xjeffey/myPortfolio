@@ -1,0 +1,8 @@
+make visual of process so that its not text heavy
+display project more so its not text heavy for both UX projects
+move arrow next to UX Process
+hamburger menu when window gets smaller - plugin
+find way to make images bigger when one is clicked - plugin
+responsive site
+space things out better
+maybe find way to make figure backgrounds smaller

@@ -1,0 +1,140 @@
+/* Jeffrey Tran
+   jefftran
+   Project 2
+   INFO - I360
+*/
+
+/* natural box model */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Browser Upgrade Prompt */
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* hides an element, but not from screen readers */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* no break */
+.nobr {
+    white-space: nowrap;
+}
+
+/*
+    STRUCTURE
+*/
+body{
+  background: #000000 url('../images/goku_ss3_EDIT.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* quote before quotation */
+p.quote::before {
+  content: "\201C";
+  position: absolute;  /* one positioning method */
+  left: -60px;
+  top: 70px;
+  font-size: 192px;
+}
+
+/* quote after quotation */
+p.quote::after {
+  content: "\201D";
+  position: absolute;  /* one positioning method */
+  right: -60px;
+  top: 70px;
+  font-size: 192px;
+}
+
+/*
+    TYPOGRAPHY
+*/
+.quotation{
+  width: 800px;
+  position: relative;
+  margin: 250px auto 1200px;
+  text-shadow: 2px 2px .5px black;
+  text-align: center;
+}
+
+p{
+  font-family: 'Cinzel', serif;
+  color: white;
+}
+
+p.quote{
+  font-size: 36px;
+  line-height: 1.5em;
+}
+
+p.author{
+  padding-top: 25px;
+  font-size: 28px;
+}
+
+.ally{
+  top: 50px;
+  letter-spacing: 1px;
+  color: yellow;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+  padding-bottom: 30px;
+}
+
+/*
+    IMAGES
+*/
+img {
+    width: 100%;
+    display: block;
+}
+
+/* clearfix - in case you decide to float elements */
+.group::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* MEDIA QUERIES */
+/* X-Small devices (portait phones, less than 576px) */
+/* All styles up to this point in the stylesheet are for X-Small */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* body { background-color: orange; } */
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* body { background-color: green; } */
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* body { background-color: blue; } */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* body { background-color: purple; } */
+}
