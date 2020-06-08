@@ -44,8 +44,13 @@ html {
 
 /* the project image  */
 .description img{
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
+}
+
+img{
+  width: 400px;
+  height: 400px;
 }
 
 /* HEADER */
@@ -151,11 +156,14 @@ html {
   }
 
 /* PROJECT DESCRIPTION  */
-/* .description{
+.description{
   display: flex;
+  text-align: left;
 }
 
-.description p{
+/* DEMO  */
+/* .demo{
+  display: flex;
   text-align: left;
 } */
 
@@ -178,7 +186,7 @@ html {
 /* VIDEO  */
 iframe{
   width: 800px;
-  height: 400px;
+  height: 450px;
 }
 
 /* CONTAINER  */
