@@ -65,3 +65,34 @@ closeBtn.addEventListener('click', closeNav);
 for(let link of hamburgerLinks){
   link.addEventListener('click', closeNav);
 }
+
+// SLIDE SHOW FUNCTIONALITY
+
+// THE SLIDE SHOW BUTTONS 
+const researchButtons = document.querySelectorAll(".research-button");
+const conceptButtons = document.querySelectorAll(".concept-button");
+const iterationButtons = document.querySelectorAll(".iteration-button");
+
+researchButtons.forEach(researchButton => researchButton.addEventListener('click', function(){
+  for(button of researchButtons){
+    button.classList.remove('active-image');
+  }
+
+  researchButton.classList.add('active-image');
+}));
+
+conceptButtons.forEach(conceptButton => conceptButton.addEventListener('click', function(){
+  for(button of conceptButtons){
+    button.classList.remove('active-image');
+  }
+
+  conceptButton.classList.add('active-image');
+}));
+
+iterationButtons.forEach(iterationButton => iterationButton.addEventListener('click', function(){
+  for(button of iterationButtons){
+    button.classList.remove('active-image');
+  }
+
+  iterationButton.classList.add('active-image');
+}));
