@@ -9,5 +9,5 @@
     $txt = "You have received an e-mail from ".$name.".\n\n".$message." \n\n(From My Portfolio)";
 
     mail($mail_to, $subject, $txt, $headers);
-    header("Location: http://cgi.soic.indiana.edu/~jefftran/portfolio/index.html");
+    header("Location: http://cgi.soic.indiana.edu/~jefftran/myPortfolio/index.html");
 ?>
