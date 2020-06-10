@@ -46,10 +46,6 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 
-  // When the nav hamburger is hidden, we want to remain at the top of the scroll position
-  document.body.style.position = '';
-  document.body.style.top = '';
-
   // When the nav is hidden...
   const scrollY = document.body.style.top;
   document.body.style.position = '';
@@ -96,3 +92,35 @@ iterationButtons.forEach(iterationButton => iterationButton.addEventListener('cl
 
   iterationButton.classList.add('active-image');
 }));
+
+// MODAL IMAGE
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+  
+  // When the modal is shown, we want a fixed body
+  document.body.style.position = 'fixed';
+  document.body.style.top = `-${window.scrollY}px`;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+
+  // When the modal is hidden...
+  const scrollY = document.body.style.top;
+  document.body.style.position = '';
+  document.body.style.top = '';
+  window.scrollTo(0, parseInt(scrollY || '0') * -1);
+}

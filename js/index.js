@@ -67,10 +67,6 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 
-  // When the nav hamburger is hidden, we want to remain at the top of the scroll position
-  document.body.style.position = '';
-  document.body.style.top = '';
-
   // When the nav is hidden...
   const scrollY = document.body.style.top;
   document.body.style.position = '';
