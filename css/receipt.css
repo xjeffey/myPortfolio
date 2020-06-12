@@ -240,7 +240,7 @@ html {
 /* PROJECT DESCRIPTION  */
 .description{
   display: flex;
-  /* flex-flow: row wrap; */
+  flex-flow: row wrap;
 }
 
 .description h2{
@@ -496,7 +496,7 @@ iframe{
 
 /* SLIDER BUTTON CONTAINER  */
 .button-container{
-  top: -20px;
+  top: -25px;
   position: relative;
 }
 
@@ -594,19 +594,20 @@ font-family: 'Poppins', sans-serif;
 
 /* THE NORMAL  */
 @media  screen and (max-width: 1000px){
- 
-}
-
-/* ADJUSTED SCREEN - MEDIUM*/
-
-@media  screen and (max-width: 800px){
-  /* IMAGES  */
+    /* IMAGES  */
+    .description img{
+      width: 400px;
+      height: 400px;
+    }
     
     /* HEADER  */
     
     /* NAVIGATION  */
 
     /* PROJECT DESCRIPTION  */
+    .view-process{
+      margin-top: 2.0em;
+    }
 
     /* THE PROCESS  */
 
@@ -623,6 +624,173 @@ font-family: 'Poppins', sans-serif;
     /* PROTOTYPE  */
 
     /* ETC  */
+ 
+}
+
+/* ADJUSTED SCREEN - MEDIUM*/
+
+@media  screen and (max-width: 800px){
+    /* IMAGES  */
+    .research img, .concept img, .insight img, .iteration img, .process img{
+      width: 650px;
+      height: 450px;
+    }
+    
+    /* HEADER  */
+    
+    /* NAVIGATION  */
+
+    /* PROJECT DESCRIPTION  */
+    .description{
+      display: block;
+    }
+
+    .description h2, .description p{
+      text-align: center;
+    }
+
+    /* DEMO  */
+    iframe{
+      width: 650px;
+      height: 450px;
+    }
+
+    /* THE PROCESS  */
+    .process p{
+      padding: 0;
+    }
+
+    /* PROBLEM  */
+
+    /* RESEARCH  */
+    .research-image-container{
+      width: 1950px;
+      height: 450px;
+    }
+
+    #research-image-1:target ~ .research-image-container{
+      left: 0;
+    }
+    
+    #research-image-2:target ~ .research-image-container{
+      left: -650px;
+    }
+    
+    #research-image-3:target ~ .research-image-container{
+      left: -1300px;
+    }
+
+    /* INSIGHT  */
+
+    /* CONCEPT  */
+
+    .concept-image-container{
+      width: 9750px;
+      height: 450px;
+    }
+    
+    /* CONCEPT IMAGES  */
+    #concept-image-1:target ~ .concept-image-container{
+      left: 0;
+    }
+    
+    #concept-image-2:target ~ .concept-image-container{
+      left: -650px;
+    }
+    
+    #concept-image-3:target ~ .concept-image-container{
+      left: -1300px;
+    }
+    
+    #concept-image-4:target ~ .concept-image-container{
+      left: -1950px;
+    }
+    
+    #concept-image-5:target ~ .concept-image-container{
+      left: -2600px;
+    }
+    
+    #concept-image-6:target ~ .concept-image-container{
+      left: -3250px;
+    }
+    
+    #concept-image-7:target ~ .concept-image-container{
+      left: -3900px;
+    }
+    
+    #concept-image-8:target ~ .concept-image-container{
+      left: -4550px;
+    }
+    
+    #concept-image-9:target ~ .concept-image-container{
+      left: -5200px;
+    }
+    
+    #concept-image-10:target ~ .concept-image-container{
+      left: -5850px;
+    }
+    
+    #concept-image-11:target ~ .concept-image-container{
+      left: -6500px;
+    }
+    
+    #concept-image-12:target ~ .concept-image-container{
+      left: -7150px;
+    }
+    
+    #concept-image-13:target ~ .concept-image-container{
+      left: -7800px;
+    }
+    
+    #concept-image-14:target ~ .concept-image-container{
+      left: -8450px;
+    }
+    
+    #concept-image-15:target ~ .concept-image-container{
+      left: -9100px;
+    }
+
+    /* ITERATE  */
+    /* ITERATION IMAGE SLIDER  */
+    .iteration-image-container{
+      width: 3900px;
+      height: 450px;
+    }
+
+    /* ITERATION IMAGES  */
+    #iteration-image-1:target ~ .iteration-image-container{
+      left: 0;
+    }
+
+    #iteration-image-2:target ~ .iteration-image-container{
+      left: -650px;
+    }
+
+    #iteration-image-3:target ~ .iteration-image-container{
+      left: -1300px;
+    }
+
+    #iteration-image-4:target ~ .iteration-image-container{
+      left: -1950px;
+    }
+
+    #iteration-image-5:target ~ .iteration-image-container{
+      left: -2600px;
+    }
+
+    #iteration-image-6:target ~ .iteration-image-container{
+      left: -3250px;
+    }
+
+
+    /* PROTOTYPE  */
+
+    /* ETC  */
+
+    /* SLIDE SHOWS  */
+    .slide-container{
+      width: 650px;
+    }
 }
 
 /* 100% Image Width on Smaller Screens */
