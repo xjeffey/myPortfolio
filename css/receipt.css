@@ -44,19 +44,19 @@ html {
 
 /* the project image  */
 .description img{
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   margin: 0 auto;
 }
 
 .research img{
-  width: 500px;
+  width: 800px;
   height: 300px;
   margin: 0 auto;
 }
 
 .concept img, .insight img, .iteration img, .process img{
-  width: 500px;
+  width: 800px;
   height: 500px;
   margin: 0 auto;
 }
@@ -83,7 +83,7 @@ html {
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  /* background-color: rgba(0,0,0,0.9); Black w/ opacity */
 }
 
 /* Modal Content (Image) */
@@ -258,27 +258,86 @@ html {
   /* text-align: center; */
 }
 
+/* the ux links  */
+.view-process{
+  background-color: #283891;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 4.0em;
+  border-radius: 50px;
+}
+
+/* the ux links  */
+.view-process p{
+  color: white
+}
+
+.view-process:hover{
+  background-color: blue;
+  cursor: pointer;
+}
+
 /* DEMO  */
 iframe{
   width: 800px;
   height: 450px;
+  margin-bottom: 1.0em;
 }
 
 /* THE PROCESS  */
 .process{
   display: flex;
   flex-flow: column nowrap;
+  line-height: 1.5em;
+}
+
+.process h2{
+  font-size: 24px;
+}
+
+.process p{
+  font-size: 16px;
+  padding: 0 100px;
+}
+
+.problem, .research, .insight, .concept, .iteration{
+  margin-bottom: 4.0em;
+}
+
+.process h2{
+  margin-bottom: 5px;
+  text-decoration: underline;
 }
 
 /* PROBLEM  */
+.problem{
+  
+}
+
+.problem img{
+  margin-bottom: 1.0em;
+}
 
 /* RESEARCH  */
+.research{
+  
+}
 
 /* INSIGHT  */
+.insight{
+  
+}
 
 /* CONCEPT  */
+.concept{
+  
+}
 
 /* ITERATE  */
+.iteration{
+  
+}
 
 /* PROTOTYPE  */
 
@@ -298,7 +357,7 @@ iframe{
 
 /* ITERATION IMAGE SLIDER  */
 .iteration-image-container{
-  width: 3000px;
+  width: 4800px;
   height: 500px;
   position: relative;
   transition: left 2s;
@@ -313,30 +372,30 @@ iframe{
 }
 
 #iteration-image-2:target ~ .iteration-image-container{
-  left: -500px;
+  left: -800px;
 }
 
 #iteration-image-3:target ~ .iteration-image-container{
-  left: -1000px;
+  left: -1600px;
 }
 
 #iteration-image-4:target ~ .iteration-image-container{
-  left: -1500px;
+  left: -2400px;
 }
 
 #iteration-image-5:target ~ .iteration-image-container{
-  left: -2000px;
+  left: -3200px;
 }
 
 #iteration-image-6:target ~ .iteration-image-container{
-  left: -2500px;
+  left: -4000px;
 }
 
 /* CONCEPT SLIDE SHOW  */
 
 /* CONCEPT IMAGE CONTAINER  */
 .concept-image-container{
-  width: 7500px;
+  width: 12000px;
   height: 500px;
   position: relative;
   transition: left 2s;
@@ -351,74 +410,75 @@ iframe{
 }
 
 #concept-image-2:target ~ .concept-image-container{
-  left: -500px;
+  left: -800px;
 }
 
 #concept-image-3:target ~ .concept-image-container{
-  left: -1000px;
+  left: -1600px;
 }
 
 #concept-image-4:target ~ .concept-image-container{
-  left: -1500px;
+  left: -2400px;
 }
 
 #concept-image-5:target ~ .concept-image-container{
-  left: -2000px;
+  left: -3200px;
 }
 
 #concept-image-6:target ~ .concept-image-container{
-  left: -2500px;
-}
-
-#concept-image-7:target ~ .concept-image-container{
-  left: -3000px;
-}
-
-#concept-image-8:target ~ .concept-image-container{
-  left: -3500px;
-}
-
-#concept-image-9:target ~ .concept-image-container{
   left: -4000px;
 }
 
+#concept-image-7:target ~ .concept-image-container{
+  left: -4800px;
+}
+
+#concept-image-8:target ~ .concept-image-container{
+  left: -5600px;
+}
+
+#concept-image-9:target ~ .concept-image-container{
+  left: -6400px;
+}
+
 #concept-image-10:target ~ .concept-image-container{
-  left: -4500px;
+  left: -7200px;
 }
 
 #concept-image-11:target ~ .concept-image-container{
-  left: -5000px;
+  left: -8000px;
 }
 
 #concept-image-12:target ~ .concept-image-container{
-  left: -5500px;
+  left: -8800px;
 }
 
 #concept-image-13:target ~ .concept-image-container{
-  left: -6000px;
+  left: -9600px;
 }
 
 #concept-image-14:target ~ .concept-image-container{
-  left: -6500px;
+  left: -10400px;
 }
 
 #concept-image-15:target ~ .concept-image-container{
-  left: -7000px;
+  left: -11200px;
 }
 
 /* SLIDE SHOW CONTAINER RESEARCH */
 .slide-container{
-  width: 500px;
+  width: 800px;
   height: 500px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
   text-align: center;
+  margin-bottom: 1.0em;
 }
 
 /* RESEARCH IMAGE CONTAINER  */
 .research-image-container{
-  width: 1500px;
+  width: 2400px;
   height: 300px;
   position: relative;
   transition: left 2s;
@@ -466,11 +526,11 @@ iframe{
 }
 
 #research-image-2:target ~ .research-image-container{
-  left: -500px;
+  left: -800px;
 }
 
 #research-image-3:target ~ .research-image-container{
-  left: -1000px;
+  left: -1600px;
 }
 
 /* THE WHOLE  */
