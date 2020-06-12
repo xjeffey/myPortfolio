@@ -637,6 +637,10 @@ font-family: 'Poppins', sans-serif;
     }
     
     /* HEADER  */
+    .logo{
+        height: 100px;
+        width: 100px;
+    }
     
     /* NAVIGATION  */
 
@@ -810,9 +814,6 @@ font-family: 'Poppins', sans-serif;
     }
 
     /* LOGO  */
-    .logo{
-      display: none;
-    }   
 
     /* HEADER  */
     #header h1{
@@ -1047,10 +1048,16 @@ so they don't overlap */
     /* HEADER  */
     #header h1{
       font-size: 48px;
+      letter-spacing: 2px;
     }
 
     #header h2{
-        font-size: 14px;
+        font-size: 12px;
+    }
+
+    .logo{
+      height: 75px;
+      width: 75px;
     }
     
     /* NAVIGATION  */

@@ -803,9 +803,6 @@ footer{
     /* HEADER  */
 
     /* LOGO  */
-    .logo{
-        display: none;
-    }   
 
     /* NAVBAR  */
     /* the nav bar iteself  */
@@ -882,6 +879,13 @@ footer{
 /* WIDTH SIZE SMALLEST  */
 @media screen and (max-width: 450px){
     /* HEADER  */
+    #header h1{
+        font-size: 48px;
+    }
+
+    #header h2{
+        font-size: 14px;
+    }
 
     /* NAVAGATION  */
 
@@ -973,12 +977,11 @@ so they don't overlap */
     }
 
     #header h2{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     /* the logo  */
     .logo{
-        display: block;
         height: 75px;
         width: 75px;
     }
