@@ -979,6 +979,7 @@ font-family: 'Poppins', sans-serif;
     /* ETC  */
     .container{
       max-width: 600px;
+      padding: 2.0em 1.5em;
     }
 
     iframe{
@@ -1018,6 +1019,9 @@ font-family: 'Poppins', sans-serif;
     /* PROTOTYPE  */
 
     /* ETC  */
+    .container{
+      padding: 2.0em 0;
+    }
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, 
@@ -1035,26 +1039,166 @@ so they don't overlap */
 /* MOBILE IPHONE 6/7/8  */
 @media  screen and (max-width: 375px){
     /* IMAGES  */
+    .research img, .concept img, .insight img, .iteration img, .process img, .description img{
+      width: 350px;
+      height: 350px;
+    }
     
     /* HEADER  */
+    #header h1{
+      font-size: 48px;
+    }
+
+    #header h2{
+        font-size: 14px;
+    }
     
     /* NAVIGATION  */
 
     /* PROJECT DESCRIPTION  */
 
     /* THE PROCESS  */
+    .process p, .description p{
+      font-size: 14px;
+      padding: 0 15px;
+    }
 
     /* PROBLEM  */
 
     /* RESEARCH  */
+    .research-image-container{
+      width: 1050px;
+      height: 350px;
+    }
+
+    #research-image-1:target ~ .research-image-container{
+      left: 0;
+    }
+    
+    #research-image-2:target ~ .research-image-container{
+      left: -350px;
+    }
+    
+    #research-image-3:target ~ .research-image-container{
+      left: -700px;
+    }
 
     /* INSIGHT  */
 
     /* CONCEPT  */
+    .concept-image-container{
+      width: 5250px;
+      height: 350px;
+    }
+    
+    /* CONCEPT IMAGES  */
+    #concept-image-1:target ~ .concept-image-container{
+      left: 0;
+    }
+    
+    #concept-image-2:target ~ .concept-image-container{
+      left: -350px;
+    }
+    
+    #concept-image-3:target ~ .concept-image-container{
+      left: -700px;
+    }
+    
+    #concept-image-4:target ~ .concept-image-container{
+      left: -1050px;
+    }
+    
+    #concept-image-5:target ~ .concept-image-container{
+      left: -1400px;
+    }
+    
+    #concept-image-6:target ~ .concept-image-container{
+      left: -1750px;
+    }
+    
+    #concept-image-7:target ~ .concept-image-container{
+      left: -2100px;
+    }
+    
+    #concept-image-8:target ~ .concept-image-container{
+      left: -2450px;
+    }
+    
+    #concept-image-9:target ~ .concept-image-container{
+      left: -2800px;
+    }
+    
+    #concept-image-10:target ~ .concept-image-container{
+      left: -3150px;
+    }
+    
+    #concept-image-11:target ~ .concept-image-container{
+      left: -3500px;
+    }
+    
+    #concept-image-12:target ~ .concept-image-container{
+      left: -3850px;
+    }
+    
+    #concept-image-13:target ~ .concept-image-container{
+      left: -4200px;
+    }
+    
+    #concept-image-14:target ~ .concept-image-container{
+      left: -4550px;
+    }
+    
+    #concept-image-15:target ~ .concept-image-container{
+      left: -4900px;
+    }
+
 
     /* ITERATE  */
+    .iteration-image-container{
+      width: 2100px;
+      height: 350px;
+    }
+
+    /* ITERATION IMAGES  */
+    #iteration-image-1:target ~ .iteration-image-container{
+      left: 0;
+    }
+
+    #iteration-image-2:target ~ .iteration-image-container{
+      left: -350px;
+    }
+
+    #iteration-image-3:target ~ .iteration-image-container{
+      left: -700px;
+    }
+
+    #iteration-image-4:target ~ .iteration-image-container{
+      left: -1050px;
+    }
+
+    #iteration-image-5:target ~ .iteration-image-container{
+      left: -1400px;
+    }
+
+    #iteration-image-6:target ~ .iteration-image-container{
+      left: -1750px;
+    }
+    
 
     /* PROTOTYPE  */
 
     /* ETC  */
+    iframe{
+      width: 350px;
+      height: 300px;
+    }
+
+    .slide-container{
+      width: 350px;
+      height: 350px;
+    }
+
+    .container{
+      max-width: 375px;
+    }
 }

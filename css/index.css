@@ -306,9 +306,6 @@ html {
 }
 
 /* process */
-#process{
-    /* background-color: #5288a4; */
-}
 
 .process-icon{
     display: none;
@@ -804,13 +801,6 @@ footer{
 /* ADJUSTED SCREEN - SMALL*/
 @media screen and (max-width: 600px){
     /* HEADER  */
-    #header h1{
-        /* font-size: 54px; */
-    }
-
-    #header h2{
-        /* font-size: 18px; */
-    }
 
     /* LOGO  */
     .logo{
