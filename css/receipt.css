@@ -804,7 +804,24 @@ font-family: 'Poppins', sans-serif;
 @media screen and (max-width: 600px){
     /* IMAGES  */
 
+    .research img, .concept img, .insight img, .iteration img, .process img{
+      width: 450px;
+      height: 350px;
+    }
+
+    /* LOGO  */
+    .logo{
+      display: none;
+    }   
+
     /* HEADER  */
+    #header h1{
+      font-size: 54px;
+    }
+
+    #header h2{
+        font-size: 18px;
+    }
     
     /* NAVIGATION  */
     /* the nav bar iteself  */
@@ -826,6 +843,7 @@ font-family: 'Poppins', sans-serif;
         top: 0;
         right: 0;
         color: #283891;
+        z-index: 1;
     }
 
     .navbar a.icon:hover{
@@ -839,16 +857,139 @@ font-family: 'Poppins', sans-serif;
     /* PROBLEM  */
 
     /* RESEARCH  */
+    .research-image-container{
+      width: 1350px;
+      height: 350px;
+    }
+
+    #research-image-1:target ~ .research-image-container{
+      left: 0;
+    }
+    
+    #research-image-2:target ~ .research-image-container{
+      left: -450px;
+    }
+    
+    #research-image-3:target ~ .research-image-container{
+      left: -900px;
+    }
 
     /* INSIGHT  */
 
     /* CONCEPT  */
+    .concept-image-container{
+      width: 6750px;
+      height: 350px;
+    }
+    
+    /* CONCEPT IMAGES  */
+    #concept-image-1:target ~ .concept-image-container{
+      left: 0;
+    }
+    
+    #concept-image-2:target ~ .concept-image-container{
+      left: -450px;
+    }
+    
+    #concept-image-3:target ~ .concept-image-container{
+      left: -900px;
+    }
+    
+    #concept-image-4:target ~ .concept-image-container{
+      left: -1350px;
+    }
+    
+    #concept-image-5:target ~ .concept-image-container{
+      left: -1800px;
+    }
+    
+    #concept-image-6:target ~ .concept-image-container{
+      left: -2250px;
+    }
+    
+    #concept-image-7:target ~ .concept-image-container{
+      left: -2700px;
+    }
+    
+    #concept-image-8:target ~ .concept-image-container{
+      left: -3150px;
+    }
+    
+    #concept-image-9:target ~ .concept-image-container{
+      left: -3600px;
+    }
+    
+    #concept-image-10:target ~ .concept-image-container{
+      left: -4050px;
+    }
+    
+    #concept-image-11:target ~ .concept-image-container{
+      left: -4500px;
+    }
+    
+    #concept-image-12:target ~ .concept-image-container{
+      left: -4950px;
+    }
+    
+    #concept-image-13:target ~ .concept-image-container{
+      left: -5400px;
+    }
+    
+    #concept-image-14:target ~ .concept-image-container{
+      left: -5850px;
+    }
+    
+    #concept-image-15:target ~ .concept-image-container{
+      left: -6300px;
+    }
 
     /* ITERATE  */
+    .iteration-image-container{
+      width: 2700px;
+      height: 350px;
+    }
+
+    /* ITERATION IMAGES  */
+    #iteration-image-1:target ~ .iteration-image-container{
+      left: 0;
+    }
+
+    #iteration-image-2:target ~ .iteration-image-container{
+      left: -450px;
+    }
+
+    #iteration-image-3:target ~ .iteration-image-container{
+      left: -900px;
+    }
+
+    #iteration-image-4:target ~ .iteration-image-container{
+      left: -1350px;
+    }
+
+    #iteration-image-5:target ~ .iteration-image-container{
+      left: -1800px;
+    }
+
+    #iteration-image-6:target ~ .iteration-image-container{
+      left: -2250px;
+    }
 
     /* PROTOTYPE  */
 
     /* ETC  */
+    .container{
+      max-width: 600px;
+    }
+
+    iframe{
+      width: 450px;
+      height: 350px;
+    }
+
+    .slide-container{
+      width: 450px;
+      height: 350px;
+    }
    
 }
 
