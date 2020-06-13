@@ -1067,7 +1067,8 @@ so they don't overlap */
     /* THE PROCESS  */
     .process p, .description p{
       font-size: 14px;
-      padding: 0 15px;
+      padding: 0.5em 15px 0;
+      text-align: left;
     }
 
     /* PROBLEM  */

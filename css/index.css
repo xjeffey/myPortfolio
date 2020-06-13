@@ -205,6 +205,7 @@ html {
 }
 
 /* header */
+
 #header{
     background-color: white;
     display: flex;
@@ -922,7 +923,7 @@ footer{
     }
 
     .contact-info{
-        font-size: 12px;
+        font-size: 16px;
     }
 
     /* ETC  */
@@ -989,6 +990,10 @@ so they don't overlap */
     /* NAVIGATION  */
 
     /* PROJECTS */
+    .proj-desc p, .process-desc p, .about-info p{
+        text-align: left;
+        padding-top: 0.5em;
+    }
 
     /* QUOTE  */
     .quote h1{
