@@ -996,7 +996,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 /* WIDTH SIZE SMALLEST  */
-@media screen and (max-width: 450px){
+@media screen and (max-width: 500px){
     /* IMAGES  */
     
     /* HEADER  */
@@ -1006,6 +1006,10 @@ font-family: 'Poppins', sans-serif;
     /* PROJECT DESCRIPTION  */
 
     /* THE PROCESS  */
+    .process p, .description p{
+      padding: 0 15px;
+      text-align: left;
+    }
 
     /* PROBLEM  */
 
@@ -1067,8 +1071,6 @@ so they don't overlap */
     /* THE PROCESS  */
     .process p, .description p{
       font-size: 14px;
-      padding: 0 15px;
-      text-align: left;
     }
 
     .process h2, .description h2{
