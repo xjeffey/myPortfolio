@@ -909,7 +909,7 @@ footer{
     .proj-desc p, .process-desc p, .about-info p{
         text-align: left;
     }
-    
+
     /* QUOTE  */
     .quote h1{
         font-size: 14px;
@@ -1074,8 +1074,8 @@ so they don't overlap */
     }
 
     .proj-desc img{
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
     }
     
 }
