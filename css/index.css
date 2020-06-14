@@ -992,7 +992,10 @@ so they don't overlap */
     /* PROJECTS */
     .proj-desc p, .process-desc p, .about-info p{
         text-align: left;
-        padding-top: 0.5em;
+    }
+
+    .proj-desc h2, .process-desc h2{
+        padding-bottom: 0.5em;
     }
 
     /* QUOTE  */
