@@ -294,6 +294,8 @@ iframe{
 
 .process h2{
   font-size: 24px;
+  margin-bottom: 5px;
+  text-decoration: underline;
 }
 
 .process p{
@@ -305,18 +307,13 @@ iframe{
   margin-bottom: 4.0em;
 }
 
-.process h2{
-  margin-bottom: 5px;
-  text-decoration: underline;
-}
-
 /* PROBLEM  */
 /* .problem{
   
 } */
 
 .problem img{
-  margin-bottom: 1.0em;
+  margin-bottom: 0.25em;
 }
 
 /* RESEARCH  */
@@ -342,6 +339,12 @@ iframe{
 /* PROTOTYPE  */
 
 /* ETC  */
+
+/* IMAGE CAPTION  */
+figcaption{
+  margin-bottom: 1.5em;
+  font-size: 10px;
+}
 
 /* CONTAINER  */
 .container {

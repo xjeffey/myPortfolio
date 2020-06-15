@@ -269,7 +269,31 @@ html {
   flex-flow: column nowrap;
 }
 
+.process h2{
+  font-size: 24px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+.process p{
+  font-size: 16px;
+  padding: 0 100px;
+}
+
+.problem, .research, .insight, .concept, .iteration{
+  margin-bottom: 4.0em;
+}
+
 /* PROBLEM  */
+/* IMAGE CAPTION  */
+.problem figcaption{
+  margin-bottom: 1.5em;
+  font-size: 10px;
+}
+
+.problem img{
+  margin-bottom: 0.25em;
+}
 
 /* RESEARCH  */
 
