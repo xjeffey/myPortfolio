@@ -64,7 +64,23 @@
     <div class="container">
         <div class="description">
             <div class="col">
-                <img src="images/ux/hammer/hammer.jpg" alt="African Rhino Hammer">
+                <!-- Trigger the Modal -->
+                <img id="myImg" src="images/ux/hammer/hammer.jpg" alt="African Rhino Hammer">
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img01">
+
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
+                </div>
+
+                <h5>Click on the image to get a better view!</h5>
             </div>
             
             <div class="col">
@@ -178,16 +194,44 @@
     
             <!-- CONCEPT  -->
             <div class="concept">
-                <img src="images/ux/hammer/rhino1.png" alt="Rhino Hammer Concept">
-                <img src="images/ux/hammer/rhino2.PNG" alt="Rhino Hammer Concept">
-                <img src="images/ux/hammer/rhino3.PNG" alt="Rhino Hammer Concept">
-                <img src="images/ux/hammer/rhino4.PNG" alt="Rhino Hammer Concept">
-                <img src="images/ux/hammer/rhino5.PNG" alt="Rhino Hammer Concept">
-                <img src="images/ux/hammer/rhino6.PNG" alt="Rhino Hammer Concept">
-                <img src="images/ux/hammer/rhino7.PNG" alt="Rhino Hammer Concept">
-                <img src="images/ux/hammer/rhino8.PNG" alt="Rhino Hammer Concept">
-                <img src="images/ux/hammer/rhino9.PNG" alt="Rhino Hammer Concept">
-                <img src="images/ux/hammer/rhino10.PNG" alt="Rhino Hammer Concept">
+                <div class="slide-container">
+                    <span id="concept-image-1"></span>
+                    <span id="concept-image-2"></span>
+                    <span id="concept-image-3"></span>
+                    <span id="concept-image-4"></span>
+                    <span id="concept-image-5"></span>
+                    <span id="concept-image-6"></span>
+                    <span id="concept-image-7"></span>
+                    <span id="concept-image-8"></span>
+                    <span id="concept-image-9"></span>
+                    <span id="concept-image-10"></span>
+
+                    <div class="concept-image-container">
+                        <img src="images/ux/hammer/rhino1.png" alt="Rhino Hammer Concept" class="slider-image">
+                        <img src="images/ux/hammer/rhino2.PNG" alt="Rhino Hammer Concept" class="slider-image">
+                        <img src="images/ux/hammer/rhino3.PNG" alt="Rhino Hammer Concept" class="slider-image">
+                        <img src="images/ux/hammer/rhino4.PNG" alt="Rhino Hammer Concept" class="slider-image">
+                        <img src="images/ux/hammer/rhino5.PNG" alt="Rhino Hammer Concept" class="slider-image">
+                        <img src="images/ux/hammer/rhino6.PNG" alt="Rhino Hammer Concept" class="slider-image">
+                        <img src="images/ux/hammer/rhino7.PNG" alt="Rhino Hammer Concept" class="slider-image">
+                        <img src="images/ux/hammer/rhino8.PNG" alt="Rhino Hammer Concept" class="slider-image">
+                        <img src="images/ux/hammer/rhino9.PNG" alt="Rhino Hammer Concept" class="slider-image">
+                        <img src="images/ux/hammer/rhino10.PNG" alt="Rhino Hammer Concept" class="slider-image">
+                    </div>
+
+                    <div class="button-container">
+                        <a href="#concept-image-1" class="slider-button active-image concept-button"></a>
+                        <a href="#concept-image-2" class="slider-button concept-button"></a>
+                        <a href="#concept-image-3" class="slider-button concept-button"></a>
+                        <a href="#concept-image-4" class="slider-button concept-button"></a>
+                        <a href="#concept-image-5" class="slider-button concept-button"></a>
+                        <a href="#concept-image-6" class="slider-button concept-button"></a>
+                        <a href="#concept-image-7" class="slider-button concept-button"></a>
+                        <a href="#concept-image-8" class="slider-button concept-button"></a>
+                        <a href="#concept-image-9" class="slider-button concept-button"></a>
+                        <a href="#concept-image-10" class="slider-button concept-button"></a>
+                    </div>
+                </div>
                 
                 <h2>Concept</h2>
 
@@ -201,11 +245,31 @@
     
             <!-- ITERATE  -->
             <div class="iteration">
-                <img src="images/ux/hammer/testing1.JPG" alt="Storyboard Scene">
-                <img src="images/ux/hammer/testing2.JPG" alt="Storyboard Scene">
-                <img src="images/ux/hammer/testing3.JPG" alt="Storyboard Scene">
-                <img src="images/ux/hammer/testing4.JPG" alt="Storyboard Scene">
-                <img src="images/ux/hammer/testing5.JPG" alt="Storyboard Scene">
+                <div class="slide-container">
+                    <span id="iteration-image-1"></span>
+                    <span id="iteration-image-2"></span>
+                    <span id="iteration-image-3"></span>
+                    <span id="iteration-image-4"></span>
+                    <span id="iteration-image-5"></span>
+
+                    <div class="iteration-image-container">
+                        <img src="images/ux/hammer/testing1.JPG" alt="Storyboard Scene" class="slider-image">
+                        <img src="images/ux/hammer/testing2.JPG" alt="Storyboard Scene" class="slider-image">
+                        <img src="images/ux/hammer/testing3.JPG" alt="Storyboard Scene" class="slider-image">
+                        <img src="images/ux/hammer/testing4.JPG" alt="Storyboard Scene" class="slider-image">
+                        <img src="images/ux/hammer/testing5.JPG" alt="Storyboard Scene" class="slider-image">
+                    </div>
+
+                    <div class="button-container">
+                        <a href="#iteration-image-1" class="slider-button active-image iteration-button"></a>
+                        <a href="#iteration-image-2" class="slider-button iteration-button"></a>
+                        <a href="#iteration-image-3" class="slider-button iteration-button"></a>
+                        <a href="#iteration-image-4" class="slider-button iteration-button"></a>
+                        <a href="#iteration-image-5" class="slider-button iteration-button"></a>
+                    </div>
+                </div>
+
+                
 
                 <h2>Iteration</h2>
 
