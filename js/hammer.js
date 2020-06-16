@@ -65,17 +65,9 @@ for(let link of hamburgerLinks){
 // SLIDE SHOW FUNCTIONALITY
 
 // THE SLIDE SHOW BUTTONS 
-// const researchButtons = document.querySelectorAll(".research-button");
 const conceptButtons = document.querySelectorAll(".concept-button");
 const iterationButtons = document.querySelectorAll(".iteration-button");
 
-// researchButtons.forEach(researchButton => researchButton.addEventListener('click', function(){
-//   for(button of researchButtons){
-//     button.classList.remove('active-image');
-//   }
-
-//   researchButton.classList.add('active-image');
-// }));
 
 conceptButtons.forEach(conceptButton => conceptButton.addEventListener('click', function(){
   for(button of conceptButtons){
@@ -123,4 +115,29 @@ span.onclick = function() {
   document.body.style.position = '';
   document.body.style.top = '';
   window.scrollTo(0, parseInt(scrollY || '0') * -1);
+}
+
+// RESEARCH SLIDE SHOW WITH CAPTIONS 
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active-image", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active-image";
 }

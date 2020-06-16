@@ -602,7 +602,7 @@ font-family: 'Poppins', sans-serif;
       width: 400px;
       height: 400px;
     }
-    
+
     /* HEADER  */
     
     /* NAVIGATION  */
@@ -638,7 +638,7 @@ font-family: 'Poppins', sans-serif;
       width: 650px;
       height: 450px;
     }
-    
+
     /* HEADER  */
     .logo{
         height: 100px;
@@ -648,9 +648,7 @@ font-family: 'Poppins', sans-serif;
     /* NAVIGATION  */
 
     /* PROJECT DESCRIPTION  */
-    .description{
-      display: block;
-    }
+
 
     .description h2, .description p{
       text-align: center;
@@ -855,6 +853,10 @@ font-family: 'Poppins', sans-serif;
     }
 
     /* PROJECT DESCRIPTION  */
+    .description{
+      display: flex;
+      flex-flow: row wrap;
+    }
 
     /* THE PROCESS  */
 
