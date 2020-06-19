@@ -50,8 +50,8 @@ html {
 }
 
 .concept img, .iteration img, .process img{
-  width: 500px;
-  height: 500px;
+  width: 900px;
+  height: 600px;
 }
 
 /* MODAL IMAGE  */
@@ -252,8 +252,8 @@ html {
 
 /* DEMO  */
 iframe{
-  width: 800px;
-  height: 450px;
+  width: 900px;
+  height: 600px;
   margin-bottom: 1.0em;
 }
 
@@ -261,6 +261,7 @@ iframe{
 .process{
   display: flex;
   flex-flow: column nowrap;
+  line-height: 1.5em;
 }
 
 .process h2{
@@ -297,7 +298,7 @@ iframe{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 700px;
+  max-width: 900px;
   position: relative;
   margin: auto;
 }
@@ -361,8 +362,8 @@ iframe{
 
 /* CONCEPT IMAGE CONTAINER  */
 .concept-image-container{
-  width: 5000px;
-  height: 500px;
+  width: 9000px;
+  height: 600px;
   position: relative;
   transition: left 2s;
   -webkit-transition: left 2s;
@@ -376,47 +377,47 @@ iframe{
 }
 
 #concept-image-2:target ~ .concept-image-container{
-  left: -500px;
+  left: -900px;
 }
 
 #concept-image-3:target ~ .concept-image-container{
-  left: -1000px;
+  left: -1800px;
 }
 
 #concept-image-4:target ~ .concept-image-container{
-  left: -1500px;
+  left: -2700px;
 }
 
 #concept-image-5:target ~ .concept-image-container{
-  left: -2000px;
+  left: -3600px;
 }
 
 #concept-image-6:target ~ .concept-image-container{
-  left: -2500px;
+  left: -4500px;
 }
 
 #concept-image-7:target ~ .concept-image-container{
-  left: -3000px;
+  left: -5400px;
 }
 
 #concept-image-8:target ~ .concept-image-container{
-  left: -3500px;
+  left: -6300px;
 }
 
 #concept-image-9:target ~ .concept-image-container{
-  left: -4000px;
+  left: -7200px;
 }
 
 #concept-image-10:target ~ .concept-image-container{
-  left: -4500px;
+  left: -8100px;
 }
 
 /* ITERATE  */
 
 /* ITERATION IMAGE SLIDER  */
 .iteration-image-container{
-  width: 2500px;
-  height: 500px;
+  width: 4500px;
+  height: 600px;
   position: relative;
   transition: left 2s;
   -webkit-transition: left 2s;
@@ -430,19 +431,19 @@ iframe{
 }
 
 #iteration-image-2:target ~ .iteration-image-container{
-  left: -500px;
+  left: -900px;
 }
 
 #iteration-image-3:target ~ .iteration-image-container{
-  left: -1000px;
+  left: -1800px;
 }
 
 #iteration-image-4:target ~ .iteration-image-container{
-  left: -1500px;
+  left: -2700px;
 }
 
 #iteration-image-5:target ~ .iteration-image-container{
-  left: -2000px;
+  left: -3600px;
 }
 
 /* PROTOTYPE  */
@@ -451,8 +452,8 @@ iframe{
 
 /* SLIDE CONTAINER  */
 .slide-container{
-  width: 500px;
-  height: 500px;
+  width: 900px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
