@@ -1014,8 +1014,12 @@ font-family: 'Poppins', sans-serif;
     /* PROJECT DESCRIPTION  */
 
     /* THE PROCESS  */
-    .process p, .description p{
+    .process p{
       padding: 0 15px;
+      text-align: left;
+    }
+
+    .description p{
       text-align: left;
     }
 
