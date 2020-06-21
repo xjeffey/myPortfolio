@@ -49,9 +49,9 @@ html {
   margin: 0 auto;
 }
 
-.concept img, .iteration img, .process img{
-  width: 900px;
-  height: 600px;
+.concept img, .iteration img, .process img, .problem img{
+  width: 800px;
+  height: 500px;
 }
 
 /* MODAL IMAGE  */
@@ -252,8 +252,8 @@ html {
 
 /* DEMO  */
 iframe{
-  width: 900px;
-  height: 600px;
+  width: 800px;
+  height: 500px;
   margin-bottom: 1.0em;
 }
 
@@ -272,7 +272,7 @@ iframe{
 
 .process p{
   font-size: 16px;
-  padding: 0 100px;
+  padding: 0 125px;
 }
 
 .problem, .research, .insight, .concept, .iteration{
@@ -298,7 +298,7 @@ iframe{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 900px;
+  max-width: 800px;
   position: relative;
   margin: auto;
 }
@@ -362,8 +362,8 @@ iframe{
 
 /* CONCEPT IMAGE CONTAINER  */
 .concept-image-container{
-  width: 9000px;
-  height: 600px;
+  width: 8000px;
+  height: 550px;
   position: relative;
   transition: left 2s;
   -webkit-transition: left 2s;
@@ -377,47 +377,47 @@ iframe{
 }
 
 #concept-image-2:target ~ .concept-image-container{
-  left: -900px;
+  left: -800px;
 }
 
 #concept-image-3:target ~ .concept-image-container{
-  left: -1800px;
+  left: -1600px;
 }
 
 #concept-image-4:target ~ .concept-image-container{
-  left: -2700px;
+  left: -2400px;
 }
 
 #concept-image-5:target ~ .concept-image-container{
-  left: -3600px;
+  left: -3200px;
 }
 
 #concept-image-6:target ~ .concept-image-container{
-  left: -4500px;
+  left: -4000px;
 }
 
 #concept-image-7:target ~ .concept-image-container{
-  left: -5400px;
+  left: -4800px;
 }
 
 #concept-image-8:target ~ .concept-image-container{
-  left: -6300px;
+  left: -5600px;
 }
 
 #concept-image-9:target ~ .concept-image-container{
-  left: -7200px;
+  left: -6400px;
 }
 
 #concept-image-10:target ~ .concept-image-container{
-  left: -8100px;
+  left: -7200px;
 }
 
 /* ITERATE  */
 
 /* ITERATION IMAGE SLIDER  */
 .iteration-image-container{
-  width: 4500px;
-  height: 600px;
+  width: 4000px;
+  height: 550px;
   position: relative;
   transition: left 2s;
   -webkit-transition: left 2s;
@@ -431,19 +431,19 @@ iframe{
 }
 
 #iteration-image-2:target ~ .iteration-image-container{
-  left: -900px;
+  left: -800px;
 }
 
 #iteration-image-3:target ~ .iteration-image-container{
-  left: -1800px;
+  left: -1600px;
 }
 
 #iteration-image-4:target ~ .iteration-image-container{
-  left: -2700px;
+  left: -2400px;
 }
 
 #iteration-image-5:target ~ .iteration-image-container{
-  left: -3600px;
+  left: -3200px;
 }
 
 /* PROTOTYPE  */
@@ -452,8 +452,8 @@ iframe{
 
 /* SLIDE CONTAINER  */
 .slide-container{
-  width: 900px;
-  height: 600px;
+  width: 800px;
+  height: 550px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
