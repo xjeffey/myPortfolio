@@ -361,7 +361,7 @@ figcaption{
 /* ITERATION IMAGE SLIDER  */
 .iteration-image-container{
   width: 4800px;
-  height: 500px;
+  height: 550px;
   position: relative;
   transition: left 2s;
   -webkit-transition: left 2s;
@@ -399,7 +399,7 @@ figcaption{
 /* CONCEPT IMAGE CONTAINER  */
 .concept-image-container{
   width: 12000px;
-  height: 500px;
+  height: 550px;
   position: relative;
   transition: left 2s;
   -webkit-transition: left 2s;
@@ -471,7 +471,7 @@ figcaption{
 /* SLIDE SHOW CONTAINER RESEARCH */
 .slide-container{
   width: 800px;
-  height: 500px;
+  height: 550px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -482,7 +482,7 @@ figcaption{
 /* RESEARCH IMAGE CONTAINER  */
 .research-image-container{
   width: 2400px;
-  height: 300px;
+  height: 550px;
   position: relative;
   transition: left 2s;
   -webkit-transition: left 2s;
@@ -505,12 +505,14 @@ figcaption{
 
 /* SLIDER BUTTON  */
 .slider-button{
-  display: inline-block;
-  height: 10px;
-  width: 10px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
   margin: 0 2px;
-  border-radius: 5px;
   background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
 .slider-button:hover{
@@ -670,7 +672,7 @@ font-family: 'Poppins', sans-serif;
     /* RESEARCH  */
     .research-image-container{
       width: 1950px;
-      height: 450px;
+      height: 500px;
     }
 
     #research-image-1:target ~ .research-image-container{
@@ -691,7 +693,7 @@ font-family: 'Poppins', sans-serif;
 
     .concept-image-container{
       width: 9750px;
-      height: 450px;
+      height: 500px;
     }
     
     /* CONCEPT IMAGES  */
@@ -759,7 +761,7 @@ font-family: 'Poppins', sans-serif;
     /* ITERATION IMAGE SLIDER  */
     .iteration-image-container{
       width: 3900px;
-      height: 450px;
+      height: 500px;
     }
 
     /* ITERATION IMAGES  */
@@ -795,6 +797,7 @@ font-family: 'Poppins', sans-serif;
     /* SLIDE SHOWS  */
     .slide-container{
       width: 650px;
+      height: 500px;
     }
 }
 
@@ -865,7 +868,7 @@ font-family: 'Poppins', sans-serif;
     /* RESEARCH  */
     .research-image-container{
       width: 1350px;
-      height: 350px;
+      height: 400px;
     }
 
     #research-image-1:target ~ .research-image-container{
@@ -885,7 +888,7 @@ font-family: 'Poppins', sans-serif;
     /* CONCEPT  */
     .concept-image-container{
       width: 6750px;
-      height: 350px;
+      height: 400px;
     }
     
     /* CONCEPT IMAGES  */
@@ -952,7 +955,7 @@ font-family: 'Poppins', sans-serif;
     /* ITERATE  */
     .iteration-image-container{
       width: 2700px;
-      height: 350px;
+      height: 400px;
     }
 
     /* ITERATION IMAGES  */
@@ -995,7 +998,7 @@ font-family: 'Poppins', sans-serif;
 
     .slide-container{
       width: 450px;
-      height: 350px;
+      height: 400px;
     }
    
 }
@@ -1087,7 +1090,7 @@ so they don't overlap */
     /* RESEARCH  */
     .research-image-container{
       width: 1050px;
-      height: 350px;
+      height: 400px;
     }
 
     #research-image-1:target ~ .research-image-container{
@@ -1107,7 +1110,7 @@ so they don't overlap */
     /* CONCEPT  */
     .concept-image-container{
       width: 5250px;
-      height: 350px;
+      height: 400px;
     }
     
     /* CONCEPT IMAGES  */
@@ -1175,7 +1178,7 @@ so they don't overlap */
     /* ITERATE  */
     .iteration-image-container{
       width: 2100px;
-      height: 350px;
+      height: 400px;
     }
 
     /* ITERATION IMAGES  */
@@ -1214,7 +1217,7 @@ so they don't overlap */
 
     .slide-container{
       width: 350px;
-      height: 350px;
+      height: 400px;
     }
 
     .container{
