@@ -566,7 +566,33 @@ font-family: 'Poppins', sans-serif;
 
 /* THE NORMAL  */
 @media  screen and (max-width: 1000px){
- 
+  /* IMAGES  */
+  .description img{
+    width: 400px;
+    height: 400px;
+  }
+
+  /* HEADER  */
+
+  /* NAVIGATION  */
+
+  /* PROJECT DESCRIPTION  */
+
+  /* THE PROCESS  */
+
+  /* PROBLEM  */
+
+  /* RESEARCH  */
+
+  /* INSIGHT  */
+
+  /* CONCEPT  */
+
+  /* ITERATE  */
+
+  /* PROTOTYPE  */
+
+  /* ETC  */
 }
 
 /* ADJUSTED SCREEN - MEDIUM*/
