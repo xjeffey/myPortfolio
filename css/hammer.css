@@ -598,15 +598,32 @@ font-family: 'Poppins', sans-serif;
 /* ADJUSTED SCREEN - MEDIUM*/
 
 @media  screen and (max-width: 800px){
-  /* IMAGES  */
+    /* IMAGES  */
+    .concept img, .iteration img, .process img, .problem img{
+      width: 600px;
+      height: 400px;
+    }
     
     /* HEADER  */
+    #header h1{
+      font-size: 54px;
+    }
     
     /* NAVIGATION  */
 
     /* PROJECT DESCRIPTION  */
+    .description{
+      flex-flow: column wrap;
+    }
+
+    .description h2, .description p{
+      text-align: center;
+    }
 
     /* THE PROCESS  */
+    .process p{
+      padding: 0;
+    }
 
     /* PROBLEM  */
 
@@ -615,12 +632,65 @@ font-family: 'Poppins', sans-serif;
     /* INSIGHT  */
 
     /* CONCEPT  */
+    .concept-image-container{
+      width: 6000px;
+      height: 400px;
+    }
+
+    #concept-image-1:target ~ .concept-image-container{
+      left: 0;
+    }
+    
+    #concept-image-2:target ~ .concept-image-container{
+      left: -600px;
+    }
+    
+    #concept-image-3:target ~ .concept-image-container{
+      left: -1200px;
+    }
+    
+    #concept-image-4:target ~ .concept-image-container{
+      left: -1800px;
+    }
+    
+    #concept-image-5:target ~ .concept-image-container{
+      left: -2400px;
+    }
+    
+    #concept-image-6:target ~ .concept-image-container{
+      left: -3000px;
+    }
+    
+    #concept-image-7:target ~ .concept-image-container{
+      left: -3600px;
+    }
+    
+    #concept-image-8:target ~ .concept-image-container{
+      left: -4200px;
+    }
+    
+    #concept-image-9:target ~ .concept-image-container{
+      left: -4800px;
+    }
+    
+    #concept-image-10:target ~ .concept-image-container{
+      left: -5400px;
+    }
 
     /* ITERATE  */
 
     /* PROTOTYPE  */
 
     /* ETC  */
+    iframe{
+      width: 600px;
+      height: 400px;
+    }
+
+    .slide-container{
+      width: 600px;
+      height: 400px;
+    }
 }
 
 /* ADJUSTED SCREEN - SMALL*/
