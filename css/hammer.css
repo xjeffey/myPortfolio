@@ -678,6 +678,31 @@ font-family: 'Poppins', sans-serif;
     }
 
     /* ITERATE  */
+    .iteration-image-container{
+      width: 3000px;
+      height: 400px;
+    }
+    
+    /* ITERATION IMAGES  */
+    #iteration-image-1:target ~ .iteration-image-container{
+      left: 0;
+    }
+    
+    #iteration-image-2:target ~ .iteration-image-container{
+      left: -600px;
+    }
+    
+    #iteration-image-3:target ~ .iteration-image-container{
+      left: -1200px;
+    }
+    
+    #iteration-image-4:target ~ .iteration-image-container{
+      left: -1800px;
+    }
+    
+    #iteration-image-5:target ~ .iteration-image-container{
+      left: -2400px;
+    }
 
     /* PROTOTYPE  */
 
