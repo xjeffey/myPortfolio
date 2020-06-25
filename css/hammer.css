@@ -233,6 +233,7 @@ html {
 /* PROJECT DESCRIPTION  */
 .description{
   display: flex;
+  line-height: 1.5em;
   flex-flow: row wrap;
 }
 
@@ -242,7 +243,7 @@ html {
 }
 
 .description p{
-  line-height: 1.5em;
+  
   text-align: left;
 }
 
@@ -599,6 +600,11 @@ font-family: 'Poppins', sans-serif;
 
 @media  screen and (max-width: 800px){
     /* IMAGES  */
+    .logo{
+      height: 100px;
+      width: 100px;
+    }
+
     .concept img, .iteration img, .process img, .problem img{
       width: 600px;
       height: 400px;
@@ -634,7 +640,7 @@ font-family: 'Poppins', sans-serif;
     /* CONCEPT  */
     .concept-image-container{
       width: 6000px;
-      height: 400px;
+      height: 450px;
     }
 
     #concept-image-1:target ~ .concept-image-container{
@@ -680,7 +686,7 @@ font-family: 'Poppins', sans-serif;
     /* ITERATE  */
     .iteration-image-container{
       width: 3000px;
-      height: 400px;
+      height: 450px;
     }
     
     /* ITERATION IMAGES  */
@@ -714,15 +720,22 @@ font-family: 'Poppins', sans-serif;
 
     .slide-container{
       width: 600px;
-      height: 400px;
+      height: 450px;
     }
 }
 
 /* ADJUSTED SCREEN - SMALL*/
 @media screen and (max-width: 600px){
     /* IMAGES  */
+    .concept img, .iteration img, .process img, .problem img{
+      width: 550px;
+      height: 400px;
+    }
 
     /* HEADER  */
+    #header h1{
+      font-size: 36px;
+    }
     
     /* NAVIGATION  */
     /* the nav bar iteself  */
@@ -751,6 +764,10 @@ font-family: 'Poppins', sans-serif;
     }
 
     /* PROJECT DESCRIPTION  */
+    .description p, .process p{
+      padding: 0;
+      text-align: left;
+    }
 
     /* THE PROCESS  */
 
@@ -761,18 +778,105 @@ font-family: 'Poppins', sans-serif;
     /* INSIGHT  */
 
     /* CONCEPT  */
+    .concept-image-container{
+      width: 5500px;
+      height: 450px;
+    }
+
+    #concept-image-1:target ~ .concept-image-container{
+      left: 0;
+    }
+    
+    #concept-image-2:target ~ .concept-image-container{
+      left: -550px;
+    }
+    
+    #concept-image-3:target ~ .concept-image-container{
+      left: -1100px;
+    }
+    
+    #concept-image-4:target ~ .concept-image-container{
+      left: -1650px;
+    }
+    
+    #concept-image-5:target ~ .concept-image-container{
+      left: -2200px;
+    }
+    
+    #concept-image-6:target ~ .concept-image-container{
+      left: -2750px;
+    }
+    
+    #concept-image-7:target ~ .concept-image-container{
+      left: -3300px;
+    }
+    
+    #concept-image-8:target ~ .concept-image-container{
+      left: -3850px;
+    }
+    
+    #concept-image-9:target ~ .concept-image-container{
+      left: -4400px;
+    }
+    
+    #concept-image-10:target ~ .concept-image-container{
+      left: -4950px;
+    }
 
     /* ITERATE  */
+    .iteration-image-container{
+      width: 2750px;
+      height: 450px;
+    }
+    
+    /* ITERATION IMAGES  */
+    #iteration-image-1:target ~ .iteration-image-container{
+      left: 0;
+    }
+    
+    #iteration-image-2:target ~ .iteration-image-container{
+      left: -550px;
+    }
+    
+    #iteration-image-3:target ~ .iteration-image-container{
+      left: -1100px;
+    }
+    
+    #iteration-image-4:target ~ .iteration-image-container{
+      left: -1650px;
+    }
+    
+    #iteration-image-5:target ~ .iteration-image-container{
+      left: -2200px;
+    }
 
     /* PROTOTYPE  */
 
     /* ETC  */
+    iframe{
+      width: 550px;
+      height: 400px;
+    }
+
+    .slide-container{
+      width: 550px;
+      height: 450px;
+    }
+
+    .container{
+      max-width: 600px;
+      padding: 2.0em 1.5em;
+    }
    
 }
 
 /* WIDTH SIZE SMALLEST  */
 @media screen and (max-width: 450px){
     /* IMAGES  */
+    .concept img, .iteration img, .process img, .problem img, .description img{
+      width: 375px;
+      height: 300px;
+    }
     
     /* HEADER  */
     
@@ -781,6 +885,9 @@ font-family: 'Poppins', sans-serif;
     /* PROJECT DESCRIPTION  */
 
     /* THE PROCESS  */
+    .process p, .description p{
+      font-size: 12px;
+    }
 
     /* PROBLEM  */
 
@@ -789,12 +896,90 @@ font-family: 'Poppins', sans-serif;
     /* INSIGHT  */
 
     /* CONCEPT  */
+    .concept-image-container{
+      width: 3750px;
+      height: 350px;
+    }
+
+    #concept-image-1:target ~ .concept-image-container{
+      left: 0;
+    }
+    
+    #concept-image-2:target ~ .concept-image-container{
+      left: -375px;
+    }
+    
+    #concept-image-3:target ~ .concept-image-container{
+      left: -750px;
+    }
+    
+    #concept-image-4:target ~ .concept-image-container{
+      left: -1125px;
+    }
+    
+    #concept-image-5:target ~ .concept-image-container{
+      left: -1500px;
+    }
+    
+    #concept-image-6:target ~ .concept-image-container{
+      left: -1875px;
+    }
+    
+    #concept-image-7:target ~ .concept-image-container{
+      left: -2250px;
+    }
+    
+    #concept-image-8:target ~ .concept-image-container{
+      left: -2625px;
+    }
+    
+    #concept-image-9:target ~ .concept-image-container{
+      left: -3000px;
+    }
+    
+    #concept-image-10:target ~ .concept-image-container{
+      left: -3375px;
+    }
 
     /* ITERATE  */
+    .iteration-image-container{
+      width: 1875px;
+      height: 350px;
+    }
+    
+    /* ITERATION IMAGES  */
+    #iteration-image-1:target ~ .iteration-image-container{
+      left: 0;
+    }
+    
+    #iteration-image-2:target ~ .iteration-image-container{
+      left: -375px;
+    }
+    
+    #iteration-image-3:target ~ .iteration-image-container{
+      left: -750px;
+    }
+    
+    #iteration-image-4:target ~ .iteration-image-container{
+      left: -1125px;
+    }
+    
+    #iteration-image-5:target ~ .iteration-image-container{
+      left: -1500px;
+    }
 
     /* PROTOTYPE  */
 
     /* ETC  */
+    iframe{
+      width: 375px;
+      height: 300px;
+    }
+
+    .slide-container{
+      width: 375px;
+      height: 350px;
+    }
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, 
@@ -812,26 +997,135 @@ so they don't overlap */
 /* MOBILE IPHONE 6/7/8  */
 @media  screen and (max-width: 375px){
     /* IMAGES  */
+    .logo{
+      height: 75px;
+      width: 75px;
+    }
+
+    .description img{
+      width: 300px;
+      height: 300px;
+    }
+
+    .concept img, .iteration img, .process img, .problem img{
+      width: 325px;
+      height: 300px;
+    }
     
     /* HEADER  */
-    
+    #header h1, .demo h1,.process h1, h1{
+      font-size: 24px;
+    }
+
+    .process h2, .description h2{
+      font-size: 20px;
+    }
     /* NAVIGATION  */
 
     /* PROJECT DESCRIPTION  */
 
     /* THE PROCESS  */
+    .process p, .description p{
+      font-size: 10px;
+    }
 
     /* PROBLEM  */
 
     /* RESEARCH  */
+    .research a{
+      font-size: 12px;
+    }
 
     /* INSIGHT  */
 
     /* CONCEPT  */
+    .concept-image-container{
+      width: 3250px;
+      height: 350px;
+    }
+
+    #concept-image-1:target ~ .concept-image-container{
+      left: 0;
+    }
+    
+    #concept-image-2:target ~ .concept-image-container{
+      left: -325px;
+    }
+    
+    #concept-image-3:target ~ .concept-image-container{
+      left: -650px;
+    }
+    
+    #concept-image-4:target ~ .concept-image-container{
+      left: -975px;
+    }
+    
+    #concept-image-5:target ~ .concept-image-container{
+      left: -1300px;
+    }
+    
+    #concept-image-6:target ~ .concept-image-container{
+      left: -1625px;
+    }
+    
+    #concept-image-7:target ~ .concept-image-container{
+      left: -1950px;
+    }
+    
+    #concept-image-8:target ~ .concept-image-container{
+      left: -2275px;
+    }
+    
+    #concept-image-9:target ~ .concept-image-container{
+      left: -2600px;
+    }
+    
+    #concept-image-10:target ~ .concept-image-container{
+      left: -2925px;
+    }
 
     /* ITERATE  */
+    .iteration-image-container{
+      width: 1625px;
+      height: 350px;
+    }
+    
+    /* ITERATION IMAGES  */
+    #iteration-image-1:target ~ .iteration-image-container{
+      left: 0;
+    }
+    
+    #iteration-image-2:target ~ .iteration-image-container{
+      left: -325px;
+    }
+    
+    #iteration-image-3:target ~ .iteration-image-container{
+      left: -650px;
+    }
+    
+    #iteration-image-4:target ~ .iteration-image-container{
+      left: -975px;
+    }
+    
+    #iteration-image-5:target ~ .iteration-image-container{
+      left: -1300px;
+    }
+
 
     /* PROTOTYPE  */
 
     /* ETC  */
+    .container{
+      max-width: 375px;
+    }
+
+    iframe{
+      width: 325px;
+      height: 300px;
+    }
+
+    .slide-container{
+      width: 300px;
+      height: 350px;
+    }
 }

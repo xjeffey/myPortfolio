@@ -650,6 +650,9 @@ font-family: 'Poppins', sans-serif;
     /* NAVIGATION  */
 
     /* PROJECT DESCRIPTION  */
+    .description{
+      flex-flow: column nowrap;
+    }
 
 
     .description h2, .description p{
