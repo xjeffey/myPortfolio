@@ -264,19 +264,20 @@ html {
     margin: 2.0em 20.0em;
 }
 
-.project{
-    margin-bottom: 2.0em;
-}
-
 .project img{
     width: 600px;
     height: 600px;
     border-radius: 10px;
+    margin: 0 auto 0.5em;
 }
 
 .project img:hover{
     opacity: 0.4;
     cursor: pointer;
+}
+
+.project{
+    margin-bottom: 2.0em;
 }
 
 .process-desc, .contact-item, .skills, .about-info{
@@ -668,6 +669,26 @@ footer{
     .timeline{
         width: 100%;
     }
+
+    /* PROJECTS  */
+    .myProjects{
+        margin: 2.0em;
+    }
+    
+    .project img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .proj-container {
+        padding: 2.0em;
+    }
+
+    /* QUOTE  */
+   
+    .quote h1{
+        font-size: 32px;
+    }
 }
 
 /* ADJUSTED SCREEN - MEDIUM*/
@@ -697,6 +718,10 @@ footer{
 
     /* PROJECTS */
     
+    .myProjects{
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
 
     .process-desc, .contact-item, .about-info{
         flex-flow: column nowrap;
@@ -906,6 +931,11 @@ footer{
     /* NAVAGATION  */
 
     /* PROJECTS  */
+    .project img{
+        width: 400px;
+        height: 400px;
+    }
+
     #projects p, #process p, #about p{
         font-size: 12px;
     }
@@ -948,7 +978,7 @@ footer{
     /* ETC  */
     
     /* CONTAINER  */
-    .container{
+    .container, .proj-container{
         padding: 2.0em 0.5em;
     }
 
@@ -1004,6 +1034,10 @@ so they don't overlap */
     /* NAVIGATION  */
 
     /* PROJECTS */
+    .project img{
+        width: 300px;
+        height: 300px;
+    }
    
 
     .process-desc h2{
@@ -1049,7 +1083,7 @@ so they don't overlap */
     /* ETC  */
 
     /* CONTAINER  */
-    .container{
+    .container, .proj-container{
         padding: 2.0em 0;
     }
 
