@@ -268,7 +268,7 @@ html {
     width: 600px;
     height: 600px;
     border-radius: 10px;
-    margin: 0 auto 0.5em;
+    /* margin: 0 auto 0.5em; */
 }
 
 .proj-img:hover{
