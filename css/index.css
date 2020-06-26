@@ -248,49 +248,74 @@ html {
     margin-bottom: 4.0em;
 }
 
-/* the sections for the items in each category  */
-.proj-desc, .process-desc, .contact-item, .skills, .about-info{
+.proj-container {
+    /* max-width: 1250px; */
+    display: block;
+    margin: 4.0em auto;
+    text-align: center;
+    padding: 2.0em 5.0em;
+    background-color: whitesmoke;
+}
+
+.myProjects{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 2.0em 20.0em;
+}
+
+.project{
+    margin-bottom: 2.0em;
+}
+
+.project img{
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.project img:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.process-desc, .contact-item, .skills, .about-info{
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 2.0em;
 }
 
 /* the text inside the descriptions  */
-.proj-desc p, .process-desc p, .proj-desc h3, .process-desc h2{
+.process-desc p, .process-desc h2{
     text-align: left;
 }
 
 /* the ux links  */
-.view-process{
+/* .view-process{
     background-color: #283891;
     padding: 15px 32px;
     display: inline-block;
     font-size: 16px;
     margin: 1.0em 0;
     border-radius: 50px;
-}
+} */
 
 /* the ux links  */
-.view-process p{
+/* .view-process p{
     color: white
-}
+} */
 
-.view-process:hover{
+/* .view-process:hover{
     background-color: blue;
     cursor: pointer;
-}
+} */
 
 /* the image for projects and process  */
-.proj-desc img, .process-desc img{
+.process-desc img{
     width: 400px;
     height: 400px;
     margin: 0 auto;
-    border-radius: 15px;
-}
-
-.proj-desc img:hover{
-    opacity: 0.4;
-    cursor: pointer;
+    border-radius: 10px;
 }
 
 #projects p, #process p, #about p{
@@ -298,22 +323,11 @@ html {
     margin-top: 0.25em;
 }
 
-.earthquake-info{
-    padding: 1.0em 0;
-}
-
-.earthquake-info a{
-    color: blue;
-}
-
-.earthquake-info a:hover{
-    color: #283891;
-}
 .col h3{
     padding-bottom: 0.5em;
 }
 
-.ux, .web, .multimedia{
+.ux, .web-cs, .multimedia{
     margin-bottom: 2.0em;
 }
 
@@ -480,14 +494,6 @@ html {
 .about-info{
     text-align: left;
 }
-
-/* #about{
-    background-color: pink;
-    text-align: center; 
-    max-width: 950px;
-    margin: auto;
-   
-} */
 
 #about img{
     height: 300px;
@@ -690,11 +696,13 @@ footer{
     }
 
     /* PROJECTS */
-    .proj-desc, .process-desc, .contact-item, .about-info{
+    
+
+    .process-desc, .contact-item, .about-info{
         flex-flow: column nowrap;
     }
 
-    .proj-desc p, .process-desc p, .proj-desc h3, .process-desc h2{
+    .process-desc p, .process-desc h2{
         text-align: center;
     }
 
@@ -803,11 +811,6 @@ footer{
     .stock-img{
         font-size: 10px;
     }
-    
-    .proj-desc img{
-        width: 400px;
-        height: 400px;
-    }
 }
 
 /* ADJUSTED SCREEN - SMALL*/
@@ -843,6 +846,7 @@ footer{
     }
 
     /* PROJECTS  */
+
     #projects p, #process p, #about p{
         font-size: 18px;
     }
@@ -906,7 +910,7 @@ footer{
         font-size: 12px;
     }
 
-    .proj-desc p, .process-desc p, .about-info p{
+    .process-desc p, .about-info p{
         text-align: left;
     }
 
@@ -964,11 +968,6 @@ footer{
     .stock-img{
         font-size: 10px;
     }
-    
-    .proj-desc img{
-        width: 300px;
-        height: 300px;
-    }
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, 
@@ -1007,7 +1006,7 @@ so they don't overlap */
     /* PROJECTS */
    
 
-    .proj-desc h2, .process-desc h2{
+    .process-desc h2{
         padding-bottom: 0.5em;
     }
 
@@ -1071,11 +1070,5 @@ so they don't overlap */
 
     .stock-img{
         font-size: 10px;
-    }
-
-    .proj-desc img{
-        width: 350px;
-        height: 350px;
-    }
-    
+    }  
 }
