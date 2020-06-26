@@ -264,14 +264,14 @@ html {
     margin: 2.0em 20.0em;
 }
 
-.project img{
+.proj-img{
     width: 600px;
     height: 600px;
     border-radius: 10px;
     margin: 0 auto 0.5em;
 }
 
-.project img:hover{
+.proj-img:hover{
     opacity: 0.4;
     cursor: pointer;
 }
@@ -675,7 +675,7 @@ footer{
         margin: 2.0em;
     }
     
-    .project img{
+    .proj-img{
         width: 400px;
         height: 400px;
     }
@@ -931,7 +931,7 @@ footer{
     /* NAVAGATION  */
 
     /* PROJECTS  */
-    .project img{
+    .proj-img{
         width: 400px;
         height: 400px;
     }
@@ -1034,7 +1034,7 @@ so they don't overlap */
     /* NAVIGATION  */
 
     /* PROJECTS */
-    .project img{
+    .proj-img{
         width: 300px;
         height: 300px;
     }
