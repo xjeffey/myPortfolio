@@ -276,9 +276,9 @@ html {
 
 .myProjects{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin: 2.0em 20.0em;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin: 2.0em 0;
 }
 
 .myProjects a{
@@ -655,6 +655,7 @@ footer{
 
 /* Media queries - responsive web design for specific widths */
 
+
 /* THE NORMAL  */
 @media  screen and (max-width: 1000px){
     /* timeline width on screen  */
@@ -663,9 +664,7 @@ footer{
     }
 
     /* PROJECTS  */
-    .myProjects{
-        margin: 2.0em;
-    }
+   
     
     .proj-img{
         width: 400px;
