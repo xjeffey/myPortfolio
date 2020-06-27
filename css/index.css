@@ -235,7 +235,7 @@ html {
 
 /* projects */
 #projects{
-    background-color: white;
+    /* background-color: white; */
 }
 
 #projects h2{
@@ -257,6 +257,23 @@ html {
     background-color: whitesmoke;
 }
 
+.project{
+    /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+  transition: 0.3s;
+  padding-bottom: 0.5em;
+}
+
+/* On mouse-over, add a deeper shadow */
+.project:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.6);
+}
+
+/* Add some padding inside the card container */
+.proj-info {
+    margin: 0.5em auto;
+}
+
 .myProjects{
     display: flex;
     flex-flow: row wrap;
@@ -264,20 +281,15 @@ html {
     margin: 2.0em 20.0em;
 }
 
+.myProjects a{
+    text-decoration: none;
+    color: black;
+}
+
 .proj-img{
-    width: 600px;
-    height: 600px;
-    border-radius: 10px;
+    width: 500px;
+    height: 500px;
     /* margin: 0 auto 0.5em; */
-}
-
-.proj-img:hover{
-    opacity: 0.4;
-    cursor: pointer;
-}
-
-.project{
-    margin-bottom: 2.0em;
 }
 
 .process-desc, .contact-item, .skills, .about-info{
@@ -469,7 +481,7 @@ html {
 #about{
     /* background-color: pink; */
     /* margin: auto; */
-    padding: 15px;
+    padding: 5px;
 }
 
 .about-info{
@@ -703,6 +715,17 @@ footer{
         justify-content: center;
     }
 
+    .proj-img{
+        width: 500px;
+        height: 500px;
+    }
+
+    .project{
+        width: 500px;
+        margin: 0 auto;
+        margin-bottom: 2.0em;
+    }
+
     .process-desc, .contact-item, .about-info{
         flex-flow: column nowrap;
     }
@@ -852,8 +875,17 @@ footer{
 
     /* PROJECTS  */
 
+    .proj-img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .project{
+        width: 400px;
+    }
+
     #projects p, #process p, #about p{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     /* QUOTE  */
@@ -911,13 +943,17 @@ footer{
     /* NAVAGATION  */
 
     /* PROJECTS  */
-    .proj-img{
-        width: 400px;
-        height: 400px;
-    }
-
     #projects p, #process p, #about p{
         font-size: 12px;
+    }
+
+    .proj-img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .project{
+        width: 350px;
     }
 
     .process-desc p, .about-info p{
@@ -1018,7 +1054,10 @@ so they don't overlap */
         width: 300px;
         height: 300px;
     }
-   
+
+    .project{
+        width: 300px;
+    }
 
     .process-desc h2{
         padding-bottom: 0.5em;
