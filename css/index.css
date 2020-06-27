@@ -278,7 +278,7 @@ html {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-    margin: 2.0em 0;
+    margin: 2.0em 0 4.0em;
 }
 
 .myProjects a{
@@ -682,12 +682,6 @@ footer{
     }
 }
 
-@media screen and (max-width: 900px){
-    .myProjects{
-        margin: 2.0em 0;
-    }
-}
-
 /* ADJUSTED SCREEN - MEDIUM*/
 
 @media  screen and (max-width: 800px){
@@ -720,13 +714,13 @@ footer{
         justify-content: center;
     }
 
-    .proj-img{
+    /* .proj-img{
         width: 500px;
         height: 500px;
-    }
+    } */
 
     .project{
-        width: 500px;
+        width: 400px;
         margin: 0 auto;
         margin-bottom: 2.0em;
     }
