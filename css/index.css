@@ -278,7 +278,7 @@ html {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin: 2.0em 20.0em;
+    margin: 2.0em 10.0em;
 }
 
 .myProjects a{
