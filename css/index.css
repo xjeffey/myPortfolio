@@ -38,6 +38,11 @@ html {
 }
 
 /* ETC  */
+/* IMAGE CAPTION  */
+figcaption{
+    font-size: 10px;
+}
+
   /* general  */
   .container {
     max-width: 1250px;
