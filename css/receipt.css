@@ -851,7 +851,6 @@ font-family: 'Poppins', sans-serif;
         top: 0;
         right: 0;
         color: #283891;
-        z-index: 1;
     }
 
     .navbar a.icon:hover{
