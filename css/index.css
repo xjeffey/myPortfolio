@@ -733,7 +733,7 @@ footer{
         text-align: center;
     }
 
-    #projects p, #process p, #about p{
+    #projects p, #process p, #about p, .res-info p{
         font-size: 14px;
     }
 
@@ -866,6 +866,7 @@ footer{
         top: 0;
         right: 0;
         color: #283891;
+        z-index: 1;
     }
 
     .navbar a.icon:hover{
@@ -883,8 +884,8 @@ footer{
         width: 400px;
     }
 
-    #projects p, #process p, #about p{
-        font-size: 16px;
+    #projects p, #process p, #about p, .res-info p{
+        font-size: 12px;
     }
 
     /* QUOTE  */
