@@ -655,7 +655,36 @@ footer{
   }
 
 /* Media queries - responsive web design for specific widths */
+/* XXXL */
+@media screen and (max-width: 1600px){
+    /* PROJECTS  */
+    .proj-img{
+        width: 400px;
+        height: 400px;
+    }
+}
 
+/* XXL */
+@media screen and (max-width: 1400px){
+    /* PROJECTS  */
+    .proj-img{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+/* XL */
+@media screen and (max-width: 1200px){
+    /* PROJECTS  */
+    .proj-img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .myProjects{
+        font-size: 14px;
+    }
+}
 
 /* THE NORMAL  */
 @media  screen and (max-width: 1000px){
