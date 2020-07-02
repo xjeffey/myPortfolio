@@ -283,7 +283,7 @@ figcaption{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-    margin: 2.0em 0 4.0em;
+    margin-bottom: 4.0em;
 }
 
 .myProjects a{
@@ -323,10 +323,6 @@ figcaption{
 
 .col h3{
     padding-bottom: 0.5em;
-}
-
-.ux, .web-cs, .multimedia{
-    margin-bottom: 2.0em;
 }
 
 /* process */
@@ -669,11 +665,21 @@ footer{
     }
 
     /* PROJECTS  */
-   
-    
     .proj-img{
         width: 400px;
         height: 400px;
+    }
+
+    .myProjects{
+        flex-flow: column nowrap;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .project{
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 2.0em;
     }
 
     .proj-container {
@@ -714,21 +720,7 @@ footer{
 
     /* PROJECTS */
     
-    .myProjects{
-        flex-flow: column nowrap;
-        justify-content: center;
-    }
-
-    /* .proj-img{
-        width: 500px;
-        height: 500px;
-    } */
-
-    .project{
-        width: 400px;
-        margin: 0 auto;
-        margin-bottom: 2.0em;
-    }
+    
 
     .process-desc, .contact-item, .about-info{
         flex-flow: column nowrap;
