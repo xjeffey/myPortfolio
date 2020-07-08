@@ -233,7 +233,6 @@ html {
 /* PROJECT DESCRIPTION  */
 .description{
   display: flex;
-  line-height: 1.5em;
   flex-flow: row wrap;
 }
 
@@ -243,7 +242,7 @@ html {
 }
 
 .description p{
-  
+  line-height: 2.0em;
   text-align: left;
 }
 
@@ -273,7 +272,9 @@ iframe{
 
 .process p{
   font-size: 16px;
-  padding: 0 125px;
+  padding: 0 150px;
+  text-align: left;
+  line-height: 2.0em;
 }
 
 .problem, .research, .insight, .concept, .iteration{
@@ -351,7 +352,16 @@ iframe{
 /* INSIGHT  */
 
 /* CONCEPT  */
+.details{
+  text-align: left;
+  margin-top: 2.0em;
+  padding: 0 200px;
+  line-height: 1.5em;
+}
 
+.details li{
+  margin-bottom: 1.0em;
+}
 /* CONCEPT IMAGE CONTAINER  */
 .concept-image-container{
   width: 8000px;
@@ -509,7 +519,7 @@ font-family: 'Merriweather', serif;
 }
 
 /* FONT  */
-p, a{
+p, a, .details{
 font-family: 'Poppins', sans-serif;
 }
 
@@ -569,9 +579,15 @@ font-family: 'Poppins', sans-serif;
   /* NAVIGATION  */
 
   /* PROJECT DESCRIPTION  */
+  .description p{
+    line-height: 1.5em;
+  }
 
   /* THE PROCESS  */
-
+  .process p{
+    line-height: 1.5em;
+    padding: 0 25px;
+  }
   /* PROBLEM  */
 
   /* RESEARCH  */
@@ -579,6 +595,9 @@ font-family: 'Poppins', sans-serif;
   /* INSIGHT  */
 
   /* CONCEPT  */
+  .details{
+    padding: 0 100px;
+  }
 
   /* ITERATE  */
 
@@ -613,13 +632,13 @@ font-family: 'Poppins', sans-serif;
       flex-flow: column wrap;
     }
 
-    .description h2, .description p{
+    .description h2{
       text-align: center;
     }
 
     /* THE PROCESS  */
     .process p{
-      padding: 0;
+      padding: 0 25px;
     }
 
     /* PROBLEM  */
@@ -629,6 +648,10 @@ font-family: 'Poppins', sans-serif;
     /* INSIGHT  */
 
     /* CONCEPT  */
+    .details{
+      padding: 0 75px;
+    }
+
     .concept-image-container{
       width: 6000px;
       height: 450px;
@@ -755,12 +778,14 @@ font-family: 'Poppins', sans-serif;
     }
 
     /* PROJECT DESCRIPTION  */
-    .description p, .process p{
+    .description p{
       padding: 0;
-      text-align: left;
     }
 
     /* THE PROCESS  */
+    .process p{
+      padding: 0 5px;
+    }
 
     /* PROBLEM  */
 
@@ -769,6 +794,10 @@ font-family: 'Poppins', sans-serif;
     /* INSIGHT  */
 
     /* CONCEPT  */
+    .details{
+      padding: 0 50px;
+    }
+
     .concept-image-container{
       width: 5500px;
       height: 450px;
@@ -876,8 +905,12 @@ font-family: 'Poppins', sans-serif;
     /* PROJECT DESCRIPTION  */
 
     /* THE PROCESS  */
-    .process p, .description p{
+    .process p, .description p, .details{
       font-size: 12px;
+    }
+
+    .process p{
+      padding: 0 15px;
     }
 
     /* PROBLEM  */
@@ -1018,6 +1051,7 @@ so they don't overlap */
     /* THE PROCESS  */
     .process p, .description p{
       font-size: 10px;
+      padding: 0;
     }
 
     /* PROBLEM  */
@@ -1030,6 +1064,10 @@ so they don't overlap */
     /* INSIGHT  */
 
     /* CONCEPT  */
+    .details{
+      padding: 0 25px;
+    }
+
     .concept-image-container{
       width: 3250px;
       height: 350px;
