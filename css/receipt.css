@@ -248,15 +248,11 @@ html {
   text-align: left;
 }
 
-.description p{
+.overview{
   line-height: 1.5em;
   text-align: left;
 }
 
-.description h5{
-  margin-top: 0.5em;
-  /* text-align: center; */
-}
 
 /* the ux links  */
 .view-process{
@@ -309,10 +305,6 @@ iframe{
 }
 
 /* PROBLEM  */
-/* .problem{
-  
-} */
-
 .problem img{
   margin-bottom: 0.25em;
 }
@@ -617,7 +609,7 @@ font-family: 'Poppins', sans-serif;
 
     /* THE PROCESS  */
     .process p{
-      padding: 0 25px;
+      padding: 0;
     }
 
     /* PROBLEM  */
@@ -659,7 +651,7 @@ font-family: 'Poppins', sans-serif;
     }
 
 
-    .description h2, .description p{
+    .description h2{
       text-align: center;
     }
 
@@ -1026,11 +1018,6 @@ font-family: 'Poppins', sans-serif;
     /* THE PROCESS  */
     .process p{
       padding: 0 25px;
-      text-align: left;
-    }
-
-    .description p{
-      text-align: left;
     }
 
     /* PROBLEM  */
@@ -1096,7 +1083,7 @@ so they don't overlap */
     }
 
     .process p{
-      padding: 0;
+      padding: 0 15px;
     }
 
     .process h2, .description h2{

@@ -759,7 +759,7 @@ font-family: 'Poppins', sans-serif;
     }
 
     /* PROJECT DESCRIPTION  */
-    .description p, .process p{
+    .description p{
       padding: 0;
     }
 
@@ -873,6 +873,9 @@ font-family: 'Poppins', sans-serif;
     }
     
     /* HEADER  */
+    #header h1{
+      font-size: 28px;
+    }
     
     /* NAVIGATION  */
    
@@ -1021,10 +1024,6 @@ so they don't overlap */
     /* THE PROCESS  */
     .process p, .description p{
       font-size: 10px;
-    }
-
-    .process p{
-      padding: 0;
     }
 
     /* PROBLEM  */
