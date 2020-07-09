@@ -1054,8 +1054,8 @@ so they don't overlap */
 @media  screen and (max-width: 375px){
     /* IMAGES  */
     .research img, .concept img, .insight img, .iteration img, .process img, .description img{
-      width: 350px;
-      height: 350px;
+      width: 325px;
+      height: 325px;
     }
     
     /* HEADER  */
@@ -1094,8 +1094,8 @@ so they don't overlap */
 
     /* RESEARCH  */
     .research-image-container{
-      width: 1050px;
-      height: 400px;
+      width: 975px;
+      height: 375px;
     }
 
     #research-image-1:target ~ .research-image-container{
@@ -1103,19 +1103,19 @@ so they don't overlap */
     }
     
     #research-image-2:target ~ .research-image-container{
-      left: -350px;
+      left: -325px;
     }
     
     #research-image-3:target ~ .research-image-container{
-      left: -700px;
+      left: -650px;
     }
 
     /* INSIGHT  */
 
     /* CONCEPT  */
     .concept-image-container{
-      width: 5250px;
-      height: 400px;
+      width: 4875px;
+      height: 375px;
     }
     
     /* CONCEPT IMAGES  */
@@ -1124,66 +1124,66 @@ so they don't overlap */
     }
     
     #concept-image-2:target ~ .concept-image-container{
-      left: -350px;
+      left: -325px;
     }
     
     #concept-image-3:target ~ .concept-image-container{
-      left: -700px;
+      left: -650px;
     }
     
     #concept-image-4:target ~ .concept-image-container{
-      left: -1050px;
+      left: -975px;
     }
     
     #concept-image-5:target ~ .concept-image-container{
-      left: -1400px;
+      left: -1300px;
     }
     
     #concept-image-6:target ~ .concept-image-container{
-      left: -1750px;
+      left: -1625px;
     }
     
     #concept-image-7:target ~ .concept-image-container{
-      left: -2100px;
+      left: -1950px;
     }
     
     #concept-image-8:target ~ .concept-image-container{
-      left: -2450px;
+      left: -2275px;
     }
     
     #concept-image-9:target ~ .concept-image-container{
-      left: -2800px;
+      left: -2600px;
     }
     
     #concept-image-10:target ~ .concept-image-container{
-      left: -3150px;
+      left: -2925px;
     }
     
     #concept-image-11:target ~ .concept-image-container{
-      left: -3500px;
+      left: -3250px;
     }
     
     #concept-image-12:target ~ .concept-image-container{
-      left: -3850px;
+      left: -3575px;
     }
     
     #concept-image-13:target ~ .concept-image-container{
-      left: -4200px;
+      left: -3900px;
     }
     
     #concept-image-14:target ~ .concept-image-container{
-      left: -4550px;
+      left: -4225px;
     }
     
     #concept-image-15:target ~ .concept-image-container{
-      left: -4900px;
+      left: -4550px;
     }
 
 
     /* ITERATE  */
     .iteration-image-container{
-      width: 2100px;
-      height: 400px;
+      width: 1950px;
+      height: 375px;
     }
 
     /* ITERATION IMAGES  */
@@ -1192,23 +1192,23 @@ so they don't overlap */
     }
 
     #iteration-image-2:target ~ .iteration-image-container{
-      left: -350px;
+      left: -325px;
     }
 
     #iteration-image-3:target ~ .iteration-image-container{
-      left: -700px;
+      left: -650px;
     }
 
     #iteration-image-4:target ~ .iteration-image-container{
-      left: -1050px;
+      left: -975px;
     }
 
     #iteration-image-5:target ~ .iteration-image-container{
-      left: -1400px;
+      left: -1300px;
     }
 
     #iteration-image-6:target ~ .iteration-image-container{
-      left: -1750px;
+      left: -1625px;
     }
     
 
@@ -1221,8 +1221,8 @@ so they don't overlap */
     }
 
     .slide-container{
-      width: 350px;
-      height: 400px;
+      width: 325px;
+      height: 375px;
     }
 
     .container{

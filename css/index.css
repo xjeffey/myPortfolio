@@ -688,6 +688,10 @@ footer{
 
 /* THE NORMAL  */
 @media  screen and (max-width: 1000px){
+    .navbar a{
+        font-size: 16px;
+    }
+
     /* timeline width on screen  */
     .timeline{
         width: 100%;
@@ -720,6 +724,15 @@ footer{
     .quote h1{
         font-size: 32px;
     }
+
+    /* PROCESS  */
+    .process-desc h2, .about-info h3{
+        text-align: center;
+    }
+
+    .process-desc, .contact-item, .about-info{
+        flex-flow: column nowrap;
+    }
 }
 
 /* ADJUSTED SCREEN - MEDIUM*/
@@ -749,15 +762,6 @@ footer{
 
     /* PROJECTS */
     
-    
-
-    .process-desc, .contact-item, .about-info{
-        flex-flow: column nowrap;
-    }
-
-    .process-desc p, .process-desc h2{
-        text-align: center;
-    }
 
     #projects p, #process p, #about p, .res-info p{
         font-size: 14px;
@@ -821,10 +825,6 @@ footer{
     }
 
     /* ABOUT  */
-    .about-info{
-        text-align: center;
-    }
-
     #about img{
         width: 200px;
         height: 200px;
@@ -841,7 +841,7 @@ footer{
 
     /* CONTACT  */
     .form-control{
-        width: 400px;
+        width: 500px;
     }
 
     /* ETC  */
@@ -949,7 +949,7 @@ footer{
     }
 
     .form-control{
-        width: 250px;
+        width: 350px;
     }
 
     /* ETC  */
@@ -1124,8 +1124,15 @@ so they don't overlap */
     /* ABOUT  */
 
     /* CONTACT  */
+    .form-control{
+        width: 300px;
+    }
 
     /* ETC  */
+
+    .skillsBox{
+        padding: 0 16px;
+    }
 
     /* CONTAINER  */
     .container, .proj-container{
