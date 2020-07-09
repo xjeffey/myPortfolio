@@ -1095,6 +1095,10 @@ so they don't overlap */
       font-size: 14px;
     }
 
+    .process p{
+      padding: 0;
+    }
+
     .process h2, .description h2{
       padding-bottom: 0.5em;
     }
