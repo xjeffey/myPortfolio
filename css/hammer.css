@@ -189,7 +189,7 @@ html {
     height: 100%;
     width: 0;
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 2; /* Sit on top */
     left: 0;
     top: 0;
     background-color: rgb(0,0,0); /* Black fallback color */
@@ -273,6 +273,7 @@ iframe{
 
 .process p{
   font-size: 16px;
+  text-align: left;
   padding: 0 125px;
 }
 
@@ -571,6 +572,9 @@ font-family: 'Poppins', sans-serif;
   /* PROJECT DESCRIPTION  */
 
   /* THE PROCESS  */
+  .process p{
+    padding: 0 25px;
+  }
 
   /* PROBLEM  */
 
@@ -746,6 +750,7 @@ font-family: 'Poppins', sans-serif;
         display: block;
         position: fixed;
         top: 0;
+        z-index: 1;
         right: 0;
         color: #283891;
     }
