@@ -862,7 +862,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 /* WIDTH SIZE SMALLEST  */
-@media screen and (max-width: 450px){
+@media screen and (max-width: 500px){
     /* IMAGES  */
     .concept img, .iteration img, .process img, .problem img, .description img{
       width: 375px;
