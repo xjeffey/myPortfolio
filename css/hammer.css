@@ -1014,10 +1014,6 @@ so they don't overlap */
       font-size: 24px;
     }
 
-    #header h1{
-      padding: 0 5px;
-    }
-
     .process h2, .description h2{
       font-size: 20px;
     }
