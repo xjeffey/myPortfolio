@@ -228,11 +228,6 @@ figcaption{
     margin: 20px 0;
 }
 
-#header h2{
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-}
-
 /* home */
 #home{
     background-color: red;
@@ -744,10 +739,6 @@ footer{
         font-size: 72px;
     }
 
-    #header h2{
-        font-size: 20px;
-    }
-
     /* the logo  */
     .logo{
         height: 100px;
@@ -962,10 +953,6 @@ footer{
         font-size: 48px;
     }
 
-    #header h2{
-        font-size: 14px;
-    }
-
     /* NAVAGATION  */
 
     /* PROJECTS  */
@@ -1061,10 +1048,6 @@ so they don't overlap */
     #header h1{
         margin-top: 0;
         font-size: 36px;
-    }
-
-    #header h2{
-        font-size: 12px;
     }
 
     /* the logo  */
