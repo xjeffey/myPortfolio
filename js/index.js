@@ -38,8 +38,37 @@ submitButton.addEventListener('click', emailConfirm);
 
 //checking if user has entered in info for each field
 function emailConfirm(){
-  if (name.value.length > 0 && email.value.length > 0 && subject.value.length > 0 && message.value.length > 0 && email.value.includes("@")){
+  // regex patter for email 
+  const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+  //letting user know what is wrong
+  let alertMessage = "Please fix the following:\n\t";
+
+  //everything is ok
+  if (name.value.length > 0 && email.value.length > 0 && subject.value.length > 0 && message.value.length > 0 && email.value.match(pattern)){
     window.alert("Email has been sent!");
+  }
+  else{
+    //checking for valid email
+    if(!email.value.match(pattern) || email.value.length < 0){
+      alertMessage += "- enter valid email\n\t"
+    }
+
+    //checking if there is a name
+    if(name.value.length < 0){
+      alertMessage += "- enter a name\n\t"
+    }
+
+    //checking the subject line
+    if(subject.value.length < 0){
+      alertMessage += "- enter a subject\n\t"
+    }
+
+    //checking the message line
+    if(message.value.length < 0){
+      alertMessage += "- enter a message\n\t"
+    }
+
+    window.alert(alertMessage);
   }
 }
 

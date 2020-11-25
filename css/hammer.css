@@ -1011,7 +1011,7 @@ so they don't overlap */
     
     /* HEADER  */
     #header h1, .demo h1, .process h1, h1{
-      font-size: 22px;
+      font-size: 24px;
     }
 
     .process h2, .description h2{
