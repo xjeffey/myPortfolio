@@ -41,33 +41,34 @@ function emailConfirm(){
   // regex patter for email 
   const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
   //letting user know what is wrong
-  let alertMessage = "Please fix the following:\n\t";
-
+  let alertMessage = "Please fix the following:\n";
+  
   //everything is ok
-  if (name.value.length > 0 && email.value.length > 0 && subject.value.length > 0 && message.value.length > 0 && email.value.match(pattern)){
+  if (name.value !== "" && email.value !== "" && subject.value !== "" && message.value !== "" > 0 && email.value.match(pattern)){
     window.alert("Email has been sent!");
   }
   else{
-    //checking for valid email
-    if(!email.value.match(pattern) || email.value.length < 0){
-      alertMessage += "- enter valid email\n\t"
+    //checking if there is a name
+    if(name.value === ""){
+      alertMessage += "- enter a name\n";
     }
 
-    //checking if there is a name
-    if(name.value.length < 0){
-      alertMessage += "- enter a name\n\t"
+    //checking for valid email
+    if(!email.value.match(pattern) || email.value.length < 0){
+      alertMessage += "- enter valid email\n";
     }
 
     //checking the subject line
-    if(subject.value.length < 0){
-      alertMessage += "- enter a subject\n\t"
+    if(subject.value === ""){
+      alertMessage += "- enter a subject\n";
     }
 
     //checking the message line
-    if(message.value.length < 0){
-      alertMessage += "- enter a message\n\t"
+    if(message.value === ""){
+      alertMessage += "- enter a message\n";
     }
 
+    //showing user what is wrong
     window.alert(alertMessage);
   }
 }
