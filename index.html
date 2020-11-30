@@ -466,7 +466,7 @@
                 <!-- PHP NOT WORKING - WORK ON NEAR THE END  -->
                 <div class="col">
                     <div class="contact-form">
-                        <form id="contact-form" method="POST" action="php/contact-form.php">
+                        <form id="contact-form" onsubmit="return emailConfirm()" method="POST" action="php/contact-form.php">
                             <input name="name" type="text" class="form-control" placeholder="Your Name" required>
                             <br>
                             <input name="email" type="email" class="form-control" placeholder="Your Email" required>

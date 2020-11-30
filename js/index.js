@@ -30,47 +30,30 @@ let email = inputs[1];
 let subject = inputs[2];
 let message = document.querySelector("textarea");
 
-// button
-let submitButton = inputs[3];
-
-//adding event to submit
-submitButton.addEventListener('click', emailConfirm);
+// flag variable for sending email
+let sendEmail = false;
 
 //checking if user has entered in info for each field
 function emailConfirm(){
   // regex patter for email 
   const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
   //letting user know what is wrong
-  let alertMessage = "Please fix the following:\n";
-  
-  //everything is ok
-  if (name.value !== "" && email.value !== "" && subject.value !== "" && message.value !== "" > 0 && email.value.match(pattern)){
-    window.alert("Email has been sent!");
+  let alertMessage = "";
+
+  //checking for a valid email since form already takes care of other stuff for me
+  if(!email.value.match(pattern) || email.value.length < 0){
+    alertMessage = "Please enter a valid email.";
+    sendEmail = false;
+  }else{
+    alertMessage = "Email has been sent!"
+    sendEmail = true;
   }
-  else{
-    //checking if there is a name
-    if(name.value === ""){
-      alertMessage += "- enter a name\n";
-    }
 
-    //checking for valid email
-    if(!email.value.match(pattern) || email.value.length < 0){
-      alertMessage += "- enter valid email\n";
-    }
+  //letting user know what has happened
+  window.alert(alertMessage);
 
-    //checking the subject line
-    if(subject.value === ""){
-      alertMessage += "- enter a subject\n";
-    }
-
-    //checking the message line
-    if(message.value === ""){
-      alertMessage += "- enter a message\n";
-    }
-
-    //showing user what is wrong
-    window.alert(alertMessage);
-  }
+  return sendEmail;
 }
 
 // THE OVERLAY HAMBURGER MENU 
