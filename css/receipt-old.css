@@ -1,0 +1,1235 @@
+/* natural box model */
+html {
+    box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Browser Upgrade Prompt */
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* hides an element, but not from screen readers */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* IMAGES  */
+
+/* logo  */
+.logo {
+    height: 125px;
+    width: 125px;
+    margin: 2.0em auto 0 auto;
+}
+
+/* the project image  */
+.description img{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.research img{
+  width: 800px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.concept img, .insight img, .iteration img, .process img{
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+/* MODAL IMAGE */
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  /* background-color: rgba(0,0,0,0.9); Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* HEADER */
+#header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    text-align: center;
+    margin-bottom: 2.0em;
+}
+
+#header h1{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 72px;
+    margin: 20px 0;
+}
+
+#header h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+/* NAVIGATION  */
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin: 3.0em 0;
+    background-color: white;
+}
+
+.navbar .icon{
+    color: black;
+}
+
+/* links in navigation */
+.navbar a{
+    padding: 12px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: blue;
+}
+
+/* hovering over link  */
+.navbar a:hover {
+    color: #283891;
+    cursor: pointer;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+    display: none;
+  }
+
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+/* PROJECT DESCRIPTION  */
+.description{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.description h2{
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+
+.overview{
+  line-height: 1.5em;
+  text-align: left;
+}
+
+
+/* the ux links  */
+.view-process{
+  background-color: #283891;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 4.0em;
+  border-radius: 50px;
+}
+
+/* the ux links  */
+.view-process p{
+  color: white
+}
+
+.view-process:hover{
+  background-color: blue;
+  cursor: pointer;
+}
+
+/* DEMO  */
+iframe{
+  width: 800px;
+  height: 450px;
+  margin-bottom: 1.0em;
+}
+
+/* THE PROCESS  */
+.process{
+  display: flex;
+  flex-flow: column nowrap;
+  line-height: 1.5em;
+}
+
+.process h2{
+  font-size: 24px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+.process p{
+  font-size: 16px;
+  text-align: left;
+  padding: 0 150px;
+}
+
+.problem, .research, .insight, .concept, .iteration{
+  margin-bottom: 4.0em;
+}
+
+/* PROBLEM  */
+.problem img{
+  margin-bottom: 0.25em;
+}
+
+/* RESEARCH  */
+/* .research{
+  
+} */
+
+/* INSIGHT  */
+/* .insight{
+  
+} */
+
+/* CONCEPT  */
+/* .concept{
+  
+} */
+
+/* ITERATE  */
+/* .iteration{
+  
+} */
+
+/* PROTOTYPE  */
+
+/* ETC  */
+
+/* IMAGE CAPTION  */
+figcaption{
+  margin-bottom: 1.5em;
+  font-size: 10px;
+}
+
+/* CONTAINER  */
+.container {
+    max-width: 1250px;
+    display: block;
+    margin: 4.0em auto;
+    text-align: center;
+    padding: 2.0em 5.0em;
+    background-color: whitesmoke;
+}
+
+/* ITERATION SLIDE SHOW  */
+
+/* ITERATION IMAGE SLIDER  */
+.iteration-image-container{
+  width: 4800px;
+  height: 550px;
+  position: relative;
+  transition: left 2s;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+}
+
+/* ITERATION IMAGES  */
+#iteration-image-1:target ~ .iteration-image-container{
+  left: 0;
+}
+
+#iteration-image-2:target ~ .iteration-image-container{
+  left: -800px;
+}
+
+#iteration-image-3:target ~ .iteration-image-container{
+  left: -1600px;
+}
+
+#iteration-image-4:target ~ .iteration-image-container{
+  left: -2400px;
+}
+
+#iteration-image-5:target ~ .iteration-image-container{
+  left: -3200px;
+}
+
+#iteration-image-6:target ~ .iteration-image-container{
+  left: -4000px;
+}
+
+/* CONCEPT SLIDE SHOW  */
+
+/* CONCEPT IMAGE CONTAINER  */
+.concept-image-container{
+  width: 12000px;
+  height: 550px;
+  position: relative;
+  transition: left 2s;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+}
+
+/* CONCEPT IMAGES  */
+#concept-image-1:target ~ .concept-image-container{
+  left: 0;
+}
+
+#concept-image-2:target ~ .concept-image-container{
+  left: -800px;
+}
+
+#concept-image-3:target ~ .concept-image-container{
+  left: -1600px;
+}
+
+#concept-image-4:target ~ .concept-image-container{
+  left: -2400px;
+}
+
+#concept-image-5:target ~ .concept-image-container{
+  left: -3200px;
+}
+
+#concept-image-6:target ~ .concept-image-container{
+  left: -4000px;
+}
+
+#concept-image-7:target ~ .concept-image-container{
+  left: -4800px;
+}
+
+#concept-image-8:target ~ .concept-image-container{
+  left: -5600px;
+}
+
+#concept-image-9:target ~ .concept-image-container{
+  left: -6400px;
+}
+
+#concept-image-10:target ~ .concept-image-container{
+  left: -7200px;
+}
+
+#concept-image-11:target ~ .concept-image-container{
+  left: -8000px;
+}
+
+#concept-image-12:target ~ .concept-image-container{
+  left: -8800px;
+}
+
+#concept-image-13:target ~ .concept-image-container{
+  left: -9600px;
+}
+
+#concept-image-14:target ~ .concept-image-container{
+  left: -10400px;
+}
+
+#concept-image-15:target ~ .concept-image-container{
+  left: -11200px;
+}
+
+/* SLIDE SHOW CONTAINER RESEARCH */
+.slide-container{
+  width: 800px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 1.0em;
+}
+
+/* RESEARCH IMAGE CONTAINER  */
+.research-image-container{
+  width: 2400px;
+  height: 550px;
+  position: relative;
+  transition: left 2s;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+}
+
+/* SLIDE SHOW IMAGE  */
+.slider-image{
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+/* SLIDER BUTTON CONTAINER  */
+.button-container{
+  top: -25px;
+  position: relative;
+}
+
+/* SLIDER BUTTON  */
+.slider-button{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.slider-button:hover{
+  background-color: lightgray;
+}
+
+/* ACTIVE IMAGE IN SLIDE SHOW  */
+.active-image{
+  background-color: blue;
+}
+
+/* RESEARCH IMAGES TARGET */
+
+#research-image-1:target ~ .research-image-container{
+  left: 0;
+}
+
+#research-image-2:target ~ .research-image-container{
+  left: -800px;
+}
+
+#research-image-3:target ~ .research-image-container{
+  left: -1600px;
+}
+
+/* THE WHOLE  */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* FONT  */
+h1, h2, h3, h4, h5, h6{
+font-family: 'Merriweather', serif;
+}
+
+/* FONT  */
+p, a{
+font-family: 'Poppins', sans-serif;
+}
+
+/* COLOUMN  */
+.col{
+  flex: 1;
+  padding: 1em;
+  /* border: solid; */
+}
+
+/* back to top button */
+  #backTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    width: 70px;
+    height: 70px;
+    font-size: 12px;
+  }
+  
+  #backTopBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+    cursor: pointer;
+  }
+
+/* footer  */
+.footer-container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2.0em 5.0em;
+    background-color: white;
+  }
+
+/* MEDIA QUERIES - responsive web design for specific widths */
+
+/* THE NORMAL  */
+@media  screen and (max-width: 1000px){
+    /* IMAGES  */
+    .description img{
+      width: 400px;
+      height: 400px;
+    }
+
+    /* HEADER  */
+    
+    /* NAVIGATION  */
+
+    /* PROJECT DESCRIPTION  */
+    .view-process{
+      margin-top: 2.0em;
+    }
+
+    /* THE PROCESS  */
+    .process p{
+      padding: 0;
+    }
+
+    /* PROBLEM  */
+
+    /* RESEARCH  */
+
+    /* INSIGHT  */
+
+    /* CONCEPT  */
+
+    /* ITERATE  */
+
+    /* PROTOTYPE  */
+
+    /* ETC  */
+ 
+}
+
+/* ADJUSTED SCREEN - MEDIUM*/
+
+@media  screen and (max-width: 800px){
+    /* IMAGES  */
+    .research img, .concept img, .insight img, .iteration img, .process img{
+      width: 650px;
+      height: 450px;
+    }
+
+    /* HEADER  */
+    .logo{
+        height: 100px;
+        width: 100px;
+    }
+    
+    /* NAVIGATION  */
+
+    /* PROJECT DESCRIPTION  */
+    .description{
+      flex-flow: column nowrap;
+    }
+
+
+    .description h2{
+      text-align: center;
+    }
+
+    /* DEMO  */
+    iframe{
+      width: 650px;
+      height: 450px;
+    }
+
+    /* THE PROCESS  */
+    .process p{
+      padding: 0;
+    }
+
+    /* PROBLEM  */
+
+    /* RESEARCH  */
+    .research-image-container{
+      width: 1950px;
+      height: 500px;
+    }
+
+    #research-image-1:target ~ .research-image-container{
+      left: 0;
+    }
+    
+    #research-image-2:target ~ .research-image-container{
+      left: -650px;
+    }
+    
+    #research-image-3:target ~ .research-image-container{
+      left: -1300px;
+    }
+
+    /* INSIGHT  */
+
+    /* CONCEPT  */
+
+    .concept-image-container{
+      width: 9750px;
+      height: 500px;
+    }
+    
+    /* CONCEPT IMAGES  */
+    #concept-image-1:target ~ .concept-image-container{
+      left: 0;
+    }
+    
+    #concept-image-2:target ~ .concept-image-container{
+      left: -650px;
+    }
+    
+    #concept-image-3:target ~ .concept-image-container{
+      left: -1300px;
+    }
+    
+    #concept-image-4:target ~ .concept-image-container{
+      left: -1950px;
+    }
+    
+    #concept-image-5:target ~ .concept-image-container{
+      left: -2600px;
+    }
+    
+    #concept-image-6:target ~ .concept-image-container{
+      left: -3250px;
+    }
+    
+    #concept-image-7:target ~ .concept-image-container{
+      left: -3900px;
+    }
+    
+    #concept-image-8:target ~ .concept-image-container{
+      left: -4550px;
+    }
+    
+    #concept-image-9:target ~ .concept-image-container{
+      left: -5200px;
+    }
+    
+    #concept-image-10:target ~ .concept-image-container{
+      left: -5850px;
+    }
+    
+    #concept-image-11:target ~ .concept-image-container{
+      left: -6500px;
+    }
+    
+    #concept-image-12:target ~ .concept-image-container{
+      left: -7150px;
+    }
+    
+    #concept-image-13:target ~ .concept-image-container{
+      left: -7800px;
+    }
+    
+    #concept-image-14:target ~ .concept-image-container{
+      left: -8450px;
+    }
+    
+    #concept-image-15:target ~ .concept-image-container{
+      left: -9100px;
+    }
+
+    /* ITERATE  */
+    /* ITERATION IMAGE SLIDER  */
+    .iteration-image-container{
+      width: 3900px;
+      height: 500px;
+    }
+
+    /* ITERATION IMAGES  */
+    #iteration-image-1:target ~ .iteration-image-container{
+      left: 0;
+    }
+
+    #iteration-image-2:target ~ .iteration-image-container{
+      left: -650px;
+    }
+
+    #iteration-image-3:target ~ .iteration-image-container{
+      left: -1300px;
+    }
+
+    #iteration-image-4:target ~ .iteration-image-container{
+      left: -1950px;
+    }
+
+    #iteration-image-5:target ~ .iteration-image-container{
+      left: -2600px;
+    }
+
+    #iteration-image-6:target ~ .iteration-image-container{
+      left: -3250px;
+    }
+
+
+    /* PROTOTYPE  */
+
+    /* ETC  */
+
+    /* SLIDE SHOWS  */
+    .slide-container{
+      width: 650px;
+      height: 500px;
+    }
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/* ADJUSTED SCREEN - SMALL*/
+@media screen and (max-width: 600px){
+    /* IMAGES  */
+
+    .research img, .concept img, .insight img, .iteration img, .process img{
+      width: 450px;
+      height: 350px;
+    }
+
+    /* LOGO  */
+
+    /* HEADER  */
+    #header h1{
+      font-size: 54px;
+    }
+
+    #header h2{
+        font-size: 18px;
+    }
+    
+    /* NAVIGATION  */
+    /* the nav bar iteself  */
+    .navbar{
+        text-align: right;
+        display: block;
+        margin-right: 0.5em;
+    }
+
+    /* the nav bar links  */
+    .navbar a {
+        display: none;
+    }
+
+    /* the hamburger icon  */
+    .navbar a.icon {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        color: #283891;
+    }
+
+    .navbar a.icon:hover{
+        color: blue;
+    }
+
+    /* PROJECT DESCRIPTION  */
+    .description{
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    /* THE PROCESS  */
+    .process p{
+      padding: 0 50px;
+    }
+
+    /* PROBLEM  */
+
+    /* RESEARCH  */
+    .research-image-container{
+      width: 1350px;
+      height: 400px;
+    }
+
+    #research-image-1:target ~ .research-image-container{
+      left: 0;
+    }
+    
+    #research-image-2:target ~ .research-image-container{
+      left: -450px;
+    }
+    
+    #research-image-3:target ~ .research-image-container{
+      left: -900px;
+    }
+
+    /* INSIGHT  */
+
+    /* CONCEPT  */
+    .concept-image-container{
+      width: 6750px;
+      height: 400px;
+    }
+    
+    /* CONCEPT IMAGES  */
+    #concept-image-1:target ~ .concept-image-container{
+      left: 0;
+    }
+    
+    #concept-image-2:target ~ .concept-image-container{
+      left: -450px;
+    }
+    
+    #concept-image-3:target ~ .concept-image-container{
+      left: -900px;
+    }
+    
+    #concept-image-4:target ~ .concept-image-container{
+      left: -1350px;
+    }
+    
+    #concept-image-5:target ~ .concept-image-container{
+      left: -1800px;
+    }
+    
+    #concept-image-6:target ~ .concept-image-container{
+      left: -2250px;
+    }
+    
+    #concept-image-7:target ~ .concept-image-container{
+      left: -2700px;
+    }
+    
+    #concept-image-8:target ~ .concept-image-container{
+      left: -3150px;
+    }
+    
+    #concept-image-9:target ~ .concept-image-container{
+      left: -3600px;
+    }
+    
+    #concept-image-10:target ~ .concept-image-container{
+      left: -4050px;
+    }
+    
+    #concept-image-11:target ~ .concept-image-container{
+      left: -4500px;
+    }
+    
+    #concept-image-12:target ~ .concept-image-container{
+      left: -4950px;
+    }
+    
+    #concept-image-13:target ~ .concept-image-container{
+      left: -5400px;
+    }
+    
+    #concept-image-14:target ~ .concept-image-container{
+      left: -5850px;
+    }
+    
+    #concept-image-15:target ~ .concept-image-container{
+      left: -6300px;
+    }
+
+    /* ITERATE  */
+    .iteration-image-container{
+      width: 2700px;
+      height: 400px;
+    }
+
+    /* ITERATION IMAGES  */
+    #iteration-image-1:target ~ .iteration-image-container{
+      left: 0;
+    }
+
+    #iteration-image-2:target ~ .iteration-image-container{
+      left: -450px;
+    }
+
+    #iteration-image-3:target ~ .iteration-image-container{
+      left: -900px;
+    }
+
+    #iteration-image-4:target ~ .iteration-image-container{
+      left: -1350px;
+    }
+
+    #iteration-image-5:target ~ .iteration-image-container{
+      left: -1800px;
+    }
+
+    #iteration-image-6:target ~ .iteration-image-container{
+      left: -2250px;
+    }
+
+    /* PROTOTYPE  */
+
+    /* ETC  */
+    .container{
+      max-width: 600px;
+      padding: 2.0em 1.5em;
+    }
+
+    iframe{
+      width: 450px;
+      height: 350px;
+    }
+
+    .slide-container{
+      width: 450px;
+      height: 400px;
+    }
+   
+}
+
+/* WIDTH SIZE SMALLEST  */
+@media screen and (max-width: 500px){
+    /* IMAGES  */
+    
+    /* HEADER  */
+    
+    /* NAVIGATION  */
+   
+    /* PROJECT DESCRIPTION  */
+
+    /* THE PROCESS  */
+    .process p{
+      padding: 0 25px;
+    }
+
+    /* PROBLEM  */
+
+    /* RESEARCH  */
+
+    /* INSIGHT  */
+
+    /* CONCEPT  */
+
+    /* ITERATE  */
+
+    /* PROTOTYPE  */
+
+    /* ETC  */
+    .container{
+      padding: 2.0em 0;
+    }
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, 
+so they don't overlap */
+@media screen and (max-height: 450px) {
+    /* HAMBURGER CLOSE  */
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+
+/* MOBILE IPHONE 6/7/8  */
+@media  screen and (max-width: 375px){
+    /* IMAGES  */
+    .research img, .concept img, .insight img, .iteration img, .process img, .description img{
+      width: 325px;
+      height: 325px;
+    }
+    
+    /* HEADER  */
+    #header h1{
+      font-size: 48px;
+      letter-spacing: 2px;
+    }
+
+    #header h2{
+        font-size: 12px;
+    }
+
+    .logo{
+      height: 75px;
+      width: 75px;
+    }
+    
+    /* NAVIGATION  */
+
+    /* PROJECT DESCRIPTION  */
+
+    /* THE PROCESS  */
+    .process p, .description p{
+      font-size: 14px;
+    }
+
+    .process p{
+      padding: 0 15px;
+    }
+
+    .process h2, .description h2{
+      padding-bottom: 0.5em;
+    }
+
+    /* PROBLEM  */
+
+    /* RESEARCH  */
+    .research-image-container{
+      width: 975px;
+      height: 375px;
+    }
+
+    #research-image-1:target ~ .research-image-container{
+      left: 0;
+    }
+    
+    #research-image-2:target ~ .research-image-container{
+      left: -325px;
+    }
+    
+    #research-image-3:target ~ .research-image-container{
+      left: -650px;
+    }
+
+    /* INSIGHT  */
+
+    /* CONCEPT  */
+    .concept-image-container{
+      width: 4875px;
+      height: 375px;
+    }
+    
+    /* CONCEPT IMAGES  */
+    #concept-image-1:target ~ .concept-image-container{
+      left: 0;
+    }
+    
+    #concept-image-2:target ~ .concept-image-container{
+      left: -325px;
+    }
+    
+    #concept-image-3:target ~ .concept-image-container{
+      left: -650px;
+    }
+    
+    #concept-image-4:target ~ .concept-image-container{
+      left: -975px;
+    }
+    
+    #concept-image-5:target ~ .concept-image-container{
+      left: -1300px;
+    }
+    
+    #concept-image-6:target ~ .concept-image-container{
+      left: -1625px;
+    }
+    
+    #concept-image-7:target ~ .concept-image-container{
+      left: -1950px;
+    }
+    
+    #concept-image-8:target ~ .concept-image-container{
+      left: -2275px;
+    }
+    
+    #concept-image-9:target ~ .concept-image-container{
+      left: -2600px;
+    }
+    
+    #concept-image-10:target ~ .concept-image-container{
+      left: -2925px;
+    }
+    
+    #concept-image-11:target ~ .concept-image-container{
+      left: -3250px;
+    }
+    
+    #concept-image-12:target ~ .concept-image-container{
+      left: -3575px;
+    }
+    
+    #concept-image-13:target ~ .concept-image-container{
+      left: -3900px;
+    }
+    
+    #concept-image-14:target ~ .concept-image-container{
+      left: -4225px;
+    }
+    
+    #concept-image-15:target ~ .concept-image-container{
+      left: -4550px;
+    }
+
+
+    /* ITERATE  */
+    .iteration-image-container{
+      width: 1950px;
+      height: 375px;
+    }
+
+    /* ITERATION IMAGES  */
+    #iteration-image-1:target ~ .iteration-image-container{
+      left: 0;
+    }
+
+    #iteration-image-2:target ~ .iteration-image-container{
+      left: -325px;
+    }
+
+    #iteration-image-3:target ~ .iteration-image-container{
+      left: -650px;
+    }
+
+    #iteration-image-4:target ~ .iteration-image-container{
+      left: -975px;
+    }
+
+    #iteration-image-5:target ~ .iteration-image-container{
+      left: -1300px;
+    }
+
+    #iteration-image-6:target ~ .iteration-image-container{
+      left: -1625px;
+    }
+    
+
+    /* PROTOTYPE  */
+
+    /* ETC  */
+    iframe{
+      width: 350px;
+      height: 300px;
+    }
+
+    .slide-container{
+      width: 325px;
+      height: 375px;
+    }
+
+    .container{
+      max-width: 375px;
+    }
+
+    .slider-button:hover{
+      background-color: blue;
+    }
+}
