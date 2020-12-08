@@ -1,4 +1,6 @@
 /* DEFAULT STUFF  */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* natural box model */
 html {
   box-sizing: border-box;
@@ -36,7 +38,7 @@ html {
 
 /* CONTAINER  */
 .container {
-  max-width: 1250px;
+  max-width: 80vw;
   display: block;
   margin: 4.0em auto;
   text-align: center;
@@ -102,6 +104,7 @@ padding: 1em;
 }
 
 /* IMAGES  */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* logo  */
 .logo {
@@ -185,6 +188,7 @@ padding: 1em;
 }
 
 /* NAVIGATION  */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .navbar{
   display: flex;
   justify-content: center;
@@ -263,6 +267,9 @@ padding: 1em;
   font-size: 60px;
 }
 
+/* SECTIONS ON PAGE  */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* HEADER */
 #header{
   background-color: white;
@@ -270,36 +277,80 @@ padding: 1em;
   justify-content: center;
   flex-flow: column nowrap;
   text-align: center;
-  margin-bottom: 2.0em;
+  /* margin-bottom: 2.0em; */
 }
 
 /* OVERVIEW  */
+.overview{
 
-/* ROLE  */
+}
+
+.summary{
+
+}
+
+.role{
+
+}
 
 /* BACKGROUND */
+.background{
 
-/* ACHIEVEMENTS */
+}
+
+.background-info{
+
+}
+
+.achievements{
+
+}
 
 /* RESEARCH */
+.research{
+
+}
 
 /* PERSONA */
+.persona{
+
+}
 
 /* STATEMENT */
+.statement{
+
+}
 
 /* VISION */
+.vision{
+
+}
 
 /* MVP */
+.mvp{
+
+}
 
 /* DESIGN */
+.design{
+
+}
 
 /* IMPLEMENTATION */
+.implementation{
+
+}
 
 /* TAKEAWAY */
+.takeaway{
+
+}
 
 /* ETC  */
 
+
 /* MEDIA QUERIES - responsive web design for specific widths */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* THE NORMAL  */
 @media  screen and (max-width: 1000px){
