@@ -273,20 +273,109 @@ padding: 1em;
   margin-bottom: 2.0em;
 }
 
+/* OVERVIEW  */
+
+/* ROLE  */
+
+/* BACKGROUND */
+
+/* ACHIEVEMENTS */
+
+/* RESEARCH */
+
+/* PERSONA */
+
+/* STATEMENT */
+
+/* VISION */
+
+/* MVP */
+
+/* DESIGN */
+
+/* IMPLEMENTATION */
+
+/* TAKEAWAY */
+
+/* ETC  */
+
 /* MEDIA QUERIES - responsive web design for specific widths */
 
 /* THE NORMAL  */
 @media  screen and (max-width: 1000px){
+  /* DEFAULT STUFF  */
 
+  /* IMAGES */
+
+  /* NAVIGATION  */
+
+  /* HEADER  */
+
+  /* OVERVIEW  */
+
+  /* ROLE  */
+
+  /* BACKGROUND */
+
+  /* ACHIEVEMENTS */
+
+  /* RESEARCH */
+
+  /* PERSONA */
+
+  /* STATEMENT */
+
+  /* VISION */
+
+  /* MVP */
+
+  /* DESIGN */
+
+  /* IMPLEMENTATION */
+
+  /* TAKEAWAY */
+
+  /* ETC  */
 }
 
 /* ADJUSTED SCREEN - MEDIUM*/
 @media  screen and (max-width: 800px){
+  /* DEFAULT STUFF  */
+
+  /* IMAGES */
+
+  /* NAVIGATION  */
+
   /* HEADER  */
   .logo{
     height: 100px;
     width: 100px;
   }
+  /* OVERVIEW  */
+
+  /* ROLE  */
+
+  /* BACKGROUND */
+
+  /* ACHIEVEMENTS */
+
+  /* RESEARCH */
+
+  /* PERSONA */
+
+  /* STATEMENT */
+
+  /* VISION */
+
+  /* MVP */
+
+  /* DESIGN */
+
+  /* IMPLEMENTATION */
+
+  /* TAKEAWAY */
+
+  /* ETC  */
 }
 
 /* 100% Image Width on Smaller Screens */
@@ -298,46 +387,107 @@ padding: 1em;
 
 /* ADJUSTED SCREEN - SMALL*/
 @media screen and (max-width: 600px){
-  /* NAVIGATION  */
-    /* the nav bar iteself  */
-  .navbar{
-      text-align: right;
-      display: block;
-      margin-right: 0.5em;
-  }
-
-  /* the nav bar links  */
-  .navbar a {
-      display: none;
-  }
-
-  /* the hamburger icon  */
-  .navbar a.icon {
-      display: block;
-      position: fixed;
-      top: 0;
-      right: 0;
-      z-index: 1;
-      color: #283891;
-  }
-
-  .navbar a.icon:hover{
-      color: blue;
-  }
-
-  /* ETC  */
+  /* DEFAULT STUFF  */
   .container{
     max-width: 600px;
     padding: 2.0em 1.5em;
   }
+
+  /* IMAGES */
+
+  /* NAVIGATION  */
+  /* the nav bar iteself  */
+  .navbar{
+    text-align: right;
+    display: block;
+    margin-right: 0.5em;
+  }
+
+  /* the nav bar links  */
+  .navbar a {
+    display: none;
+  }
+
+  /* the hamburger icon  */
+  .navbar a.icon {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    color: #283891;
+  }
+
+  .navbar a.icon:hover{
+    color: blue;
+  }
+
+  /* HEADER  */
+
+  /* OVERVIEW  */
+
+  /* ROLE  */
+
+  /* BACKGROUND */
+
+  /* ACHIEVEMENTS */
+
+  /* RESEARCH */
+
+  /* PERSONA */
+
+  /* STATEMENT */
+
+  /* VISION */
+
+  /* MVP */
+
+  /* DESIGN */
+
+  /* IMPLEMENTATION */
+
+  /* TAKEAWAY */
+
+  /* ETC  */ 
 }
 
 /* WIDTH SIZE SMALLEST  */
 @media screen and (max-width: 500px){
-  /* ETC  */
+  /* DEFAULT STUFF  */
   .container{
     padding: 2.0em 0;
   }
+  /* IMAGES */
+
+  /* NAVIGATION  */
+
+  /* HEADER  */
+
+  /* OVERVIEW  */
+
+  /* ROLE  */
+
+  /* BACKGROUND */
+
+  /* ACHIEVEMENTS */
+
+  /* RESEARCH */
+
+  /* PERSONA */
+
+  /* STATEMENT */
+
+  /* VISION */
+
+  /* MVP */
+
+  /* DESIGN */
+
+  /* IMPLEMENTATION */
+
+  /* TAKEAWAY */
+
+  /* ETC  */
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, 
@@ -354,14 +504,43 @@ so they don't overlap */
 
 /* MOBILE IPHONE 6/7/8  */
 @media  screen and (max-width: 375px){
+  /* DEFAULT STUFF  */
+  .container{
+    max-width: 375px;
+  }
+  /* IMAGES */
+
+  /* NAVIGATION  */
+
   /* HEADER  */
   .logo{
     height: 75px;
     width: 75px;
   }
 
+  /* OVERVIEW  */
+
+  /* ROLE  */
+
+  /* BACKGROUND */
+
+  /* ACHIEVEMENTS */
+
+  /* RESEARCH */
+
+  /* PERSONA */
+
+  /* STATEMENT */
+
+  /* VISION */
+
+  /* MVP */
+
+  /* DESIGN */
+
+  /* IMPLEMENTATION */
+
+  /* TAKEAWAY */
+
   /* ETC  */
-  .container{
-    max-width: 375px;
-  }
 }
