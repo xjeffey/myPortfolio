@@ -65,33 +65,33 @@ for(let link of hamburgerLinks){
 // SLIDE SHOW FUNCTIONALITY
 
 // THE SLIDE SHOW BUTTONS 
-const researchButtons = document.querySelectorAll(".research-button");
-const conceptButtons = document.querySelectorAll(".concept-button");
-const iterationButtons = document.querySelectorAll(".iteration-button");
+// const researchButtons = document.querySelectorAll(".research-button");
+// const conceptButtons = document.querySelectorAll(".concept-button");
+// const iterationButtons = document.querySelectorAll(".iteration-button");
 
-researchButtons.forEach(researchButton => researchButton.addEventListener('click', function(){
-  for(button of researchButtons){
-    button.classList.remove('active-image');
-  }
+// researchButtons.forEach(researchButton => researchButton.addEventListener('click', function(){
+//   for(button of researchButtons){
+//     button.classList.remove('active-image');
+//   }
 
-  researchButton.classList.add('active-image');
-}));
+//   researchButton.classList.add('active-image');
+// }));
 
-conceptButtons.forEach(conceptButton => conceptButton.addEventListener('click', function(){
-  for(button of conceptButtons){
-    button.classList.remove('active-image');
-  }
+// conceptButtons.forEach(conceptButton => conceptButton.addEventListener('click', function(){
+//   for(button of conceptButtons){
+//     button.classList.remove('active-image');
+//   }
 
-  conceptButton.classList.add('active-image');
-}));
+//   conceptButton.classList.add('active-image');
+// }));
 
-iterationButtons.forEach(iterationButton => iterationButton.addEventListener('click', function(){
-  for(button of iterationButtons){
-    button.classList.remove('active-image');
-  }
+// iterationButtons.forEach(iterationButton => iterationButton.addEventListener('click', function(){
+//   for(button of iterationButtons){
+//     button.classList.remove('active-image');
+//   }
 
-  iterationButton.classList.add('active-image');
-}));
+//   iterationButton.classList.add('active-image');
+// }));
 
 // MODAL IMAGE
 // Get the modal
