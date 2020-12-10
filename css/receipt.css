@@ -58,7 +58,7 @@ font-family: 'Merriweather', serif;
 }
 
 /* FONT  */
-p, a{
+p, a, li{
 font-family: 'Poppins', sans-serif;
 }
 
@@ -282,68 +282,68 @@ padding: 1em;
 
 /* OVERVIEW  */
 .overview{
-
+  text-align: left;
 }
 
 .summary{
-
+  text-align: left;
 }
 
 .role{
-
+  text-align: left;
 }
 
 /* BACKGROUND */
 .background{
-
+  text-align: left;
 }
 
 .background-info{
-
+  text-align: left;
 }
 
 .achievements{
-
+  text-align: left;
 }
 
 /* RESEARCH */
 .research{
-
+  text-align: left;
 }
 
 /* PERSONA */
 .persona{
-
+  text-align: left;
 }
 
 /* STATEMENT */
 .statement{
-
+  text-align: left;
 }
 
 /* VISION */
 .vision{
-
+  text-align: left;
 }
 
 /* MVP */
 .mvp{
-
+  text-align: left;
 }
 
 /* DESIGN */
 .design{
-
+  text-align: left;
 }
 
 /* IMPLEMENTATION */
 .implementation{
-
+  text-align: left;
 }
 
 /* TAKEAWAY */
 .takeaway{
-
+  text-align: left;
 }
 
 /* ETC  */
