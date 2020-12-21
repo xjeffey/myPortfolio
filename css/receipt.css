@@ -326,6 +326,12 @@ padding: 1em;
   text-align: left;
 }
 
+iframe{
+  width: 1000px;
+  height: 500px;
+  margin-top: 1.0em;
+}
+
 /* MVP */
 .mvp{
   text-align: left;
