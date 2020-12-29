@@ -40,7 +40,7 @@ html {
 .container {
   max-width: 80vw;
   display: block;
-  margin: 4.0em auto;
+  margin: 1.0em auto 4.0em;
   text-align: center;
   padding: 2.0em 5.0em;
   background-color: whitesmoke;
@@ -66,7 +66,7 @@ font-family: 'Poppins', sans-serif;
 .col{
 flex: 1;
 padding: 1em;
-/* border: solid; */
+border: solid;
 }
 
 /* back to top button */
@@ -113,12 +113,34 @@ padding: 1em;
   margin: 2.0em auto 0 auto;
 }
 
+/* RESEARCH IMGS  */
+#research-fig{
+  width: 1000px;
+  background-color: yellow;
+  margin: 0 auto 2.0em;
+}
+
+/* MVP IMGS  */
+#mvp-fig{
+  width: 1000px;
+  background-color: yellow;
+  margin: 0 auto 2.0em;
+}
+
+/* PROTOTYPE FIGURE  */
+#proto-fig{
+  width: 400px;
+  background-color: yellow;
+  margin: 0 auto 2.0em;
+}
+
 /* MODAL IMAGE */
 /* Style the Image Used to Trigger the Modal */
 #myImg {
   border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
+  width: 800px;
 }
 
 #myImg:hover {opacity: 0.7;}
@@ -328,7 +350,7 @@ padding: 1em;
 
 iframe{
   width: 1000px;
-  height: 500px;
+  height: 600px;
   margin-top: 1.0em;
 }
 
@@ -353,6 +375,13 @@ iframe{
 }
 
 /* ETC  */
+figcaption{
+  text-align: left;
+}
+
+.topic-imgs{
+  margin-top: 1.0em;
+}
 
 
 /* MEDIA QUERIES - responsive web design for specific widths */
