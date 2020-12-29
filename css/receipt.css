@@ -128,7 +128,7 @@ border: solid;
 }
 
 /* PROTOTYPE FIGURE  */
-#proto-fig{
+.proto-img{
   width: 400px;
   background-color: yellow;
   margin: 0 auto 2.0em;
