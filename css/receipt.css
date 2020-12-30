@@ -58,7 +58,7 @@ font-family: 'Merriweather', serif;
 }
 
 /* FONT  */
-p, a, li{
+p, a, li, figcaption{
 font-family: 'Poppins', sans-serif;
 }
 
