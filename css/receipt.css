@@ -307,47 +307,57 @@ font-family: 'Poppins', sans-serif;
 /* OVERVIEW  */
 .overview{
   text-align: left;
+  line-height: 1.5em;
 }
 
 .summary{
   text-align: left;
+  line-height: 1.5em;
 }
 
 .role{
   text-align: left;
+  line-height: 1.5em;
 }
 
 /* BACKGROUND */
 .background{
   text-align: left;
+  line-height: 1.5em;
 }
 
 .background-info{
   text-align: left;
+  line-height: 1.5em;
 }
 
 .achievements{
   text-align: left;
+  line-height: 1.5em;
 }
 
 /* RESEARCH */
 .research{
   text-align: left;
+  line-height: 1.5em;
 }
 
 /* PERSONA */
 .persona{
   text-align: left;
+  line-height: 1.5em;
 }
 
 /* STATEMENT */
 .statement{
   text-align: left;
+  line-height: 1.5em;
 }
 
 /* VISION */
 .vision{
   text-align: left;
+  line-height: 1.5em;
 }
 
 iframe{
@@ -359,29 +369,34 @@ iframe{
 /* MVP */
 .mvp{
   text-align: left;
+  line-height: 1.5em;
 }
 
 /* DESIGN */
 .design{
   text-align: left;
+  line-height: 1.5em;
 }
 
 .proto-para{
   text-align: left;
+  line-height: 1.5em;
 }
 
 .proto-para h3{
-  margin-bottom: 0.5em;
+  margin-bottom: 0.25em;
 }
 
 /* IMPLEMENTATION */
 .implementation{
   text-align: left;
+  line-height: 1.5em;
 }
 
 /* TAKEAWAY */
 .takeaway{
   text-align: left;
+  line-height: 1.5em;
 }
 
 /* ETC  */
