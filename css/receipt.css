@@ -64,9 +64,9 @@ font-family: 'Poppins', sans-serif;
 
 /* COLOUMN  */
 .col{
-flex: 1;
-padding: 1em;
-border: solid;
+  flex: 1;
+  padding: 1em;
+  border: solid;
 }
 
 /* back to top button */
@@ -128,9 +128,11 @@ border: solid;
 }
 
 /* PROTOTYPE FIGURE  */
-.proto-img{
-  width: 400px;
+.proto-desc{
+  width: 800px;
   background-color: yellow;
+  display: flex;
+  flex-flow: row nowrap;
   margin: 0 auto 2.0em;
 }
 
@@ -364,6 +366,14 @@ iframe{
   text-align: left;
 }
 
+.proto-para{
+  text-align: left;
+}
+
+.proto-para h3{
+  margin-bottom: 0.5em;
+}
+
 /* IMPLEMENTATION */
 .implementation{
   text-align: left;
@@ -379,7 +389,7 @@ figcaption{
   text-align: left;
 }
 
-.topic-imgs{
+.topic-imgs, .proto-imgs{
   margin-top: 1.0em;
 }
 
