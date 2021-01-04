@@ -66,7 +66,7 @@ font-family: 'Poppins', sans-serif;
 .col{
   flex: 1;
   padding: 1em;
-  border: solid;
+  /* border: solid; */
 }
 
 /* back to top button */
@@ -114,14 +114,14 @@ font-family: 'Poppins', sans-serif;
 }
 
 /* RESEARCH IMGS  */
-#research-fig{
+/* #research-fig{
   width: 1000px;
   background-color: yellow;
   margin: 0 auto 2.0em;
-}
+} */
 
 /* MVP IMGS  */
-#mvp-fig{
+#mvp-fig, #imp-fig, #research-fig{
   width: 1000px;
   background-color: yellow;
   margin: 0 auto 2.0em;
@@ -336,6 +336,10 @@ font-family: 'Poppins', sans-serif;
   line-height: 1.5em;
 }
 
+.achievements ul{
+  padding: 0 2.0em;
+}
+
 /* RESEARCH */
 .research{
   text-align: left;
@@ -366,10 +370,29 @@ iframe{
   margin-top: 1.0em;
 }
 
+/* MARKET  */
+.market{
+  text-align: left;
+  line-height: 1.5em;
+}
+
 /* MVP */
 .mvp{
   text-align: left;
   line-height: 1.5em;
+}
+
+.competitor{
+  margin-top: 1.0em;
+}
+
+.pro-con{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.pro-con ul{
+  padding: 0 2.0em;
 }
 
 /* DESIGN */
@@ -438,6 +461,8 @@ figcaption{
 
   /* VISION */
 
+  /* MARKET  */
+
   /* MVP */
 
   /* DESIGN */
@@ -477,6 +502,8 @@ figcaption{
   /* STATEMENT */
 
   /* VISION */
+
+  /* MARKET  */
 
   /* MVP */
 
@@ -549,6 +576,8 @@ figcaption{
 
   /* STATEMENT */
 
+  /* MARKET  */
+ 
   /* VISION */
 
   /* MVP */
@@ -590,6 +619,8 @@ figcaption{
 
   /* VISION */
 
+  /* MARKET  */
+  
   /* MVP */
 
   /* DESIGN */
@@ -645,6 +676,8 @@ so they don't overlap */
 
   /* VISION */
 
+  /* MARKET  */
+  
   /* MVP */
 
   /* DESIGN */
