@@ -321,6 +321,10 @@ font-family: 'Poppins', sans-serif;
   margin-left: 2.0em;
 }
 
+.position{
+  margin-bottom: 2.0em;
+}
+
 /* BACKGROUND */
 .background{
   text-align: left;
@@ -338,7 +342,12 @@ font-family: 'Poppins', sans-serif;
 }
 
 .achievements ul{
+  margin-top: 1.0em;
   padding: 0 2.0em;
+}
+
+.achievements h1{
+  text-align: center;
 }
 
 /* RESEARCH */
@@ -430,6 +439,11 @@ figcaption{
 
 .topic-imgs, .proto-imgs{
   margin-top: 1.0em;
+}
+
+#light-head{
+  color: black;
+  opacity: 75%;
 }
 
 
