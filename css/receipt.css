@@ -117,6 +117,15 @@ font-family: 'Poppins', sans-serif;
   margin: 2.0em auto 0 auto;
 }
 
+#hammer{
+  width: 250px;
+  border-radius: 10px;
+}
+
+#hammer:hover{
+  opacity: 50%;
+}
+
 /* FIG IMGS  */
 #mvp-fig, #imp-fig, #research-fig, #persona-fig{
   width: 1000px;
@@ -348,6 +357,7 @@ font-family: 'Poppins', sans-serif;
 
 .achievements h1{
   text-align: center;
+  font-size: 24px;
 }
 
 /* RESEARCH */
@@ -430,6 +440,11 @@ iframe{
 .takeaway{
   text-align: left;
   line-height: 1.5em;
+}
+
+/* MORE PROJECTS  */
+.proj{
+  margin-top: 1.0em;
 }
 
 /* ETC  */
