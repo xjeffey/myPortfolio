@@ -113,15 +113,8 @@ font-family: 'Poppins', sans-serif;
   margin: 2.0em auto 0 auto;
 }
 
-/* RESEARCH IMGS  */
-/* #research-fig{
-  width: 1000px;
-  background-color: yellow;
-  margin: 0 auto 2.0em;
-} */
-
-/* MVP IMGS  */
-#mvp-fig, #imp-fig, #research-fig{
+/* FIG IMGS  */
+#mvp-fig, #imp-fig, #research-fig, #persona-fig{
   width: 1000px;
   background-color: yellow;
   margin: 0 auto 2.0em;
