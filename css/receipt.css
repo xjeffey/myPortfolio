@@ -69,6 +69,10 @@ font-family: 'Poppins', sans-serif;
   /* border: solid; */
 }
 
+.no-pad-col{
+  flex: 1;
+}
+
 /* back to top button */
 #backTopBtn {
   display: none; /* Hidden by default */
@@ -303,14 +307,18 @@ font-family: 'Poppins', sans-serif;
   line-height: 1.5em;
 }
 
+.overview-row{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
 .summary{
-  text-align: left;
-  line-height: 1.5em;
+  margin-right: 2.0em;
 }
 
 .role{
-  text-align: left;
-  line-height: 1.5em;
+  margin-left: 2.0em;
 }
 
 /* BACKGROUND */
