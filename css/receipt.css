@@ -344,7 +344,13 @@ iframe{
 
 /* COMPETITION  */
 .competitor{
-  margin-top: 1.0em;
+  margin: 2.0em 0;
+  border: solid;
+  background-color: yellow;
+}
+
+.competitor h2, .competitor h3{
+  text-align: center;
 }
 
 .pro-con{
@@ -353,7 +359,10 @@ iframe{
 }
 
 .pro-con ul{
-  padding: 0 2.0em;
+  /* padding: 0 2.0em; */
+  width: 300px;
+  margin: 0 auto;
+  /* border: solid black 1px; */
 }
 
 /* DESIGN */
