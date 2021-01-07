@@ -123,7 +123,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 #hammer:hover{
-  opacity: 50%;
+  opacity: 0.7;
 }
 
 /* FIG IMGS  */
@@ -148,7 +148,7 @@ font-family: 'Poppins', sans-serif;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
-  width: 800px;
+  width: 500px;
 }
 
 #myImg:hover {opacity: 0.7;}
