@@ -43,9 +43,13 @@ html {
   margin: 1.0em auto 4.0em;
   text-align: center;
   padding: 2.0em 5.0em;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  /* background-color: #f2f4ff; */
 }
 
+.container-color{
+  background-color: #f2f4ff;
+}
 /* THE WHOLE  */
 body{
   margin: 0;
@@ -246,7 +250,7 @@ font-family: 'Poppins', sans-serif;
 /* banner  */
 .banner{
   width: 100%;
-  background-color: #877EFC;
+  background-color: #283891;
   margin: 1.0em 0 4.0em;
 }
 
@@ -254,6 +258,7 @@ font-family: 'Poppins', sans-serif;
 .overview{
   text-align: left;
   line-height: 1.5em;
+  padding: 4.0em 0;
 }
 
 .overview-row{
@@ -271,13 +276,14 @@ font-family: 'Poppins', sans-serif;
 }
 
 .position{
-  margin-bottom: 2.0em;
+  margin-bottom: 3.0em;
 }
 
 /* BACKGROUND */
 .background{
   text-align: left;
   line-height: 1.5em;
+  padding: 4.0em 0;
 }
 
 .background-info{
@@ -288,6 +294,7 @@ font-family: 'Poppins', sans-serif;
 .achievements{
   text-align: left;
   line-height: 1.5em;
+  padding: 4.0em 0;
 }
 
 .achievements ul{
@@ -304,24 +311,28 @@ font-family: 'Poppins', sans-serif;
 .research{
   text-align: left;
   line-height: 1.5em;
+  padding: 4.0em 0;
 }
 
 /* PERSONA */
 .persona{
   text-align: left;
   line-height: 1.5em;
+  padding: 4.0em 0;
 }
 
 /* STATEMENT */
 .statement{
   text-align: left;
   line-height: 1.5em;
+  padding: 4.0em 0;
 }
 
 /* VISION */
 .vision{
   text-align: left;
   line-height: 1.5em;
+  padding: 4.0em 0;
 }
 
 iframe{
@@ -334,19 +345,25 @@ iframe{
 .market{
   text-align: left;
   line-height: 1.5em;
+  padding: 4.0em 0;
 }
 
 /* MVP */
 .mvp{
   text-align: left;
   line-height: 1.5em;
+  padding: 4.0em 0;
 }
 
 /* COMPETITION  */
 .competitor{
   margin: 2.0em 0;
-  border: solid;
-  background-color: yellow;
+  /* border: solid;
+  background-color: yellow; */
+}
+
+.competitor h2{
+  text-decoration: underline;
 }
 
 .competitor h2, .competitor h3{
@@ -359,16 +376,15 @@ iframe{
 }
 
 .pro-con ul{
-  /* padding: 0 2.0em; */
   width: 300px;
   margin: 0 auto;
-  /* border: solid black 1px; */
 }
 
 /* DESIGN */
 .design{
   text-align: left;
   line-height: 1.5em;
+  padding: 4.0em 0;
 }
 
 .proto-para{
@@ -384,17 +400,20 @@ iframe{
 .implementation{
   text-align: left;
   line-height: 1.5em;
+  padding: 4.0em 0;
 }
 
 /* TAKEAWAY */
 .takeaway{
   text-align: left;
   line-height: 1.5em;
+  padding: 4.0em 0 0;
 }
 
 /* MORE PROJECTS  */
 .proj{
-  margin-top: 1.0em;
+  border-top: solid;
+  padding-top: 2.0em;
 }
 
 /* ETC  */
