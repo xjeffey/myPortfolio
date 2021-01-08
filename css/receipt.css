@@ -332,13 +332,14 @@ font-family: 'Poppins', sans-serif;
 .vision{
   text-align: left;
   line-height: 1.5em;
-  padding: 4.0em 0;
+  padding: 4.0em 0 0;
 }
 
 iframe{
   width: 1000px;
   height: 600px;
-  margin-top: 1.0em;
+  margin-top: 4.0em;
+  padding: 0 0 4.0em;
 }
 
 /* MARKET  */
