@@ -141,14 +141,15 @@ font-family: 'Poppins', sans-serif;
 /* FIG IMGS  */
 #mvp-fig, #imp-fig, #research-fig, #persona-fig{
   width: 1000px;
-  background-color: yellow;
+  /* background-color: #f2f4ff; */
   margin: 0 auto 2.0em;
+  border: solid;
 }
 
 /* PROTOTYPE FIGURE  */
 .proto-desc{
   width: 800px;
-  background-color: yellow;
+  background-color: #f2f4ff;
   display: flex;
   flex-flow: row nowrap;
   margin: 0 auto 2.0em;
