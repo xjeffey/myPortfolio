@@ -358,13 +358,6 @@ iframe{
   padding: 8.0em 0;
 }
 
-/* MVP */
-.mvp{
-  text-align: left;
-  line-height: 1.5em;
-  padding: 8.0em 0;
-}
-
 /* COMPETITION  */
 .competitor{
   margin-top: 2.0em;
@@ -402,6 +395,13 @@ iframe{
 
 .proto-para h3{
   margin-bottom: 0.25em;
+}
+
+/* MVP */
+.mvp{
+  text-align: left;
+  line-height: 1.5em;
+  padding: 8.0em 0;
 }
 
 /* IMPLEMENTATION */
@@ -535,7 +535,6 @@ figcaption{
     margin: 0 0 2.0em;
   }
 
-  
   /* ROLE  */
 
   /* BACKGROUND */
@@ -599,6 +598,9 @@ figcaption{
   }
 
   /* IMAGES */
+  #mvp-fig, #imp-fig, #research-fig, #persona-fig{
+    width: 550px;
+  }
 
   /* NAVIGATION  */
   /* the nav bar iteself  */
@@ -644,18 +646,29 @@ figcaption{
   /* STATEMENT */
 
   /* MARKET  */
+  .pro-con{
+    display: block;
+  }
  
   /* VISION */
 
   /* MVP */
 
   /* DESIGN */
+  .proto-desc{
+    width: 550px;
+    display: block;
+  }
 
   /* IMPLEMENTATION */
 
   /* TAKEAWAY */
 
   /* ETC  */ 
+  iframe{
+    width: 550px;
+    height: 400px;
+  }
 }
 
 /* WIDTH SIZE SMALLEST  */
