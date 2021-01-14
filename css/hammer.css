@@ -149,17 +149,8 @@ section{
 }
 
 /* FIG IMGS  */
-#mvp-fig, #imp-fig, #research-fig, #persona-fig, #market-fig{
+#research-fig, #persona-fig, #market-fig, #design-fig{
   width: 1000px;
-  margin: 4.0em auto 0;
-}
-
-/* PROTOTYPE FIGURE  */
-.proto-desc{
-  width: 800px;
-  background-color: whitesmoke;
-  display: flex;
-  flex-flow: row nowrap;
   margin: 4.0em auto 0;
 }
 
@@ -357,43 +348,11 @@ iframe{
   padding: 8.0em 0;
 }
 
-/* COMPETITION  */
-.competitor{
-  margin-top: 2.0em;
-}
-
-.competitor h2{
-  text-decoration: underline;
-}
-
-.competitor h2, .competitor h3{
-  text-align: center;
-}
-
-.pro-con{
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-.pro-con ul{
-  width: 300px;
-  margin: 0 auto;
-}
-
 /* DESIGN */
 .design{
   text-align: left;
   line-height: 1.5em;
   padding: 8.0em 0;
-}
-
-.proto-para{
-  text-align: left;
-  line-height: 1.5em;
-}
-
-.proto-para h3{
-  margin-bottom: 0.25em;
 }
 
 /* MVP */
@@ -452,7 +411,7 @@ figcaption{
   }
 
   /* figures  */
-  #mvp-fig, #imp-fig, #research-fig, #persona-fig{
+  #research-fig, #persona-fig, #market-fig, #design-fig{
     width: 800px;
   }
 
@@ -509,7 +468,7 @@ figcaption{
 
   /* IMAGES */
   /* figures  */
-  #mvp-fig, #imp-fig, #research-fig, #persona-fig{
+  #research-fig, #persona-fig, #market-fig, #design-fig{
     width: 650px;
   }
 
@@ -555,17 +514,10 @@ figcaption{
   /* VISION */
 
   /* MARKET  */
-  .competitor{
-    margin: 2.0em auto 0;
-    padding: 2.0em 2.0em 0;
-  }
 
   /* MVP */
 
   /* DESIGN */
-  .proto-desc{
-    width: 650px;
-  }
 
   /* IMPLEMENTATION */
 
@@ -603,7 +555,7 @@ figcaption{
   }
 
   /* IMAGES */
-  #mvp-fig, #imp-fig, #research-fig, #persona-fig{
+  #research-fig, #persona-fig, #market-fig, #design-fig{
     width: 550px;
   }
 
@@ -651,24 +603,12 @@ figcaption{
   /* STATEMENT */
 
   /* MARKET  */
-  .pro-con{
-    display: block;
-  }
-
-  .pro-con ul{
-    padding: 0 2.0em;
-  }
   
- 
   /* VISION */
 
   /* MVP */
 
   /* DESIGN */
-  .proto-desc{
-    width: 550px;
-    display: block;
-  }
 
   /* IMPLEMENTATION */
 
@@ -686,7 +626,7 @@ figcaption{
   /* DEFAULT STUFF  */
   
   /* IMAGES */
-  #mvp-fig, #imp-fig, #research-fig, #persona-fig{
+  #research-fig, #persona-fig, #market-fig, #design-fig{
     width: 450px;
   }
 
@@ -717,9 +657,6 @@ figcaption{
   /* MVP */
 
   /* DESIGN */
-  .proto-desc{
-    width: 450px;
-  }
 
   /* IMPLEMENTATION */
 
@@ -757,7 +694,7 @@ so they don't overlap */
     width: 350px;
   }
 
-  #mvp-fig, #imp-fig, #research-fig, #persona-fig{
+  #research-fig, #persona-fig, #market-fig, #design-fig{
     width: 325px;
   }
 
@@ -797,16 +734,10 @@ so they don't overlap */
   /* VISION */
 
   /* MARKET  */
-  .pro-con ul{
-    width: 275px;
-  }
   
   /* MVP */
 
   /* DESIGN */
-  .proto-desc{
-    width: 325px;
-  }
 
   /* IMPLEMENTATION */
 
