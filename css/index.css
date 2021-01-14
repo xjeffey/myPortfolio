@@ -637,10 +637,6 @@ form .submit:hover{
 }
 
 /* footer */
-footer{
-    background-color: yellow;
-}
-
 .footer-container {
     display: block;
     margin: 0 auto;
@@ -648,6 +644,16 @@ footer{
     padding: 2.0em 5.0em;
     background-color: white;
   }
+
+  #footer-icon{
+    color: black;
+    margin: 0 10px;
+  }
+  
+  section{
+    line-height: 2.0em;
+  }
+  
 
 /* Media queries - responsive web design for specific widths */
 /* XXXL */

@@ -1,4 +1,6 @@
 /* DEFAULT STUFF  */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* natural box model */
 html {
   box-sizing: border-box;
@@ -36,11 +38,14 @@ html {
 
 /* CONTAINER  */
 .container {
-  max-width: 80vw;
+  max-width: 100%;
   display: block;
-  margin: 4.0em auto;
+  margin: 0 auto;
   text-align: center;
-  padding: 2.0em 5.0em;
+  padding: 2.0em 20.0em;
+}
+
+.container-color{
   background-color: whitesmoke;
 }
 
@@ -48,6 +53,7 @@ html {
 body{
   margin: 0;
   padding: 0;
+  background-color: white
 }
 
 /* FONT  */
@@ -56,15 +62,19 @@ font-family: 'Merriweather', serif;
 }
 
 /* FONT  */
-p, a{
+p, a, li, figcaption{
 font-family: 'Poppins', sans-serif;
 }
 
 /* COLOUMN  */
 .col{
-flex: 1;
-padding: 1em;
-/* border: solid; */
+  flex: 1;
+  padding: 1em;
+  /* border: solid; */
+}
+
+.no-pad-col{
+  flex: 1;
 }
 
 /* back to top button */
@@ -99,9 +109,20 @@ padding: 1em;
   text-align: center;
   padding: 2.0em 5.0em;
   background-color: white;
+  font-size: 18px;
+}
+
+#footer-icon{
+  color: black;
+  margin: 0 10px;
+}
+
+section{
+  line-height: 2.0em;
 }
 
 /* IMAGES  */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* logo  */
 .logo {
@@ -110,81 +131,40 @@ padding: 1em;
   margin: 2.0em auto 0 auto;
 }
 
-/* MODAL IMAGE */
-/* Style the Image Used to Trigger the Modal */
-#myImg {
+/* BANNER IMG  */
+#banner-img{
+  display: block;
+  width: 700px;
+  margin: 0 auto;
+}
+
+/* MORE PROJECTS  */
+#hammer{
+  width: 250px;
   border-radius: 10px;
-  cursor: pointer;
-  transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  /* background-color: rgba(0,0,0,0.9); Black w/ opacity */
+#hammer:hover{
+  opacity: 0.7;
 }
 
-/* Modal Content (Image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
+/* FIG IMGS  */
+#mvp-fig, #imp-fig, #research-fig, #persona-fig{
+  width: 1000px;
+  margin: 4.0em auto 0;
 }
 
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/* Add Animation - Zoom in the Modal */
-.modal-content, #caption {
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
+/* PROTOTYPE FIGURE  */
+.proto-desc{
+  width: 800px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 4.0em auto 0;
 }
 
 /* NAVIGATION  */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .navbar{
   display: flex;
   justify-content: center;
@@ -263,6 +243,9 @@ padding: 1em;
   font-size: 60px;
 }
 
+/* SECTIONS ON PAGE  */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* HEADER */
 #header{
   background-color: white;
@@ -270,96 +253,230 @@ padding: 1em;
   justify-content: center;
   flex-flow: column nowrap;
   text-align: center;
-  /* margin-bottom: 2.0em; */
+}
+
+/* banner  */
+.banner{
+  width: 100%;
+  background-color: black;
+  margin: 1.0em 0 0;
 }
 
 /* OVERVIEW  */
 .overview{
+  text-align: left;
+  line-height: 1.5em;
+  padding: 8.0em 0;
+}
 
+.overview-row{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 
 .summary{
-
+  margin-right: 6.0em;
 }
 
 .role{
+  margin-left: 6.0em;
+}
 
+.position{
+  margin-bottom: 3.0em;
 }
 
 /* BACKGROUND */
 .background{
-
+  text-align: left;
+  line-height: 1.5em;
+  padding: 8.0em 0;
 }
 
 .background-info{
-
+  text-align: left;
+  line-height: 1.5em;
 }
 
 .achievements{
+  text-align: left;
+  line-height: 1.5em;
+  padding: 4.0em 0 0;
+}
 
+.achievements ul{
+  width: 95%;
+  margin: 1.0em auto 0;
+}
+
+.achievements h1{
+  text-align: center;
+  font-size: 24px;
 }
 
 /* RESEARCH */
 .research{
-
+  text-align: left;
+  line-height: 1.5em;
+  padding: 8.0em 0;
 }
 
 /* PERSONA */
 .persona{
-
+  text-align: left;
+  line-height: 1.5em;
+  padding: 8.0em 0;
 }
 
 /* STATEMENT */
 .statement{
-
+  text-align: left;
+  line-height: 1.5em;
+  padding: 8.0em 0;
 }
 
 /* VISION */
 .vision{
-
+  text-align: left;
+  line-height: 1.5em;
+  padding: 8.0em 0;
 }
 
-/* MVP */
-.mvp{
+iframe{
+  display: block;
+  width: 1000px;
+  height: 600px;
+  margin: 2.0em auto 0;
+}
 
+/* MARKET  */
+.market{
+  text-align: left;
+  line-height: 1.5em;
+  padding: 8.0em 0;
+}
+
+/* COMPETITION  */
+.competitor{
+  margin-top: 2.0em;
+}
+
+.competitor h2{
+  text-decoration: underline;
+}
+
+.competitor h2, .competitor h3{
+  text-align: center;
+}
+
+.pro-con{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.pro-con ul{
+  width: 300px;
+  margin: 0 auto;
 }
 
 /* DESIGN */
 .design{
+  text-align: left;
+  line-height: 1.5em;
+  padding: 8.0em 0;
+}
 
+.proto-para{
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.proto-para h3{
+  margin-bottom: 0.25em;
+}
+
+/* MVP */
+.mvp{
+  text-align: left;
+  line-height: 1.5em;
+  padding: 8.0em 0;
 }
 
 /* IMPLEMENTATION */
 .implementation{
-
+  text-align: left;
+  line-height: 1.5em;
+  padding: 8.0em 0;
 }
 
 /* TAKEAWAY */
 .takeaway{
-  
+  text-align: left;
+  line-height: 1.5em;
+  padding: 8.0em 0;
+}
+
+/* MORE PROJECTS  */
+.proj{
+  border-top: solid;
+  padding: 2.0em 0 4.0em;
 }
 
 /* ETC  */
+figcaption{
+  text-align: left;
+}
+
+#light-head{
+  color: black;
+  opacity: 75%;
+}
+
 
 /* MEDIA QUERIES - responsive web design for specific widths */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* THE NORMAL  */
 @media  screen and (max-width: 1000px){
   /* DEFAULT STUFF  */
+  .container{
+    padding: 2.0em 4.0em;
+  }
 
   /* IMAGES */
+
+  /* banner */
+  #banner-img{
+    width: 500px;
+  }
+
+  /* figures  */
+  #mvp-fig, #imp-fig, #research-fig, #persona-fig{
+    width: 800px;
+  }
 
   /* NAVIGATION  */
 
   /* HEADER  */
 
   /* OVERVIEW  */
+  .summary{
+    margin-right: 2.5em;
+  }
+  
+  .role{
+    margin-left: 2.5em;
+  }
 
   /* ROLE  */
 
   /* BACKGROUND */
 
   /* ACHIEVEMENTS */
+  .achievements ul{
+    width: 90%;
+  }
 
   /* RESEARCH */
 
@@ -368,6 +485,8 @@ padding: 1em;
   /* STATEMENT */
 
   /* VISION */
+
+  /* MARKET  */
 
   /* MVP */
 
@@ -378,6 +497,10 @@ padding: 1em;
   /* TAKEAWAY */
 
   /* ETC  */
+  iframe{
+    width: 800px;
+    height: 500px;
+  }
 }
 
 /* ADJUSTED SCREEN - MEDIUM*/
@@ -385,6 +508,10 @@ padding: 1em;
   /* DEFAULT STUFF  */
 
   /* IMAGES */
+  /* figures  */
+  #mvp-fig, #imp-fig, #research-fig, #persona-fig{
+    width: 650px;
+  }
 
   /* NAVIGATION  */
 
@@ -394,12 +521,30 @@ padding: 1em;
     width: 100px;
   }
   /* OVERVIEW  */
+  .overview-row{
+    display: block;
+  }
+
+  .summary{
+    margin-right: 0;
+  }
+  
+  .role{
+    margin: 2.0em 0 0;
+  }
+  
+  .position{
+    margin: 0 0 2.0em;
+  }
 
   /* ROLE  */
 
   /* BACKGROUND */
 
   /* ACHIEVEMENTS */
+  .achievements ul{
+    width: 85%;
+  }
 
   /* RESEARCH */
 
@@ -409,15 +554,37 @@ padding: 1em;
 
   /* VISION */
 
+  /* MARKET  */
+  .competitor{
+    margin: 2.0em auto 0;
+    padding: 2.0em 2.0em 0;
+  }
+
   /* MVP */
 
   /* DESIGN */
+  .proto-desc{
+    width: 650px;
+  }
 
   /* IMPLEMENTATION */
 
   /* TAKEAWAY */
 
+  /* FOOTER  */
+  .footer-container{
+    font-size: 14px;
+  }
+  
   /* ETC  */
+  iframe{
+    width: 650px;
+    height: 400px;
+  }
+
+  #hammer{
+    width: 200px;
+  }
 }
 
 /* 100% Image Width on Smaller Screens */
@@ -436,6 +603,9 @@ padding: 1em;
   }
 
   /* IMAGES */
+  #mvp-fig, #imp-fig, #research-fig, #persona-fig{
+    width: 550px;
+  }
 
   /* NAVIGATION  */
   /* the nav bar iteself  */
@@ -480,33 +650,54 @@ padding: 1em;
 
   /* STATEMENT */
 
+  /* MARKET  */
+  .pro-con{
+    display: block;
+  }
+
+  .pro-con ul{
+    padding: 0 2.0em;
+  }
+  
+ 
   /* VISION */
 
   /* MVP */
 
   /* DESIGN */
+  .proto-desc{
+    width: 550px;
+    display: block;
+  }
 
   /* IMPLEMENTATION */
 
   /* TAKEAWAY */
 
   /* ETC  */ 
+  iframe{
+    width: 550px;
+    height: 400px;
+  }
 }
 
 /* WIDTH SIZE SMALLEST  */
 @media screen and (max-width: 500px){
   /* DEFAULT STUFF  */
-  .container{
-    padding: 2.0em 0;
-  }
+  
   /* IMAGES */
+  #mvp-fig, #imp-fig, #research-fig, #persona-fig{
+    width: 450px;
+  }
 
   /* NAVIGATION  */
 
   /* HEADER  */
 
   /* OVERVIEW  */
-
+  .overview, .background, .research, .persona, .statement, .vision, .market, .mvp, .design, .implementation, .takeaway{
+    padding: 4.0em 0;
+  }
   /* ROLE  */
 
   /* BACKGROUND */
@@ -521,15 +712,24 @@ padding: 1em;
 
   /* VISION */
 
+  /* MARKET  */
+  
   /* MVP */
 
   /* DESIGN */
+  .proto-desc{
+    width: 450px;
+  }
 
   /* IMPLEMENTATION */
 
   /* TAKEAWAY */
 
   /* ETC  */
+  iframe{
+    width: 450px;
+    height: 300px;
+  }
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, 
@@ -545,12 +745,21 @@ so they don't overlap */
 }
 
 /* MOBILE IPHONE 6/7/8  */
-@media  screen and (max-width: 375px){
+@media screen and (max-width: 400px){
   /* DEFAULT STUFF  */
   .container{
     max-width: 375px;
+    /* padding: 0; */
   }
+
   /* IMAGES */
+  #banner-img{
+    width: 350px;
+  }
+
+  #mvp-fig, #imp-fig, #research-fig, #persona-fig{
+    width: 325px;
+  }
 
   /* NAVIGATION  */
 
@@ -561,12 +770,23 @@ so they don't overlap */
   }
 
   /* OVERVIEW  */
+  .overview, .background, .research, .persona, .statement, .vision, .market, .mvp, .design, .implementation, .takeaway{
+    padding: 2.0em 0;
+  }
 
   /* ROLE  */
 
   /* BACKGROUND */
 
   /* ACHIEVEMENTS */
+  .achievements h1{
+    text-align: left;
+  }
+
+  .achievements ul{
+    width: 75%;
+    padding: 0;
+  }
 
   /* RESEARCH */
 
@@ -576,13 +796,25 @@ so they don't overlap */
 
   /* VISION */
 
+  /* MARKET  */
+  .pro-con ul{
+    width: 275px;
+  }
+  
   /* MVP */
 
   /* DESIGN */
+  .proto-desc{
+    width: 325px;
+  }
 
   /* IMPLEMENTATION */
 
   /* TAKEAWAY */
 
   /* ETC  */
+  iframe{
+    width: 325px;
+    height: 300px;
+  }
 }
