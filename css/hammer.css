@@ -139,12 +139,12 @@ section{
 }
 
 /* MORE PROJECTS  */
-#hammer{
+#receiptx{
   width: 250px;
   border-radius: 10px;
 }
 
-#hammer:hover{
+#receiptx:hover{
   opacity: 0.7;
 }
 
@@ -582,7 +582,7 @@ figcaption{
     height: 400px;
   }
 
-  #hammer{
+  #receiptx{
     width: 200px;
   }
 }
