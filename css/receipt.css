@@ -306,8 +306,8 @@ section{
 }
 
 .achievements ul{
-  margin-top: 1.0em;
-  padding: 0 2.0em;
+  width: 95%;
+  margin: 1.0em auto 0;
 }
 
 .achievements h1{
@@ -474,6 +474,9 @@ figcaption{
   /* BACKGROUND */
 
   /* ACHIEVEMENTS */
+  .achievements ul{
+    width: 90%;
+  }
 
   /* RESEARCH */
 
@@ -539,6 +542,9 @@ figcaption{
   /* BACKGROUND */
 
   /* ACHIEVEMENTS */
+  .achievements ul{
+    width: 85%;
+  }
 
   /* RESEARCH */
 
@@ -648,6 +654,11 @@ figcaption{
   .pro-con{
     display: block;
   }
+
+  .pro-con ul{
+    padding: 0 2.0em;
+  }
+  
  
   /* VISION */
 
@@ -738,7 +749,7 @@ so they don't overlap */
   /* DEFAULT STUFF  */
   .container{
     max-width: 375px;
-    padding: 0;
+    /* padding: 0; */
   }
 
   /* IMAGES */
@@ -747,8 +758,7 @@ so they don't overlap */
   }
 
   #mvp-fig, #imp-fig, #research-fig, #persona-fig{
-    width: 350px;
-    background-color: yellow;
+    width: 325px;
   }
 
   /* NAVIGATION  */
@@ -769,6 +779,14 @@ so they don't overlap */
   /* BACKGROUND */
 
   /* ACHIEVEMENTS */
+  .achievements h1{
+    text-align: left;
+  }
+
+  .achievements ul{
+    width: 75%;
+    padding: 0;
+  }
 
   /* RESEARCH */
 
@@ -779,12 +797,15 @@ so they don't overlap */
   /* VISION */
 
   /* MARKET  */
+  .pro-con ul{
+    width: 275px;
+  }
   
   /* MVP */
 
   /* DESIGN */
   .proto-desc{
-    width: 350px;
+    width: 325px;
   }
 
   /* IMPLEMENTATION */
@@ -793,7 +814,7 @@ so they don't overlap */
 
   /* ETC  */
   iframe{
-    width: 350px;
+    width: 325px;
     height: 300px;
   }
 }
