@@ -407,12 +407,15 @@ iframe{
 /* ETC  */
 figcaption{
   text-align: left;
-  /* background-color: yellow; */
 }
 
 #light-head{
   color: black;
   opacity: 75%;
+}
+
+#concept-vid{
+  margin-top: 1.0em;
 }
 
 
@@ -668,6 +671,9 @@ figcaption{
   /* ACHIEVEMENTS */
 
   /* RESEARCH */
+  .res-imgs ul{
+    width: 400px;
+  }
 
   /* PERSONA */
 
@@ -749,6 +755,10 @@ so they don't overlap */
   }
 
   /* RESEARCH */
+  .res-imgs ul{
+    width: 300px;
+    margin: 0 auto;
+  }
 
   /* PERSONA */
 
