@@ -150,7 +150,7 @@ section{
 
 /* FIG IMGS  */
 #research-fig, #persona-fig, #market-fig, #design-fig{
-  width: 500px;
+  width: 1000px;
   margin: 4.0em auto 0;
 }
 
@@ -313,6 +313,28 @@ section{
   padding: 8.0em 0;
 }
 
+.res-imgs{
+  margin-top: 3.0em;
+}
+
+.res-imgs h3{
+  text-align: center;
+}
+
+.res-imgs ul{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.res-imgs ul a{
+  color: blue;
+}
+
+.res-imgs ul a:hover{
+  color: #283891;
+  cursor: pointer;
+}
+
 /* PERSONA */
 .persona{
   text-align: left;
@@ -385,6 +407,7 @@ iframe{
 /* ETC  */
 figcaption{
   text-align: left;
+  /* background-color: yellow; */
 }
 
 #light-head{
