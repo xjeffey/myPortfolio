@@ -396,6 +396,13 @@ figcaption{
 /* MEDIA QUERIES - responsive web design for specific widths */
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
+/* XL  */
+@media screen and (max-width: 2560px){
+  .container{
+    padding: 2.0em 20.0em;
+  }
+}
+
 /* THE NORMAL  */
 @media  screen and (max-width: 1000px){
   /* DEFAULT STUFF  */
