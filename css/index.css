@@ -85,15 +85,6 @@ figcaption{
     background-size: cover;
 }
 
-.contactImg{
-    height: 500px;
-    background-image: url('../images/general/contact.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-}
-
 .stock-img p{
     font-size: 12px;
 }
@@ -292,7 +283,7 @@ figcaption{
     /* margin: 0 auto 0.5em; */
 }
 
-.process-desc, .contact-item, .skills, .about-info{
+.process-desc, .about-info{
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 2.0em;
@@ -491,136 +482,6 @@ figcaption{
     margin: 1.0em auto;
 }
 
-/* SKILLS  */
-
-/* the skills section box  */
-.skillsBox{
-    position: relative;
-    /* width: 600px; */
-    /* padding: 50px; */
-    margin-top: 3.0em;
-    /* background: #0c1856; */
-    display: flex;
-    flex-flow: row wrap;
-}
-
-/* the skill title  */
-.skillsBox h1{
-    margin: 0 0 20px;
-    padding: 0;
-    color: black;
-}
-
-/* each indivial skill  */
-.skills{
-    position: relative;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-/* the title of skill  */
-.skills h2{
-    margin: 10px 0 0;
-    padding: 0;
-    font-size: 18px;
-    color: black;
-    text-transform: uppercase;
-}
-
-/* the perecent bar  */
-.progress{
-    width: 100%;
-    height: 20px;
-    border-radius: 10px;
-    border: 2px solid black;
-    text-align: center;
-    line-height: 22px;
-    color:black;
-    overflow: hidden;
-}
-
-/* the bar text  */
-.progress .percent{
-    text-align: right;
-    color: black;
-    padding-right: 10px;
-    border-right: 2px solid black;
-    animation: skillsAnimate .5s linear infinite;
-    background: linear-gradient(45deg, rgba(0, 0, 0, .25) 25%,
-        transparent 25%, transparent 50%, rgba(0, 0, 0, .25) 50%,
-        rgba(0, 0, 0, .25) 75%, transparent 75%, transparent);
-
-    /* background-color: green; */
-    background-size: 50px 50px;
-}
-
-/* the skills animation  */
-@keyframes skillsAnimate{
-    0%{
-        background-position: 0 0;
-    }
-
-    100%{
-        background-position: 30px 0;
-    }
-}
-
-/* contact */
-#contact{
-    background-color: lightgrey;
-    margin-bottom: 2.0em;
-}
-
-.contact-item{
-    line-height: 1.5em;
-}
-
-/* the contact info  */
-.contact-info{
-    margin-top: 1.0em;
-}
-
-/* the contact info pieces  */
-.contact-info p{
-    padding: 0.5em 0;
-}
-
-form{
-    margin-top: 50px;
-    transition: all 4s ease-in-out;
-}
-
-.form-control{
-    width: 600px;
-    background: transparent;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid gray;
-    color: black;
-    font-size: 18px;
-    margin-bottom: 16px;
-}
-
-input{
-    height: 45px;
-}
-
-form .submit{
-    background: #ff5722;
-    border-color: transparent;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 2px;
-    height: 50px;
-    margin-top: 20px;
-}
-
-form .submit:hover{
-    background-color: #f44336;
-    cursor: pointer;
-}
-
 /* quote */
 .quote{
     text-align: center;
@@ -731,7 +592,7 @@ form .submit:hover{
         text-align: center;
     }
 
-    .process-desc, .contact-item, .about-info{
+    .process-desc, .about-info{
         flex-flow: column nowrap;
     }
 }
@@ -827,20 +688,6 @@ form .submit:hover{
         height: 200px;
     }
 
-    /* SKILLS  */
-    .skillsBox h1{
-        font-size: 28px;
-    }
-
-    .skillsBox h2{
-        font-size: 18px;
-    }
-
-    /* CONTACT  */
-    .form-control{
-        width: 500px;
-    }
-
     /* ETC  */
     /* BACK TOP BTN  */
     #backTopBtn{
@@ -851,10 +698,6 @@ form .submit:hover{
 
     /* IMAGES */
     .uxImg{
-        height: 300px;
-    }
-
-    .contactImg{
         height: 300px;
     }
 
@@ -926,29 +769,6 @@ form .submit:hover{
 
     /* ABOUT  */
 
-    /* SKILLS  */
-    .skillsBox h1{
-        font-size: 20px;
-    }
-
-    .skillsBox h2{
-        font-size: 14px;
-    }
-
-    /* CONTACT  */
-
-    #contact p{
-        font-size: 16px;
-    }
-
-    .contact-info{
-        font-size: 14px;
-    }
-
-    .form-control{
-        width: 350px;
-    }
-
     /* ETC  */
 }
 
@@ -1001,15 +821,6 @@ form .submit:hover{
 
     /* ABOUT  */
 
-    /* CONTACT  */
-    #contact p{
-        font-size: 14px;
-    }
-
-    .contact-info{
-        font-size: 16px;
-    }
-
     /* ETC  */
     
     /* CONTAINER  */
@@ -1023,10 +834,6 @@ form .submit:hover{
 
     /* IMAGES */
     .uxImg{
-        height: 200px;
-    }
-
-    .contactImg{
         height: 200px;
     }
 
@@ -1111,17 +918,8 @@ so they don't overlap */
     }
 
     /* ABOUT  */
-
-    /* CONTACT  */
-    .form-control{
-        width: 300px;
-    }
-
+    
     /* ETC  */
-
-    .skillsBox{
-        padding: 0 16px;
-    }
 
     /* CONTAINER  */
     .container, .proj-container{
@@ -1137,10 +935,6 @@ so they don't overlap */
         height: 200px;
         background-attachment: scroll;
         background-position: right;
-    }
-
-    .contactImg{
-        height: 200px;
     }
 
     .stock-img{

@@ -22,40 +22,6 @@ function goTop() {
 // adding the event to the button 
 backTopBtn.addEventListener('click', goTop);
 
-//SENDING EMAIL CONFIRMATION FUNCTIONALITY
-//user input
-let inputs = document.querySelectorAll('input');
-let name = inputs[0];
-let email = inputs[1];
-let subject = inputs[2];
-let message = document.querySelector("textarea");
-
-// flag variable for sending email
-let sendEmail = false;
-
-//checking if user has entered in info for each field
-function emailConfirm(){
-  // regex patter for email 
-  const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
-
-  //letting user know what is wrong
-  let alertMessage = "";
-
-  //checking for a valid email since form already takes care of other stuff for me
-  if(!email.value.match(pattern) || email.value.length < 0){
-    alertMessage = "Please enter a valid email.";
-    sendEmail = false;
-  }else{
-    alertMessage = "Email has been sent!"
-    sendEmail = true;
-  }
-
-  //letting user know what has happened
-  window.alert(alertMessage);
-
-  return sendEmail;
-}
-
 // THE OVERLAY HAMBURGER MENU 
 // getting the hamburger menu 
 let hamburger = document.querySelector(".icon");
