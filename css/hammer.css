@@ -244,6 +244,15 @@ section{
   justify-content: center;
   flex-flow: column nowrap;
   text-align: center;
+  margin-bottom: 2.0em;
+}
+
+#header h1{
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-size: 96px;
+  margin: 20px 0;
 }
 
 /* banner  */
@@ -447,6 +456,9 @@ figcaption{
   }
 
   /* NAVIGATION  */
+  .navbar a{
+    font-size: 16px;
+  }
 
   /* HEADER  */
 
@@ -496,6 +508,9 @@ figcaption{
 /* ADJUSTED SCREEN - MEDIUM*/
 @media  screen and (max-width: 800px){
   /* DEFAULT STUFF  */
+  #header h1{
+    font-size: 72px;
+  }
 
   /* IMAGES */
   /* figures  */
@@ -760,7 +775,10 @@ figcaption{
 /* WIDTH SIZE SMALLEST  */
 @media screen and (max-width: 500px){
   /* DEFAULT STUFF  */
-  
+  #header h1{
+    font-size: 48px;
+  }
+
   /* IMAGES */
   #research-fig, #persona-fig, #market-fig, #design-fig{
     width: 450px;
@@ -823,6 +841,11 @@ so they don't overlap */
 /* MOBILE IPHONE 6/7/8  */
 @media screen and (max-width: 400px){
   /* DEFAULT STUFF  */
+  #header h1{
+    margin-top: 0;
+    font-size: 36px;
+  }
+
   .container{
     max-width: 375px;
     /* padding: 0; */
