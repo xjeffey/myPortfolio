@@ -223,7 +223,6 @@ figcaption{
     background-color: red;
 }
 
-
 #projects h2{
     text-decoration: underline;
     font-style: italic;
@@ -295,7 +294,7 @@ figcaption{
 }
 
 #projects p, #process p, #about p{
-    line-height: 1.5em;
+    line-height: 2.0em;
     margin-top: 0.25em;
 }
 
@@ -380,6 +379,7 @@ figcaption{
 /* each timeline item  */
 .content-tl{
     padding-bottom: 20px;
+    line-height: 1.5em;
 }
 
 /* the circles */
