@@ -105,11 +105,11 @@ font-family: 'Poppins', sans-serif;
 /* footer  */
 .footer-container {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 1.0em;
   text-align: center;
   padding: 2.0em 5.0em;
   background-color: white;
-  font-size: 18px;
+ 
 }
 
 #footer-icon{
@@ -140,6 +140,7 @@ section{
 
 /* MORE PROJECTS  */
 #hammer{
+  margin-top: 1.0em;
   width: 250px;
   border-radius: 10px;
 }
@@ -425,7 +426,7 @@ iframe{
 
 /* ETC  */
 figcaption{
-  text-align: left;
+  text-align: center;
 }
 
 #light-head{
@@ -437,7 +438,10 @@ figcaption{
   margin-top: 1.0em;
 }
 
-
+#concept-vid:hover{
+  color: #283891;
+  cursor: pointer;
+}
 
 /* MEDIA QUERIES - responsive web design for specific widths */
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -519,6 +523,10 @@ figcaption{
   }
 
   /* NAVIGATION  */
+  /* nav bar links  */
+  .navbar a{
+    font-size: 14px;
+  }
 
   /* HEADER  */
   .logo{
@@ -526,6 +534,10 @@ figcaption{
     width: 100px;
   }
   /* OVERVIEW  */
+  .overview p{
+    font-size: 14px;
+  }
+  
   .overview-row{
     display: block;
   }
@@ -545,36 +557,78 @@ figcaption{
   /* ROLE  */
 
   /* BACKGROUND */
+  .background p{
+    font-size: 14px;
+  }
 
   /* ACHIEVEMENTS */
   .achievements ul{
+    font-size: 14px;
     width: 85%;
   }
 
   /* RESEARCH */
+  .research p{
+    font-size: 14px;
+  }
 
   /* PERSONA */
+  .persona p{
+    font-size: 14px;
+  }
 
   /* STATEMENT */
+  .statement{
+    font-size: 14px;
+  }
 
   /* VISION */
+  .vision p{
+    font-size: 14px;
+  }
 
   /* MARKET  */
+  .market p{
+    font-size: 14px;
+  }
+
   .competitor{
     margin: 2.0em auto 0;
     padding: 2.0em 2.0em 0;
   }
 
+  .competitor ul{
+    font-size: 14px;
+  }
+
   /* MVP */
+  .mvp p{
+    font-size: 14px;
+  }
 
   /* DESIGN */
+  .design p{
+    font-size: 14px;
+  }
+
   .proto-desc{
     width: 650px;
   }
 
   /* IMPLEMENTATION */
+  .implementation p{
+    font-size: 14px;
+  }
 
   /* TAKEAWAY */
+  .takeaway p{
+    font-size: 14px;
+  }
+
+  /* MORE PROJ  */
+  .proj p{
+    font-size: 14px;
+  }
 
   /* FOOTER  */
   .footer-container{
@@ -582,6 +636,10 @@ figcaption{
   }
   
   /* ETC  */
+  figcaption{
+    font-size: 14px;
+  }
+
   iframe{
     width: 650px;
     height: 400px;
@@ -642,20 +700,46 @@ figcaption{
   /* HEADER  */
 
   /* OVERVIEW  */
+  .overview p{
+    font-size: 12px;
+  }
 
   /* ROLE  */
 
   /* BACKGROUND */
+  .background p{
+    font-size: 12px;
+  }
 
   /* ACHIEVEMENTS */
+  .achievements ul{
+    font-size: 12px;
+  }
 
   /* RESEARCH */
+  .research p{
+    font-size: 12px;
+  }
 
   /* PERSONA */
+  .persona p{
+    font-size: 12px;
+  }
 
   /* STATEMENT */
+  .statement p{
+    font-size: 12px;
+  }
 
   /* MARKET  */
+  .market p{
+    font-size: 12px;
+  }
+
+  .competitor ul{
+    font-size: 12px;
+  }
+
   .pro-con{
     display: block;
   }
@@ -664,22 +748,50 @@ figcaption{
     padding: 0 2.0em;
   }
   
- 
   /* VISION */
+  .vision p{
+    font-size: 12px;
+  }
 
   /* MVP */
+  .mvp p{
+    font-size: 12px;
+  }
 
   /* DESIGN */
+  .design p{
+    font-size: 12px;
+  }
+
   .proto-desc{
     width: 550px;
     display: block;
   }
 
   /* IMPLEMENTATION */
+  .implementation p{
+    font-size: 12px;
+  }
 
   /* TAKEAWAY */
+  .takeaway p{
+    font-size: 12px;
+  }
+
+  /* MORE PROJ  */
+  .proj p{
+    font-size: 12px;
+  }
 
   /* ETC  */ 
+  figcaption{
+    font-size: 12px;
+  }
+
+  .footer-container{
+    font-size: 12px;
+  }
+  
   iframe{
     width: 550px;
     height: 400px;
@@ -818,6 +930,11 @@ so they don't overlap */
   /* TAKEAWAY */
 
   /* ETC  */
+  .footer-container{
+    padding: 2.0em 0;
+    font-size: 12px;
+}
+
   iframe{
     width: 325px;
     height: 300px;
