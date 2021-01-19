@@ -157,11 +157,17 @@ section{
 
 /* PROTOTYPE FIGURE  */
 .proto-desc{
-  width: 800px;
-  background-color: #f2f4ff;
-  display: flex;
-  flex-flow: row nowrap;
+  width: 1000px;
+  /* background-color: #f2f4ff; */
+  /* display: flex;
+  flex-flow: row nowrap; */
   margin: 4.0em auto 0;
+}
+
+.proto-desc img{
+  display: block;
+  margin: 0 auto;
+  width: 400px;
 }
 
 /* NAVIGATION  */
