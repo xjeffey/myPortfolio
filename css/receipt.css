@@ -158,9 +158,6 @@ section{
 /* PROTOTYPE FIGURE  */
 .proto-desc{
   width: 1000px;
-  /* background-color: #f2f4ff; */
-  /* display: flex;
-  flex-flow: row nowrap; */
   margin: 4.0em auto 0;
 }
 
@@ -518,6 +515,9 @@ figcaption{
   /* MVP */
 
   /* DESIGN */
+  .proto-desc{
+    width: 800px;
+  }
 
   /* IMPLEMENTATION */
 
@@ -787,7 +787,6 @@ figcaption{
 
   .proto-desc{
     width: 550px;
-    display: block;
   }
 
   /* IMPLEMENTATION */
@@ -861,6 +860,10 @@ figcaption{
   /* DESIGN */
   .proto-desc{
     width: 450px;
+  }
+
+  .proto-desc img{
+    width: 350px;
   }
 
   /* IMPLEMENTATION */
@@ -953,6 +956,10 @@ so they don't overlap */
   /* DESIGN */
   .proto-desc{
     width: 325px;
+  }
+
+  .proto-desc img{
+    width: 300px;
   }
 
   /* IMPLEMENTATION */
