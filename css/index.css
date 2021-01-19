@@ -50,7 +50,6 @@ figcaption{
     margin: 4.0em auto;
     text-align: center;
     padding: 2.0em 5.0em;
-    /* background-color: whitesmoke; */
   }
 
   body{
@@ -224,13 +223,8 @@ figcaption{
     background-color: red;
 }
 
-/* projects */
-/* #projects{
-    background-color: white;
-} */
 
 #projects h2{
-    /* margin-bottom: 0.75em; */
     text-decoration: underline;
     font-style: italic;
 }
@@ -240,12 +234,10 @@ figcaption{
 }
 
 .proj-container {
-    /* max-width: 1250px; */
     display: block;
     margin: 4.0em auto;
     text-align: center;
     padding: 2.0em 5.0em;
-    /* background-color: whitesmoke; */
 }
 
 .project{
@@ -335,7 +327,6 @@ figcaption{
 .res-dl:hover{
     color: #283891;
     cursor: pointer;
-    /* border: 1px solid black; */
 }
 
 /* timeline  itself*/
@@ -466,8 +457,6 @@ figcaption{
 
 /* about */
 #about{
-    /* background-color: pink; */
-    /* margin: auto; */
     padding: 5px;
 }
 
