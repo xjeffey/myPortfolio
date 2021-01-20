@@ -474,7 +474,8 @@ figcaption{
 /* quote */
 .quote{
     text-align: center;
-    background-color: pink;
+    background-color: peachpuff;
+    color: #283891;
     height: 400px;
     display: flex;
     flex-flow: column nowrap;
