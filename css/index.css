@@ -825,7 +825,7 @@ figcaption{
     
     /* CONTAINER  */
     .container, .proj-container{
-        padding: 2.0em 0.5em;
+        padding: 2.0em 1.5em;
     }
 
     /* IMAGES */
@@ -916,17 +916,10 @@ so they don't overlap */
     /* ABOUT  */
     #about-desc{
         text-align: left;
-        padding: 0 0.5em;
-    }
-    .values{
-        padding: 0 0.5em;
     }
     /* ETC  */
 
     /* CONTAINER  */
-    .container, .proj-container{
-        padding: 2.0em 0;
-    }
 
     .footer-container{
         padding: 2.0em 0;
