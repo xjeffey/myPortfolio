@@ -920,6 +920,9 @@ so they don't overlap */
     /* ETC  */
 
     /* CONTAINER  */
+    .container{
+        padding: 2.0em 0.5em;
+    }
 
     .footer-container{
         padding: 2.0em 0;
