@@ -914,7 +914,13 @@ so they don't overlap */
     }
 
     /* ABOUT  */
-
+    #about-desc{
+        text-align: left;
+        padding: 0 0.5em;
+    }
+    .values{
+        padding: 0 0.5em;
+    }
     /* ETC  */
 
     /* CONTAINER  */
