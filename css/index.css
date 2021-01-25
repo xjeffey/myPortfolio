@@ -274,26 +274,13 @@ figcaption{
     /* margin: 0 auto 0.5em; */
 }
 
-.process-desc, .about-info{
+.about-info{
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 2.0em;
 }
 
-/* the text inside the descriptions  */
-.process-desc p, .process-desc h2{
-    text-align: left;
-}
-
-/* the image for projects and process  */
-.process-desc img{
-    width: 400px;
-    height: 400px;
-    margin: 0 auto;
-    border-radius: 10px;
-}
-
-#projects p, #process p, #about p{
+#projects p, #about p{
     line-height: 2.0em;
     margin-top: 0.25em;
 }
@@ -302,14 +289,14 @@ figcaption{
     padding-bottom: 0.5em;
 }
 
-/* process */
+/* resume */
 
-.process-icon{
-    display: none;
+.res-info{
+    text-align: center;
 }
 
-/* resume */
 #resume{
+    margin: 4.0em 0;
     background-color: white;
 }
 
@@ -583,11 +570,11 @@ figcaption{
     }
 
     /* PROCESS  */
-    .process-desc h2, .about-info h3{
+    .about-info h3{
         text-align: center;
     }
 
-    .process-desc, .about-info{
+    .about-info{
         flex-flow: column nowrap;
     }
 
@@ -619,21 +606,10 @@ figcaption{
     }
 
     /* PROJECTS */
-    
-
-    #projects p, #process p, #about p, .res-info p{
+    #projects p, #about p, .res-info p{
         font-size: 14px;
     }
 
-    /* PROCESS   */
-    .process-desc figure{
-        display: none;
-    }
-
-    .process-icon{
-        display: inline-block;
-        margin-bottom: 0.25em;
-    }
 
     /* QUOTE  */
     .quote{
@@ -750,7 +726,7 @@ figcaption{
         width: 400px;
     }
 
-    #projects p, #process p, #about p, .res-info p{
+    #projects p, #about p, .res-info p{
         font-size: 12px;
     }
 
@@ -782,7 +758,7 @@ figcaption{
     /* NAVAGATION  */
 
     /* PROJECTS  */
-    #projects p, #process p, #about p{
+    #projects p, #about p{
         font-size: 12px;
     }
 
@@ -795,7 +771,7 @@ figcaption{
         width: 350px;
     }
 
-    .process-desc p, .about-info p{
+    .about-info p{
         text-align: left;
     }
 
@@ -875,10 +851,6 @@ so they don't overlap */
 
     .project{
         width: 300px;
-    }
-
-    .process-desc h2{
-        padding-bottom: 0.5em;
     }
 
     /* QUOTE  */
