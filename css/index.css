@@ -1,79 +1,19 @@
-/* natural box model */
-
-/* COLORS 
-#283891 - BLUE - rgb(40, 56, 145)
-#fff200 - YELLOW - rgb(255, 242, 0) */
-html {
-    box-sizing: border-box;
-  }
-
-*, *:before, *:after {
-    box-sizing: inherit;
-  }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  /* Browser Upgrade Prompt */
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-/* hides an element, but not from screen readers */
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-}
-
 /* ETC  */
 /* IMAGE CAPTION  */
 figcaption{
     font-size: 12px;
 }
 
-  /* general  */
-  .container {
-    max-width: 1250px;
-    display: block;
-    margin: 4.0em auto;
-    text-align: center;
-    padding: 2.0em 5.0em;
-  }
-
-  body{
-      margin: 0;
-      padding: 0;
-  }
-
-  h1, h2, h3, h4, h5, h6{
-    font-family: 'Merriweather', serif;
-  }
-
-  p, a{
-    font-family: 'Poppins', sans-serif;
-  }
-
-/* images */
-
-/* logo  */
-.logo {
-    height: 125px;
-    width: 125px;
-    margin: 2.0em auto 0 auto;
+/* general  */
+.container {
+max-width: 1250px;
+display: block;
+margin: 4.0em auto;
+text-align: center;
+padding: 2.0em 5.0em;
 }
 
+/* images */
 /* dividing images sections*/
 .uxImg{
     height: 500px;
@@ -88,160 +28,6 @@ figcaption{
     font-size: 12px;
 }
 
-/* navgation bar */
-.navbar{
-    display: flex;
-    justify-content: center;
-    flex-flow: row nowrap;
-    margin: 3.0em 0;
-    background-color: white;
-}
-
-.navbar .icon{
-    color: black;
-}
-
-/* links in navigation */
-.navbar a, .navbar .dropdown{
-    padding: 12px 16px;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    text-align: center;
-    color: blue;
-}
-
-/* hovering over link  */
-.navbar a:hover, .navbar .dropdown p:hover{
-    color: #283891;
-    cursor: pointer;
-}
-
-/* Hide the link that should open and close the topnav on small screens */
-.navbar .icon{
-    display: none;
-  }
-
-/* The Overlay (background) */
-.overlay{
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */
-    height: 100%;
-    width: 0;
-    position: fixed; /* Stay in place */
-    z-index: 2; /* Sit on top */
-    left: 0;
-    top: 0;
-    background-color: rgb(0,0,0); /* Black fallback color */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-  }
-  
-  /* Position the content inside the overlay */
-  .overlay-content {
-    position: relative;
-    top: 25%; /* 25% from the top */
-    width: 100%; /* 100% width */
-    text-align: center; /* Centered text/links */
-    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-  }
-  
-  /* The navigation links inside the overlay */
-  .overlay a, .overlay-dropdown{
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block; /* Display block instead of inline */
-    transition: 0.3s; /* Transition effects on hover (color) */
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .overlay a:hover, .overlay a:focus{
-    color: #f1f1f1;
-    cursor: pointer;
-  }
-  
-  /* Position the close button (top right corner) */
-  .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-  }
-
-  /* OVER LAY DROP DOWN  */
-  .overlay-dropdown {
-    overflow: hidden;
-  }
-
-.overlay-dropdown-content {
-    display: none;
-    margin: 5px auto 0;
-  }
-
-  .over-lay-dropdown-content a {
-    float: none;
-    display: block;
-  }
-
-  /* The dropdown container */
-.dropdown {
-    overflow: hidden;
-  }
-
-  /* Dropdown content (hidden by default) */
-.dropdown-content {
-    margin-top: 5px;
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-
-  /* Links inside the dropdown */
-.dropdown-content a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-  /* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  /* back to top button */
-  #backTopBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 50%; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-    width: 70px;
-    height: 70px;
-    font-size: 12px;
-  }
-  
-  #backTopBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
-    cursor: pointer;
-  }
-
   /* GENERAL */
   .col{
     flex: 1;
@@ -249,30 +35,7 @@ figcaption{
     /* border: solid; */
 }
 
-/* header */
-
-#header{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    flex-flow: column nowrap;
-    text-align: center;
-    margin-bottom: 2.0em;
-}
-
-#header h1{
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
-    letter-spacing: 4px;
-    font-size: 96px;
-    margin: 20px 0;
-}
-
-/* home */
-#home{
-    background-color: red;
-}
-
+/* projects  */
 #projects h2{
     text-decoration: underline;
     font-style: italic;
@@ -528,26 +291,7 @@ figcaption{
 .quote h1{
     font-size: 36px;
 }
-
-/* footer */
-.footer-container {
-    display: block;
-    margin: 4.0em auto 1.0em;
-    text-align: center;
-    padding: 2.0em 5.0em;
-    background-color: white;
-  }
-
-  #footer-icon{
-    color: black;
-    margin: 0 10px;
-  }
   
-  section{
-    line-height: 2.0em;
-  }
-  
-
 /* Media queries - responsive web design for specific widths */
 /* XXXL */
 @media screen and (max-width: 1600px){
@@ -582,10 +326,6 @@ figcaption{
 
 /* THE NORMAL  */
 @media  screen and (max-width: 1000px){
-    .navbar a, .navbar .dropdown{
-        font-size: 16px;
-    }
-
     /* timeline width on screen  */
     .timeline{
         width: 100%;
@@ -627,39 +367,15 @@ figcaption{
     .about-info{
         flex-flow: column nowrap;
     }
-
-    /* ETC */
-    .footer-container{
-        font-size: 14px;
-    }
 }
 
 /* ADJUSTED SCREEN - MEDIUM*/
 
 @media  screen and (max-width: 800px){
-    /* HEADER  */
-    /* the header on top of page  */
-    #header h1{
-        font-size: 72px;
-    }
-
-    /* the logo  */
-    .logo{
-        height: 100px;
-        width: 100px;
-    }
-
-    /* NAVIGATION  */
-    /* nav bar links  */
-    .navbar a, .navbar .dropdown{
-        font-size: 14px;
-    }
-
     /* PROJECTS */
     #projects p, #about p, .res-info p{
         font-size: 14px;
     }
-
 
     /* QUOTE  */
     .quote{
@@ -668,8 +384,6 @@ figcaption{
     .quote h1{
         font-size: 24px;
     }
-
-    /* PROCESS  */
     
     /* TIMELINE STUFF / RESUME  */
     /* the timeline line  */
@@ -715,13 +429,6 @@ figcaption{
     }
 
     /* ETC  */
-    /* BACK TOP BTN  */
-    #backTopBtn{
-        width: 65px;
-        height: 65px;
-        font-size: 10px;
-    }
-
     /* IMAGES */
     .uxImg{
         height: 300px;
@@ -734,37 +441,6 @@ figcaption{
 
 /* ADJUSTED SCREEN - SMALL*/
 @media screen and (max-width: 600px){
-    /* HEADER  */
-
-    /* LOGO  */
-
-    /* NAVBAR  */
-    /* the nav bar iteself  */
-    .navbar{
-        text-align: right;
-        display: block;
-        margin-right: 0.5em;
-    }
-
-    /* the nav bar links  */
-    .navbar a, .navbar .dropdown{
-        display: none;
-    }
-
-    /* the hamburger icon  */
-    .navbar a.icon {
-        display: block;
-        position: fixed;
-        top: 0;
-        z-index: 1;
-        right: 0;
-        color: #283891;
-    }
-
-    .navbar a.icon:hover{
-        color: blue;
-    }
-
     /* PROJECTS  */
 
     .proj-img{
@@ -788,25 +464,10 @@ figcaption{
     .quote h1{
         font-size: 18px;
     }
-
-    /* PROCESS  */
-
-    /* RESUME  */
-
-    /* ABOUT  */
-
-    /* ETC  */
 }
 
 /* WIDTH SIZE SMALLEST  */
 @media screen and (max-width: 500px){
-    /* HEADER  */
-    #header h1{
-        font-size: 48px;
-    }
-
-    /* NAVAGATION  */
-
     /* PROJECTS  */
     #projects p, #about p{
         font-size: 12px;
@@ -864,35 +525,8 @@ figcaption{
     }
 }
 
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, 
-so they don't overlap */
-@media screen and (max-height: 450px) {
-    /* HAMBURGER CLOSE  */
-    .overlay a, .overlay-dropdown {font-size: 20px}
-    .overlay .closebtn {
-      font-size: 40px;
-      top: 15px;
-      right: 35px;
-    }
-  }
-
 /* MOBILE IPHONE 6/7/8  */
 @media  screen and (max-width: 400px){
-    /* HEADER  */
-    /* the header on top of page  */
-    #header h1{
-        margin-top: 0;
-        font-size: 36px;
-    }
-
-    /* the logo  */
-    .logo{
-        height: 75px;
-        width: 75px;
-    }
-
-    /* NAVIGATION  */
-
     /* PROJECTS */
     .proj-img{
         width: 300px;
@@ -911,8 +545,6 @@ so they don't overlap */
     .quote p{
         font-size: 10px;
     }
-
-    /* PROCESS   */
     
     /* RESUME  */
     #resume h1{
@@ -944,11 +576,6 @@ so they don't overlap */
     /* CONTAINER  */
     .container{
         padding: 2.0em 0.5em;
-    }
-
-    .footer-container{
-        padding: 2.0em 0;
-        font-size: 12px;
     }
     
     /* DIVIDING SECTIONS  */
