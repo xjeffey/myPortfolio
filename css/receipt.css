@@ -224,7 +224,7 @@ section{
 }
 
 /* The navigation links inside the overlay */
-.overlay a {
+.overlay a, .overlay-dropdown {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
@@ -233,11 +233,11 @@ section{
   transition: 0.3s; /* Transition effects on hover (color) */
 }
 
-/* When you mouse over the navigation links, change their color */
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-  cursor: pointer;
-}
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus{
+    color: #f1f1f1;
+    cursor: pointer;
+  }
 
 /* Position the close button (top right corner) */
 .overlay .closebtn {
@@ -246,6 +246,21 @@ section{
   right: 45px;
   font-size: 60px;
 }
+
+  /* OVER LAY DROP DOWN  */
+  .overlay-dropdown {
+    overflow: hidden;
+  }
+
+.overlay-dropdown-content {
+    display: none;
+    margin: 5px auto 0;
+  }
+
+  .over-lay-dropdown-content a {
+    float: none;
+    display: block;
+  }
 
  /* The dropdown container */
  .dropdown {
@@ -915,7 +930,7 @@ figcaption{
 so they don't overlap */
 @media screen and (max-height: 450px) {
   /* HAMBURGER CLOSE  */
-  .overlay a {font-size: 20px}
+  .overlay a, .overlay-dropdown {font-size: 20px}
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
