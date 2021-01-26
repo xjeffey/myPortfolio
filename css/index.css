@@ -112,18 +112,18 @@ figcaption{
 }
 
 /* hovering over link  */
-.navbar a:hover {
+.navbar a:hover{
     color: #283891;
     cursor: pointer;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
-.navbar .icon {
+.navbar .icon{
     display: none;
   }
 
 /* The Overlay (background) */
-.overlay {
+.overlay{
     /* Height & width depends on how you want to reveal the overlay (see JS below) */
     height: 100%;
     width: 0;
