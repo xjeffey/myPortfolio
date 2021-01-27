@@ -244,6 +244,7 @@ figcaption{
 
 #concept-vid{
   margin-top: 1.0em;
+  color: blue;
 }
 
 #concept-vid:hover{
@@ -666,7 +667,7 @@ figcaption{
   figcaption{
     text-align: left;
   }
-  
+
   iframe{
     width: 325px;
     height: 300px;
