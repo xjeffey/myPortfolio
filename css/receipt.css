@@ -663,6 +663,10 @@ figcaption{
   /* TAKEAWAY */
 
   /* ETC  */
+  figcaption{
+    text-align: left;
+  }
+  
   iframe{
     width: 325px;
     height: 300px;
