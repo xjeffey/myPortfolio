@@ -102,9 +102,13 @@
   padding: 4.0em 0 0;
 }
 
-.achievements ul{
+.achievements ul, .takeaway ul{
   width: 95%;
   margin: 1.0em auto 0;
+}
+
+.achievements ul li, .takeaway ul li{
+  margin-top: 1.0em;
 }
 
 .achievements h1{
@@ -267,7 +271,7 @@ figcaption{
   /* BACKGROUND */
 
   /* ACHIEVEMENTS */
-  .achievements ul{
+  .achievements ul, .takeaway ul{
     width: 90%;
   }
 
@@ -333,7 +337,7 @@ figcaption{
   }
 
 /* ACHIEVEMENTS */
-  .achievements ul{
+  .achievements ul, .takeaway ul{
     font-size: 14px;
     width: 85%;
   }
@@ -433,7 +437,7 @@ figcaption{
   }
 
   /* ACHIEVEMENTS */
-  .achievements ul{
+  .achievements ul, .takeaway ul{
     font-size: 12px;
   }
 
@@ -581,7 +585,7 @@ figcaption{
     text-align: left;
   }
 
-  .achievements ul{
+  .achievements ul, .takeaway ul{
     width: 75%;
     padding: 0;
   }
