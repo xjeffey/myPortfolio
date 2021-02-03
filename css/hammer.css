@@ -44,7 +44,7 @@
 }
 
 /* FIG IMGS  */
-#research-fig, #persona-fig, #market-fig, #design-fig{
+#research-fig, #persona-fig, #design-fig{
   width: 1000px;
   margin: 4.0em auto 0;
 }
@@ -67,7 +67,7 @@
 }
 
 #extra-para{
-  margin-bottom: 1.0em;
+  margin-bottom: 2.0em;
 }
 
 .overview-row{
@@ -106,12 +106,12 @@
   padding: 4.0em 0 0;
 }
 
-.achievements ul, .takeaway ul{
+.bullet-list{
   width: 95%;
   margin: 1.0em auto 0;
 }
 
-.achievements ul li, .takeaway ul li{
+.bullet-list li{
   margin-top: 1.0em;
 }
 
@@ -128,7 +128,7 @@
 }
 
 .res-imgs{
-  margin-top: 3.0em;
+  margin: 3.0em auto;
 }
 
 .res-imgs h3{
@@ -175,13 +175,6 @@ iframe{
   width: 1000px;
   height: 600px;
   margin: 2.0em auto 0;
-}
-
-/* MARKET  */
-.market{
-  text-align: left;
-  line-height: 2.0em;
-  padding: 8.0em 0;
 }
 
 /* DESIGN */
@@ -257,7 +250,7 @@ figcaption{
   }
 
   /* figures  */
-  #research-fig, #persona-fig, #market-fig, #design-fig{
+  #research-fig, #persona-fig, #design-fig{
     width: 800px;
   }
 
@@ -275,7 +268,7 @@ figcaption{
   /* BACKGROUND */
 
   /* ACHIEVEMENTS */
-  .achievements ul, .takeaway ul{
+  .bullet-list{
     width: 90%;
   }
 
@@ -286,8 +279,6 @@ figcaption{
   /* STATEMENT */
 
   /* VISION */
-
-  /* MARKET  */
 
   /* MVP */
 
@@ -308,7 +299,7 @@ figcaption{
 @media  screen and (max-width: 800px){
   /* IMAGES */
   /* figures  */
-  #research-fig, #persona-fig, #market-fig, #design-fig{
+  #research-fig, #persona-fig, #design-fig{
     width: 650px;
   }
 
@@ -341,7 +332,7 @@ figcaption{
   }
 
 /* ACHIEVEMENTS */
-  .achievements ul, .takeaway ul{
+  .bullet-list{
     font-size: 14px;
     width: 85%;
   }
@@ -367,11 +358,6 @@ figcaption{
 
   /* VISION */
   .vision p{
-    font-size: 14px;
-  }
-
-  /* MARKET  */
-  .market p{
     font-size: 14px;
   }
 
@@ -424,7 +410,7 @@ figcaption{
   }
 
   /* IMAGES */
-  #research-fig, #persona-fig, #market-fig, #design-fig{
+  #research-fig, #persona-fig, #design-fig{
     width: 550px;
   }
 
@@ -441,7 +427,7 @@ figcaption{
   }
 
   /* ACHIEVEMENTS */
-  .achievements ul, .takeaway ul{
+  .bullet-list{
     font-size: 12px;
   }
 
@@ -461,11 +447,6 @@ figcaption{
 
   /* STATEMENT */
   .statement p{
-    font-size: 12px;
-  }
-
-  /* MARKET  */
-  .market p{
     font-size: 12px;
   }
   
@@ -513,12 +494,12 @@ figcaption{
 /* WIDTH SIZE SMALLEST  */
 @media screen and (max-width: 500px){
   /* IMAGES */
-  #research-fig, #persona-fig, #market-fig, #design-fig{
+  #research-fig, #persona-fig, #design-fig{
     width: 450px;
   }
 
   /* OVERVIEW  */
-  .overview, .background, .research, .persona, .statement, .vision, .market, .mvp, .design, .implementation, .takeaway{
+  .overview, .background, .research, .persona, .statement, .vision, .mvp, .design, .implementation, .takeaway{
     padding: 4.0em 0;
   }
   /* ROLE  */
@@ -537,8 +518,6 @@ figcaption{
   /* STATEMENT */
 
   /* VISION */
-
-  /* MARKET  */
   
   /* MVP */
 
@@ -569,14 +548,14 @@ figcaption{
     width: 350px;
   }
 
-  #research-fig, #persona-fig, #market-fig, #design-fig{
+  #research-fig, #persona-fig, #design-fig{
     width: 325px;
   }
 
   /* NAVIGATION  */
 
   /* OVERVIEW  */
-  .overview, .background, .research, .persona, .statement, .vision, .market, .mvp, .design, .implementation, .takeaway{
+  .overview, .background, .research, .persona, .statement, .vision, .mvp, .design, .implementation, .takeaway{
     padding: 2.0em 0;
   }
 
@@ -589,7 +568,7 @@ figcaption{
     text-align: left;
   }
 
-  .achievements ul, .takeaway ul{
+  .bullet-list{
     width: 75%;
     padding: 0;
   }
@@ -605,8 +584,6 @@ figcaption{
   /* STATEMENT */
 
   /* VISION */
-
-  /* MARKET  */
   
   /* MVP */
 
