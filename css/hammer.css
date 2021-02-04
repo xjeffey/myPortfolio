@@ -44,7 +44,7 @@
 }
 
 /* FIG IMGS  */
-#research-fig, #persona-fig, #design-fig{
+#research-fig, #persona-fig, #design-fig, #mvp-fig{
   width: 1000px;
   margin: 4.0em auto 0;
 }
@@ -131,12 +131,18 @@
   margin: 3.0em auto;
 }
 
+.res-imgs ul li{
+  display: inline-block;
+  padding-right: 15px;
+}
+
 .res-imgs h3{
   text-align: center;
 }
 
 .res-imgs ul{
-  width: 500px;
+  /* width: 500px; */
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -250,7 +256,7 @@ figcaption{
   }
 
   /* figures  */
-  #research-fig, #persona-fig, #design-fig{
+  #research-fig, #persona-fig, #design-fig, #mvp-fig{
     width: 800px;
   }
 
@@ -299,7 +305,7 @@ figcaption{
 @media  screen and (max-width: 800px){
   /* IMAGES */
   /* figures  */
-  #research-fig, #persona-fig, #design-fig{
+  #research-fig, #persona-fig, #design-fig, #mvp-fig{
     width: 650px;
   }
 
@@ -410,7 +416,7 @@ figcaption{
   }
 
   /* IMAGES */
-  #research-fig, #persona-fig, #design-fig{
+  #research-fig, #persona-fig, #design-fig, #mvp-fig{
     width: 550px;
   }
 
@@ -494,7 +500,7 @@ figcaption{
 /* WIDTH SIZE SMALLEST  */
 @media screen and (max-width: 500px){
   /* IMAGES */
-  #research-fig, #persona-fig, #design-fig{
+  #research-fig, #persona-fig, #design-fig, #mvp-fig{
     width: 450px;
   }
 
@@ -548,7 +554,7 @@ figcaption{
     width: 350px;
   }
 
-  #research-fig, #persona-fig, #design-fig{
+  #research-fig, #persona-fig, #design-fig, #mvp-fig{
     width: 325px;
   }
 
