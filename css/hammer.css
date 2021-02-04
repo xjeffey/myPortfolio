@@ -141,7 +141,7 @@
 }
 
 .res-imgs ul{
-  /* width: 500px; */
+  list-style-type: none;
   text-align: center;
   margin: 0 auto;
 }
