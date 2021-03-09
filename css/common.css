@@ -242,6 +242,10 @@ p, a, li, figcaption{
     color: black;
     margin: 0 10px;
   }
+
+  #footer-icon:hover{
+    opacity: .7;
+  }
   
   section{
     line-height: 2.0em;
